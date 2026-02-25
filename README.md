@@ -1,8 +1,6 @@
 # Teoría del Conocimiento
 ## Monografía técnica — v.4 2026
 
-**Miguel Moreno Muñoz**  
-[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--0746--9587-green?logo=orcid)](https://orcid.org/0000-0002-0746-9587)  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10826047.svg)](https://doi.org/10.5281/zenodo.10826047)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -76,7 +74,7 @@ Usted es libre de compartir y adaptar el material bajo las siguientes condicione
 - **NoComercial** — No puede utilizar el material con fines comerciales.
 - **CompartirIgual** — Si remezcla, transforma o crea a partir del material, debe distribuir su contribución bajo la misma licencia.
 
-© 2026 Miguel Moreno Muñoz. Universidad de Granada.
+© 2026 Miguel Moreno Muñoz  
 
 ---
 
