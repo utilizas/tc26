@@ -78,9 +78,10 @@ Usted es libre de compartir y adaptar el material bajo las siguientes condicione
 
 ---
 
-## Cita sugerida
+## Cita sugerida y portada
 
-> Moreno Muñoz, M. (2026). *Teoría del Conocimiento. Monografía técnica 2631137 - (v.4)*. Zenodo - CERN Research Repository. https://doi.org/10.5281/zenodo.10826047 
+> Moreno Muñoz, M. (2026). *Teoría del Conocimiento. Monografía técnica 2631137 - (v.4)*. Zenodo - CERN Research Repository. https://doi.org/10.5281/zenodo.10826047  
+
 
 ```plaintext
 @book{moreno2026teoria,
@@ -93,3 +94,10 @@ Usted es libre de compartir y adaptar el material bajo las siguientes condicione
   url          = {https://doi.org/10.5281/zenodo.10826047}
 }
 ```
+
+<details>
+  <summary style="color: rgba(128,128,128,0.75); font-weight: 600;">Mostrar portada</summary>
+
+![Imagen generada con Gemini 3.1](tc26cov.webp)
+
+</details>
