@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Apéndice A — Glosario – Teoría del Conocimiento</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./references.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-2641b481724464e61c86985d8c912b6f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-4c6d65c679321d81af7ec8b61b1d5a24.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./glosario.html">Apéndices</a></li><li class="breadcrumb-item"><a href="./glosario.html"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Glosario</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Teoría del Conocimiento</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">La teoría del conocimiento ante las nuevas teorías científicas</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap02-fisica.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">El conocimiento de la naturaleza física: espacio y tiempo, azar y orden</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap03-biologia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">El conocimiento de la naturaleza biológica y su complejidad</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap04-cognicion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">La revolución cognitiva</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap05-subyacente.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">El pensamiento subyacente</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap06-comunidades.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Epistemología social y convivencia democrática</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap07-irracionalidad.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Vectores de irracionalidad en la dinámica sociocultural</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap08-dimension-social.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Universidades y dimensión social del conocimiento</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referencias</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Apéndices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glosario.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Glosario</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Índice</h2>
+   
+  <ul>
+  <li><a href="#sec-ag" id="toc-sec-ag" class="nav-link active" data-scroll-target="#sec-ag">A-G</a></li>
+  <li><a href="#sec-hm" id="toc-sec-hm" class="nav-link" data-scroll-target="#sec-hm">H-M</a></li>
+  <li><a href="#sec-ns" id="toc-sec-ns" class="nav-link" data-scroll-target="#sec-ns">N-S</a></li>
+  <li><a href="#sec-tz" id="toc-sec-tz" class="nav-link" data-scroll-target="#sec-tz">T-Z</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./glosario.html">Apéndices</a></li><li class="breadcrumb-item"><a href="./glosario.html"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Glosario</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Apéndice A — Glosario</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<style>
+/* ===========================================
+   Glosario TC26 — CSS incrustado
+   Compatible con temas claro (flatly) y oscuro (darkly)
+   =========================================== */
+dl {
+  margin-left: 0;
+}
+dt {
+  font-weight: 700;
+  color: var(--bs-heading-color, var(--bs-body-color));
+  margin-top: 1.4em;
+  font-size: 1.05em;
+  padding-left: 0;
+}
+dd {
+  margin-left: 1.2em;
+  margin-bottom: 0.6em;
+  line-height: 1.65;
+  border-left: 3px solid rgba(13, 110, 253, 0.35);
+  padding-left: 0.8em;
+}
+dd .ejemplo {
+  background: rgba(128, 128, 128, 0.08);
+  border-left: 3px solid rgba(244, 163, 0, 0.7);
+  padding: 0.5em 0.8em;
+  margin-top: 0.4em;
+  font-size: 0.93em;
+  color: var(--bs-body-color);
+}
+dd .enlace {
+  font-size: 0.9em;
+  margin-top: 0.3em;
+}
+.nueva-entrada {
+  background: rgba(45, 106, 46, 0.12);
+  padding: 0.15em 0.4em;
+  font-size: 0.75em;
+  border-radius: 3px;
+  color: var(--bs-success, #2d6a2e);
+  font-weight: 600;
+  vertical-align: super;
+}
+dd blockquote,
+.glosario-entry blockquote {
+  background: rgba(128, 128, 128, 0.06);
+  border-left: 3px solid rgba(128, 128, 128, 0.3);
+  padding: 0.5em 0.8em;
+  margin: 0.4em 0;
+  font-size: 0.93em;
+  color: var(--bs-body-color);
+}
+/* --- Tema oscuro --- */
+[data-bs-theme="dark"] dd {
+  border-left-color: rgba(99, 179, 237, 0.4);
+}
+[data-bs-theme="dark"] dd .ejemplo {
+  background: rgba(244, 163, 0, 0.08);
+}
+[data-bs-theme="dark"] .nueva-entrada {
+  background: rgba(45, 180, 50, 0.15);
+  color: #8fd18f;
+}
+[data-bs-theme="dark"] dd blockquote,
+[data-bs-theme="dark"] .glosario-entry blockquote {
+  background: rgba(200, 200, 200, 0.06);
+  border-left-color: rgba(200, 200, 200, 0.25);
+}
+</style>
+<section id="sec-ag" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sec-ag">A-G</h2>
+<dl>
+<dt>Abducción</dt>
+<dd>
+<p>Forma de inferencia, teorizada por Charles S. Peirce, que consiste en proponer la hipótesis explicativa más plausible para un conjunto de hechos observados. A diferencia de la deducción (que garantiza la verdad de la conclusión si las premisas son verdaderas) y de la inducción (que generaliza a partir de casos particulares), la abducción genera nuevas hipótesis y es, por tanto, el motor de la creatividad científica. Peirce la denominó “inferencia a la mejor explicación” (<em>inference to the best explanation</em>). En filosofía de la ciencia contemporánea, Peter Lipton desarrolló este concepto en <em>Inference to the Best Explanation</em> (2004), argumentando que los científicos seleccionan entre hipótesis rivales aquella que, de ser verdadera, proporcionaría la mejor explicación de la evidencia disponible. La abducción es central en el diagnóstico médico, la investigación criminal y la generación de modelos teóricos en todas las disciplinas.</p>
+<div class="ejemplo">
+<p><strong>Ejemplo:</strong> un médico observa fiebre, tos y dificultad respiratoria en un paciente → abduce que la mejor explicación es una neumonía y ordena pruebas para confirmar o descartar esa hipótesis.</p>
+</div>
+</dd>
+<dt>Adaptación</dt>
+<dd>
+Proceso evolutivo por el cual una especie se ajusta a su entorno a través de cambios en sus características biológicas. Las adaptaciones mejoran la supervivencia y la reproducción de los organismos en su medio ambiente específico. En un sentido más amplio, la biología evolutiva distingue entre adaptación (el proceso), adaptación (el rasgo resultante) y adaptabilidad (la capacidad de un organismo para generar respuestas adaptativas). Esta distinción, introducida por Gould y Vrba (1982), es importante para evitar narrativas teleológicas que atribuyan “propósitos” a la selección natural.
+</dd>
+<dt>Alelos</dt>
+<dd>
+Formas alternativas de un gen que pueden existir en una posición específica (locus) en un cromosoma. Los alelos pueden ser dominantes, recesivos o codominantes, y determinan la variabilidad genética en una población.
+</dd>
+<dt>Anti-innatismo</dt>
+<dd>
+Posición filosófica que rechaza la existencia de ideas innatas, defendiendo que todo conocimiento se origina exclusivamente de la experiencia sensorial y la interacción con el entorno. Tesis central del empirismo clásico, articulada por John Locke en su <em>Ensayo sobre el entendimiento humano</em> (1690), donde introdujo el concepto de la mente como una “tabula rasa”. El anti-innatismo refuta las bases del racionalismo cartesiano y la noción de ideas innatas. En el periodo contemporáneo, Steven Pinker critica los extremos del anti-innatismo en <em>La tabla rasa</em> (2002), señalando que, aunque muchas capacidades humanas son moldeadas por la experiencia, existen predisposiciones biológicas subyacentes. En lingüística, Noam Chomsky debate el anti-innatismo al afirmar que la capacidad lingüística se basa en estructuras innatas, como la gramática universal. Desde la neurociencia, autores como Eric Kandel han demostrado la importancia de la plasticidad cerebral mediada por la interacción con el entorno, sugiriendo una combinación entre factores innatos y experiencias adquiridas. Estos enfoques tienen importantes consecuencias pedagógicas.
+</dd>
+<dt>Asociacionismo</dt>
+<dd>
+Teoría psicológica y epistemológica que explica cómo las ideas y el conocimiento surgen de la conexión entre estímulos sensoriales y experiencias previas. Fue popularizada por filósofos empiristas como David Hume, quien usó esta idea para discutir la causalidad y el desarrollo del pensamiento humano. El asociacionismo, aunque ha evolucionado desde sus raíces clásicas, sigue siendo relevante en áreas como la psicología cognitiva y la neurociencia. John R. Anderson, conocido por su teoría ACT-R (<em>Adaptive Control of Thought-Rational</em>), integró principios asociacionistas en modelos computacionales de aprendizaje y memoria. Investigadores en aprendizaje automático y redes neuronales, como Geoffrey Hinton, han adaptado conceptos asociacionistas para explicar cómo las conexiones entre estímulos y respuestas pueden ser modeladas en sistemas artificiales.
+</dd>
+<dt>Astroturfing</dt>
+<dd>
+<p>Estrategia de ingeniería comunicativa mediante la cual un actor organizativo —corporativo, político o institucional— produce, financia o coordina de forma encubierta campañas que simulan ser expresiones espontáneas de movilización ciudadana. Su objetivo es generar la apariencia de apoyo público genuino, influir en la percepción de legitimidad de determinadas posiciones y manipular dinámicas deliberativas mediante la fabricación de “participación de base” artificial.</p>
+<div class="ejemplo">
+<p><strong>Ejemplo:</strong> una organización política crea asociaciones pantalla y redes de cuentas coordinadas para promover una iniciativa legislativa haciéndola pasar por demanda social autónoma.</p>
+</div>
+<div class="enlace">
+<p><strong>Enlaces:</strong> (1) <a href="https://dictionary.cambridge.org/us/dictionary/english/astroturfing" target="_blank">Cambridge Dictionary: <em>Astroturfing</em></a> — (2) <a href="https://sk.sagepub.com/ency/edvol/encyclopedia-of-public-relations-2e/chpt/astroturfing" target="_blank">SAGE Encyclopedia of Public Relations</a></p>
+</div>
+</dd>
+<dt>Atractor</dt>
+<dd>
+Estado o conjunto de estados hacia los que tiende un sistema dinámico a lo largo del tiempo, y que puede ser representado geométricamente de forma sencilla (punto fijo, ciclo límite) o compleja (atractor extraño), según la naturaleza del sistema. Un atractor extraño es un atractor de geometría fractal, característico de los sistemas caóticos: el sistema nunca repite exactamente la misma trayectoria, pero permanece confinado en una región del espacio de fases. El <a href="https://es.wikipedia.org/wiki/Atractor_de_Lorenz" target="_blank">atractor de Lorenz</a> es el ejemplo canónico.
+</dd>
+<dt>Autopoiesis</dt>
+<dd>
+Cualidad de un sistema molecular capaz de reproducirse y mantenerse por sí mismo, mediante una red de procesos que generan los componentes que constituyen el sistema y lo definen como una unidad. El concepto fue introducido por los biólogos chilenos Humberto Maturana y Francisco Varela en la década de 1970 para caracterizar la organización mínima de los seres vivos: un sistema autopoiético produce sus propios límites (membrana), sus propios componentes y las relaciones entre ellos, definiendo así su identidad y autonomía. Niklas Luhmann extendió el concepto a los sistemas sociales, argumentando que la comunicación —no las personas— es el elemento autopoiético de la sociedad.
+</dd>
+<dt>Azar</dt>
+<dd>
+Concepto que describe eventos impredecibles o aleatorios, modelado a través de la teoría de probabilidades. El azar puede ser aparente (derivado de la ignorancia o las limitaciones del observador respecto a las condiciones iniciales, como en los sistemas caóticos deterministas) o real (indeterminismo genuino en el nivel cuántico, como sostiene la interpretación estándar de la mecánica cuántica). En biología evolutiva, el azar desempeña un papel central a través de las mutaciones aleatorias y la deriva genética, que operan con independencia de su valor adaptativo.
+</dd>
+<dt>Burbuja epistémica</dt>
+<dd>
+<p>Entorno informativo en el que un individuo o grupo queda expuesto predominantemente a fuentes, argumentos y perspectivas que confirman sus creencias previas, no por exclusión deliberada de voces discrepantes, sino por la estructura de las redes de información en las que participa. C. Thi Nguyen (2020) distingue entre <em>burbuja epistémica</em> y <em>cámara de eco</em>: en la burbuja, simplemente no llegan las voces contrarias (por diseño algorítmico, homofilia social o sesgo de selección); en la cámara de eco, las voces contrarias son activamente desacreditadas, generando desconfianza sistemática hacia las fuentes externas. La distinción es epistemológicamente relevante porque las burbujas se corrigen con más información, mientras que las cámaras de eco resisten activamente la corrección.</p>
+<div class="enlace">
+<p><strong>Enlace:</strong> <a href="https://doi.org/10.1017/epi.2018.32" target="_blank">Nguyen, C. T. (2020). “Echo Chambers and Epistemic Bubbles”. <em>Episteme</em>, 17(2), 141–161</a></p>
+</div>
+</dd>
+<dt>Caos</dt>
+<dd>
+Comportamiento dinámico de ciertos sistemas deterministas cuya evolución temporal es extremadamente sensible a las condiciones iniciales, de modo que pequeñas variaciones producen trayectorias que divergen exponencialmente. Aunque el sistema obedece a reglas deterministas subyacentes, su comportamiento a largo plazo resulta impredecible en la práctica. Los sistemas caóticos, sin embargo, exhiben patrones reconocibles (atractores extraños) cuando se representan en el espacio de fases. Edward Lorenz descubrió este fenómeno al modelar la convección atmosférica en 1963, popularizando la metáfora del “efecto mariposa”. Epistemológicamente, el caos determinista desafía la ecuación entre determinismo y predictibilidad, mostrando que un universo gobernado por leyes estrictas puede generar fenómenos genuinamente impredecibles sin necesidad de invocar el azar.
+</dd>
+<dt>Cámara de eco</dt>
+<dd>
+Estructura social epistémica en la que las fuentes externas de información son activamente desacreditadas, de modo que los miembros del grupo desarrollan desconfianza sistemática hacia cualquier perspectiva que contradiga las creencias compartidas. A diferencia de la burbuja epistémica (donde la información contraria simplemente no llega), en la cámara de eco la información contraria es rechazada precisamente <em>porque</em> procede de fuentes “no fiables” según los criterios del grupo. Este mecanismo de inmunización hace que las cámaras de eco sean especialmente resistentes a la corrección epistémica y constituyan un factor clave en la polarización política y el conspiracionismo. Véase → Burbuja epistémica.
+</dd>
+<dt>Carga teórica de la observación</dt>
+<dd>
+<p>Tesis según la cual toda observación está condicionada por las teorías, conceptos y expectativas previas del observador, de modo que no existe una observación “pura” o neutral. Norwood Russell Hanson formuló esta idea en <em>Patterns of Discovery</em> (1958), argumentando que dos científicos con marcos teóricos diferentes pueden mirar el mismo fenómeno y “ver” cosas distintas. Thomas Kuhn desarrolló esta intuición al sostener que los científicos que trabajan en paradigmas diferentes habitan, en cierto sentido, “mundos diferentes”. La tesis tiene implicaciones profundas para la epistemología de la ciencia: si la observación no es teóricamente neutral, no puede funcionar como árbitro imparcial entre teorías rivales, lo que complica los modelos simples de contrastación empírica.</p>
+<div class="ejemplo">
+<p><strong>Ejemplo:</strong> un radiólogo experto y un estudiante de primer año miran la misma radiografía, pero el radiólogo “ve” patrones diagnósticos que el estudiante no percibe, porque su percepción está estructurada por un marco teórico y una experiencia clínica que el estudiante aún no posee.</p>
+</div>
+</dd>
+<dt>Causalidad</dt>
+<dd>
+Relación que conecta una causa con su efecto, fundamental en la filosofía y las ciencias. David Hume cuestionó la base empírica de la causalidad, argumentando que nuestras nociones sobre esta relación provienen de la costumbre y no de la experiencia sensorial directa, lo que plantea el problema de justificar la conexión necesaria entre causa y efecto. Este enfoque ha influido en debates contemporáneos sobre la naturaleza de la causalidad. Nancy Cartwright ha desarrollado una perspectiva centrada en la causalidad como herramienta práctica para la ciencia, destacando su papel en la construcción de modelos científicos. Judea Pearl, en el campo de la inteligencia artificial y la estadística, ha renovado el interés por el estudio de la causalidad mediante su teoría de los grafos causales y el cálculo de intervenciones, proporcionando un marco formal para analizar relaciones causales en sistemas complejos. El enfoque disposicionalista, defendido por autores como Stephen Mumford y Rani Lill Anjum, sugiere que la causalidad está ligada a las disposiciones inherentes de los objetos, superando las limitaciones del empirismo humeano al incorporar aspectos ontológicos.
+</dd>
+<dt>Co-adaptación</dt>
+<dd>
+Adaptación mutua de dos o más especies que interactúan estrechamente. Las características de cada especie evolucionan para optimizar su interacción, mejorando la eficiencia y el éxito de su relación ecológica.
+</dd>
+<dt>Co-evolución</dt>
+<dd>
+Proceso evolutivo en el que dos o más especies influyen mutuamente en su evolución. Ocurre cuando las especies interactúan de manera estrecha y continua, provocando cambios adaptativos recíprocos. El ejemplo clásico es la co-evolución entre plantas con flores y sus polinizadores.
+</dd>
+<dt>Cognición incorporada (<em>Embodied cognition</em>)</dt>
+<dd>
+Enfoque en ciencias cognitivas que sostiene que los procesos cognitivos no se limitan a operaciones abstractas sobre representaciones simbólicas, sino que están profundamente determinados por la estructura corporal del organismo, sus capacidades sensoriomotoras y su historia de interacción física con el entorno. Esta perspectiva desafía el modelo computacional clásico de la mente (el cerebro como procesador de símbolos) y propone que pensar, razonar y comprender están anclados en la experiencia corporal. Autores como Francisco Varela, Evan Thompson y Eleanor Rosch (<em>The Embodied Mind</em>, 1991) sentaron las bases de este programa, que ha sido desarrollado por George Lakoff y Mark Johnson (metáforas conceptuales como estructuras corporales) y Andy Clark (mente extendida). Las implicaciones epistemológicas son significativas: si el conocimiento depende constitutivamente del cuerpo, la epistemología no puede tratar al sujeto cognoscente como un agente puramente racional desencarnado.
+</dd>
+<dt>Cognición situada (<em>Situated cognition</em>)</dt>
+<dd>
+Enfoque que sostiene que el conocimiento y el aprendizaje son inseparables del contexto social, cultural y material en el que se producen. Frente a la idea de que el conocimiento es una representación interna transferible a cualquier situación, la cognición situada enfatiza que saber algo implica saber hacer algo en un contexto determinado. Jean Lave y Etienne Wenger desarrollaron esta perspectiva con su teoría del aprendizaje como “participación periférica legítima” en comunidades de práctica. Edwin Hutchins, en <em>Cognition in the Wild</em> (1995), demostró que la cognición en entornos reales (como la navegación de un barco) está distribuida entre personas, instrumentos y procedimientos, y no reside exclusivamente en mentes individuales. El concepto es relevante para la epistemología de la educación y para comprender cómo el conocimiento experto se transmite y se ejerce.
+</dd>
+<dt>Coherentismo</dt>
+<dd>
+Teoría de la justificación epistémica que sostiene que una creencia está justificada no por apoyarse en una base fundacional (véase → Fundacionismo), sino por su coherencia con el conjunto total de creencias del sujeto. La justificación es, por tanto, una propiedad holista y relacional: ninguna creencia se justifica aisladamente, sino por su integración armónica en un sistema de creencias mutuamente conectadas. Laurence BonJour fue uno de los principales defensores del coherentismo en <em>The Structure of Empirical Knowledge</em> (1985), aunque posteriormente revisó su posición. Una objeción clásica al coherentismo es el “problema del aislamiento”: un sistema de creencias puede ser internamente coherente pero estar completamente desconectado de la realidad, como una novela de ficción bien construida.
+</dd>
+<dt>Comunidad epistémica</dt>
+<dd>
+<p>Grupo de agentes que comparten un conjunto de estándares para la producción, evaluación y validación del conocimiento en un dominio determinado. El concepto tiene dos tradiciones principales: en relaciones internacionales, Peter Haas (1992) lo utilizó para designar redes de expertos cuyo conocimiento consensuado influye en la formulación de políticas públicas; en epistemología social, se refiere más ampliamente a cualquier comunidad que comparte criterios epistémicos —métodos, estándares de evidencia, prácticas de revisión— y que funciona como unidad de producción y legitimación del conocimiento. La ciencia institucionalizada constituye el caso paradigmático de comunidad epistémica, pero el concepto se aplica también a comunidades profesionales, tradiciones artesanales y grupos de práctica especializados.</p>
+<div class="ejemplo">
+<p><strong>Ejemplo:</strong> el panel de expertos del IPCC funciona como una comunidad epistémica transnacional: comparte metodologías de evaluación, estándares de evidencia y procedimientos de revisión por pares que legitiman sus informes como conocimiento de referencia para la política climática global.</p>
+</div>
+</dd>
+<dt>Conocimiento</dt>
+<dd>
+En la definición clásica (Platón, <em>Teeteto</em>), creencia verdadera justificada: una proposición constituye conocimiento cuando el sujeto cree que es verdadera, efectivamente lo es, y dispone de razones o evidencias adecuadas para sostenerla. Esta definición tripartita fue cuestionada por Edmund Gettier en 1963 (véase → Problema de Gettier), lo que generó décadas de debate sobre si la justificación y la verdad son condiciones suficientes o si se requieren condiciones adicionales (fiabilidad del proceso, ausencia de derrotadores -<em>defeaters</em>-, conexión causal apropiada). En un sentido más amplio, el conocimiento designa el conjunto estructurado y justificado de información sobre el mundo, basado en la experiencia, el razonamiento o la introspección, que se considera verdadero y fiable por un individuo o una comunidad. Cuando se trata de conocimiento científico, la validación corresponde a comunidades epistémicas especializadas mediante procedimientos intersubjetivos. El conocimiento abarca desde saberes empíricos hasta teorías abstractas y se organiza en disciplinas que buscan su validación.
+</dd>
+<dt>Conocimiento a posteriori</dt>
+<dd>
+Tipo de conocimiento que se obtiene a través de la experiencia sensorial y la interacción con el mundo. Contrasta con el conocimiento a priori, que se considera independiente de la experiencia. La distinción, central en la epistemología desde Kant, no implica que el conocimiento a posteriori sea menos fiable, sino que su justificación depende constitutivamente de datos empíricos.
+</dd>
+<dt>Conocimiento a priori</dt>
+<dd>
+Tipo de conocimiento cuya justificación no depende de la experiencia sensorial. Las verdades lógicas (“si P entonces P”), las verdades matemáticas (“2 + 3 = 5”) y ciertas verdades conceptuales (“todos los solteros son no casados”) se consideran típicamente a priori. Kant distinguió entre a priori <em>puro</em> (independiente de toda experiencia) y a priori <em>sintético</em> (que amplía nuestro conocimiento sin recurrir a la experiencia, como las proposiciones de la geometría euclidiana según su análisis). La existencia y el alcance del conocimiento a priori son objeto de debate permanente en epistemología: los empiristas radicales niegan que exista conocimiento genuino no derivado de la experiencia; los racionalistas le otorgan un papel central.
+</dd>
+<dt>Conspiracionismo</dt>
+<dd>
+Tendencia a interpretar eventos significativos como el resultado de planes secretos organizados por grupos poderosos que actúan en la sombra. Se caracteriza por rechazar las explicaciones oficiales o convencionales en favor de narrativas alternativas que, típicamente, implican conspiraciones elaboradas, aunque carezcan de evidencia sólida que las respalde. Este pensamiento suele ser resistente a la contraargumentación y tiende a incorporar nuevos datos contrarios como “prueba” adicional de la conspiración. Desde la epistemología, el conspiracionismo constituye un caso de fallo sistemático en la evaluación de evidencias: emplea razonamiento circular, recurre a la <em>petición de principio</em> y viola el principio de parsimonia. Véanse → Cámara de eco, → Negacionismo.
+</dd>
+<dt>Contextualismo</dt>
+<dd>
+Familia de posiciones filosóficas que enfatizan el papel del contexto en el que ocurre una acción, un enunciado o una expresión para determinar su significado o su valor de verdad. En epistemología, el contextualismo sostiene que los estándares para atribuir conocimiento varían según el contexto de la conversación: la frase “S sabe que P” puede ser verdadera en un contexto cotidiano (donde los estándares son bajos) y falsa en un contexto filosófico escéptico (donde los estándares son muy exigentes). Keith DeRose y Stewart Cohen han desarrollado versiones influyentes del contextualismo epistémico. Esta posición ofrece una respuesta elegante al escepticismo: no necesitamos refutar al escéptico, sino reconocer que opera con estándares de conocimiento legítimos pero inusuales.
+</dd>
+<dt>Creencia</dt>
+<dd>
+Estado mental proposicional que consiste en aceptar como verdadera una determinada proposición. En la epistemología analítica, la creencia es uno de los tres componentes de la definición clásica de conocimiento (creencia verdadera justificada). Las creencias pueden ser conscientes o tácitas, explícitas o dispositivas (disposición a actuar como si P fuera verdadera, sin haberlo formulado conscientemente). La epistemología contemporánea distingue entre: (a) <em>creencia plena</em> (aceptar o rechazar categóricamente una proposición) y (b) <em>grado de creencia</em> o credencia (el grado de confianza que un agente asigna a una proposición, formalizado en el marco bayesiano). La relación entre creencia y evidencia es central en los debates sobre racionalidad epistémica: los evidencialistas sostienen que la creencia racional debe proporcionarse a la evidencia disponible.
+</dd>
+<dt>Criterio de demarcación</dt>
+<dd>
+Principio o conjunto de principios que permiten distinguir el conocimiento científico de otros tipos de saber, particularmente de la pseudociencia, la metafísica especulativa y la opinión no fundamentada. El problema de la demarcación fue planteado explícitamente por Karl Popper, quien propuso la <em>falsabilidad</em> como criterio: una teoría es científica si y solo si es susceptible de ser refutada por la experiencia (véase → Falsabilidad). Anteriormente, el empirismo lógico del Círculo de Viena había propuesto el <em>principio de verificación</em>: un enunciado tiene significado cognitivo solo si es verificable empíricamente. Larry Laudan (1983) argumentó que no existe un criterio único y definitivo de demarcación, y que la distinción entre ciencia y pseudociencia es gradual, no dicotómica. No obstante, la demarcación sigue siendo un problema práctico urgente en contextos de desinformación, negacionismo climático y promoción de terapias sin base científica.
+</dd>
+<dt>Darwinismo</dt>
+<dd>
+Teoría de la evolución desarrollada por Charles Darwin, que postula que las especies evolucionan a través de un proceso de selección natural. El darwinismo enfatiza la competencia por recursos y la supervivencia diferencial como motores principales de la evolución.
+</dd>
+<dt>Deepfake</dt>
+<dd>
+<p>Contenido audiovisual sintético generado mediante técnicas de inteligencia artificial (típicamente redes generativas adversarias, GAN) que permite crear imágenes, vídeos o archivos de audio falsos pero extremadamente realistas, frecuentemente suplantando la identidad de personas reales. Los deepfakes plantean un problema epistemológico de primer orden: erosionan la fiabilidad de la evidencia audiovisual, que tradicionalmente ha funcionado como garante de veracidad (“lo vi con mis propios ojos”, “hay un vídeo que lo demuestra”). Su proliferación contribuye a lo que algunos autores denominan el “dividendo del mentiroso” (<em>liar’s dividend</em>): la mera posibilidad de que cualquier grabación sea un deepfake permite a los actores desacreditar evidencia genuina alegando que ha sido fabricada.</p>
+<div class="enlace">
+<p><strong>Enlace:</strong> <a href="https://mitsloan.mit.edu/ideas-made-to-matter/deepfakes-explained" target="_blank">MIT Sloan: “Deepfakes, explained”</a></p>
+</div>
+</dd>
+<dt>Deriva genética</dt>
+<dd>
+Cambio aleatorio en las frecuencias alélicas de una población, particularmente significativo en poblaciones pequeñas. La deriva genética puede llevar a la fijación o pérdida de alelos independientemente de su valor adaptativo, influenciando la variabilidad genética y la evolución.
+</dd>
+<dt>Desinformación</dt>
+<dd>
+<p>Difusión deliberada de información falsa o engañosa con la intención de causar daño, influir en la opinión pública o obtener un beneficio. La Comisión Europea y la literatura académica distinguen tres categorías, siguiendo la taxonomía de Wardle y Derakhshan (2017): (a) <em>misinformación</em> (<em>misinformation</em>): información falsa difundida sin intención de engañar; (b) <em>desinformación</em> (<em>disinformation</em>): información falsa difundida con intención deliberada de engañar; y (c) <em>malinformación</em> (<em>malinformation</em>): información veraz difundida con intención de causar daño (por ejemplo, filtración selectiva de datos privados). Epistemológicamente, la desinformación no solo introduce creencias falsas, sino que degrada los entornos epistémicos colectivos al erosionar la confianza en las instituciones productoras de conocimiento. Véanse → Astroturfing, → Deepfake, → Negacionismo.</p>
+<div class="enlace">
+<p><strong>Enlace:</strong> <a href="https://rm.coe.int/information-disorder-report-november-2017/1680764666" target="_blank">Wardle, C. y Derakhshan, H. (2017). <em>Information Disorder</em>. Council of Europe Report</a></p>
+</div>
+</dd>
+<dt>Dominancia</dt>
+<dd>
+Característica de los alelos dominantes que se expresan fenotípicamente cuando están presentes en una o dos copias (heterocigosis u homocigosis). Los alelos dominantes pueden enmascarar la expresión de alelos recesivos.
+</dd>
+<dt>Emergencia</dt>
+<dd>
+Aparición de propiedades, patrones o comportamientos cualitativamente nuevos en un sistema complejo que no son deducibles —o lo son solo de forma muy indirecta— a partir de las propiedades de sus componentes individuales. Las propiedades emergentes resultan de interacciones no lineales entre los elementos del sistema y de procesos de autoorganización. Se distingue entre emergencia débil (las propiedades nuevas son, en principio, derivables de las propiedades de los componentes, aunque esta derivación sea computacionalmente intratable) y emergencia fuerte (las propiedades nuevas son ontológicamente irreducibles). La conciencia, el comportamiento colectivo de un enjambre de abejas o la dinámica de los mercados financieros se citan frecuentemente como ejemplos de fenómenos emergentes. El concepto es central en la filosofía de la mente, la biología de sistemas y la teoría de la complejidad.
+</dd>
+<dt>Empirismo</dt>
+<dd>
+Corriente filosófica que sostiene que el conocimiento humano deriva principalmente de la experiencia sensorial, descartando o minimizando el papel de las ideas innatas. Originado en la tradición anglosajona con figuras como John Locke, David Hume y George Berkeley, el empirismo desafía al racionalismo al enfatizar la observación y la experimentación como fuentes del conocimiento fiable. En su formulación más estricta, todo contenido mental significativo debe poder rastrearse hasta impresiones sensoriales originarias. Las principales dificultades del empirismo clásico incluyen el problema de la inducción (Hume), la imposibilidad de fundamentar empíricamente las verdades matemáticas y lógicas, y la carga teórica de la observación (Hanson). Estas limitaciones motivaron las reformulaciones del empirismo lógico en el siglo XX y, más recientemente, del empirismo constructivo de Bas van Fraassen.
+</dd>
+<dt>Empirismo lógico</dt>
+<dd>
+Movimiento filosófico del siglo XX, también conocido como neopositivismo o positivismo lógico, que combina el empirismo con la lógica formal y el análisis lingüístico para establecer criterios rigurosos de significado cognitivo. Los miembros del Círculo de Viena (Moritz Schlick, Rudolf Carnap, Otto Neurath) y figuras asociadas como A. J. Ayer y Hans Reichenbach formularon el <em>principio de verificabilidad</em>: un enunciado tiene significado cognitivo solo si es verificable empíricamente o es una verdad lógica/matemática. Los enunciados metafísicos, éticos y estéticos quedarían fuera del ámbito del conocimiento significativo. El programa del empirismo lógico fue sometido a críticas demoledoras: el propio principio de verificación no es verificable empíricamente (como señaló Popper); Quine cuestionó la distinción analítico/sintético en “Dos dogmas del empirismo” (1951); y Kuhn mostró que la práctica científica real no se ajusta al modelo de contrastación lógica del positivismo. No obstante, el empirismo lógico estableció estándares de rigor analítico que perviven en la filosofía de la ciencia contemporánea.
+</dd>
+<dt>Epigenética</dt>
+<dd>
+Estudio de los cambios heredables en la expresión génica que no implican modificaciones en la secuencia de ADN. Estos cambios pueden ser influenciados por factores ambientales y pueden afectar el fenotipo de un organismo a lo largo de su vida y, en algunos casos, ser transmitidos a la descendencia.
+</dd>
+<dt>Epistemología</dt>
+<dd>
+Rama de la filosofía que estudia la naturaleza, el origen, los límites y la validez del conocimiento humano. Sus preguntas centrales incluyen: ¿qué es el conocimiento?, ¿qué lo distingue de la mera creencia u opinión?, ¿cuáles son las fuentes legítimas de conocimiento?, ¿en qué consiste la justificación epistémica?, ¿es posible el conocimiento cierto o todo saber es provisional? La epistemología se ha articulado históricamente en torno a debates como racionalismo vs.&nbsp;empirismo, fundacionismo vs.&nbsp;coherentismo, internalismo vs.&nbsp;externalismo, y escepticismo vs.&nbsp;realismo. En el siglo XX, la epistemología experimentó un “giro social” que extendió su alcance desde el sujeto individual hasta las comunidades epistémicas, las instituciones productoras de conocimiento y las dinámicas de poder que condicionan el acceso al saber (véase → Epistemología social). En el siglo XXI, los desafíos epistémicos planteados por la inteligencia artificial, la desinformación masiva y la crisis de confianza en las instituciones científicas han renovado la relevancia práctica de la disciplina.
+</dd>
+<dt>Epistemología constructivista</dt>
+<dd>
+Corriente de pensamiento que sostiene que el conocimiento no es un reflejo pasivo de una realidad preexistente, sino que es activamente construido por el sujeto a partir de su experiencia, sus estructuras cognitivas y sus interacciones con el mundo. Jean Piaget desarrolló el constructivismo genético, según el cual el desarrollo cognitivo procede mediante la asimilación de nuevas experiencias a esquemas previos y la acomodación de esos esquemas cuando la experiencia los desborda. Lev Vygotsky enfatizó la dimensión social de la construcción del conocimiento (constructivismo social). Ernst von Glasersfeld formuló una versión radical: el conocimiento no tiene por función representar la realidad, sino ser “viable”, es decir, funcional para los propósitos del sujeto. La epistemología constructivista tiene implicaciones pedagógicas directas, al privilegiar el aprendizaje activo y la resolución de problemas sobre la transmisión pasiva de información.
+</dd>
+<dt>Epistemología naturalizada</dt>
+<dd>
+Propuesta formulada por W. V. O. Quine en “Epistemology Naturalized” (1969), que consiste en sustituir la epistemología tradicional —basada en la intuición, el análisis conceptual y la búsqueda de fundamentos a priori— por una investigación empírica de cómo los seres humanos adquieren, procesan y revisan efectivamente sus creencias. Para Quine, la epistemología debe convertirse en un capítulo de la psicología cognitiva: en lugar de preguntarse cómo <em>debería</em> justificarse el conocimiento, debe estudiar cómo <em>de hecho</em> se forma. Esta propuesta ha sido enormemente influyente, aunque sus críticos (como Jaegwon Kim) señalan que elimina la dimensión normativa de la epistemología: saber cómo formamos creencias no nos dice cómo <em>deberíamos</em> formarlas. Véase → Naturalismo epistemológico.
+</dd>
+<dt>Epistemología objetivista</dt>
+<dd>
+Teoría del conocimiento propuesta por Ayn Rand en el marco de su sistema filosófico (Objetivismo), que afirma que el conocimiento es el resultado de la identificación racional de los hechos de la realidad, sin influencia de las emociones, los deseos o las convenciones sociales. Rand defiende un realismo directo: la percepción sensorial es válida, y la razón —entendida como identificación y conexión no contradictoria de datos sensoriales— constituye el único medio legítimo de conocimiento. Esta posición es minoritaria en la epistemología académica contemporánea, pero influyente en ciertos ámbitos del debate público.
+</dd>
+<dt>Epistemología social</dt>
+<dd>
+Rama de la epistemología que estudia las dimensiones sociales del conocimiento: cómo las interacciones entre agentes, las estructuras institucionales, las dinámicas de poder y las prácticas comunicativas afectan a la producción, distribución y validación del saber. Frente a la epistemología individualista (centrada en el sujeto aislado y sus estados mentales), la epistemología social examina fenómenos como la fiabilidad del testimonio, la dinámica del desacuerdo entre pares epistémicos, el papel de la diversidad cognitiva en los grupos, la injusticia epistémica y el diseño de instituciones epistémicamente virtuosas. Alvin Goldman (<em>Knowledge in a Social World</em>, 1999) y Miranda Fricker (<em>Epistemic Injustice</em>, 2007) son figuras centrales de esta tradición. La epistemología social es especialmente relevante para comprender los desafíos epistémicos contemporáneos: redes sociales, desinformación, polarización, crisis de confianza en la expertise y el papel de la inteligencia artificial como mediadora epistémica.
+</dd>
+<dt>Escepticismo</dt>
+<dd>
+Actitud crítica y posición filosófica que cuestiona o niega la posibilidad, la realidad o la fiabilidad del conocimiento, la justificación o la verdad. El escepticismo supone una amenaza para las afirmaciones de sentido común sobre lo que constituye conocimiento y, en algunas variantes, los argumentos escépticos cuestionan igualmente la posibilidad de conocimiento experto. La tradición escéptica incluye variantes muy diversas: el escepticismo pirrónico (suspensión del juicio), el escepticismo cartesiano (duda metódica como herramienta de búsqueda de certeza), el escepticismo humeano (sobre la causalidad y la inducción) y los argumentos contemporáneos basados en “cerebros en cubetas” o escenarios de simulación. Epistemológicamente, el escepticismo funciona como un test de estrés para las teorías del conocimiento: una buena teoría debe poder responder al desafío escéptico sin trivializarlo. Variantes radicales del escepticismo, metodológicamente defectuosas y sesgadas por intereses, subyacen a los planteamientos negacionistas sobre el clima, cuestiones de salud pública y episodios históricos.
+</dd>
+<dt>Especiación</dt>
+<dd>
+Proceso mediante el cual una población evoluciona para convertirse en una o más especies distintas. La especiación puede ocurrir por barreras reproductivas, aislamiento geográfico u otros factores que interrumpen el flujo genético.
+</dd>
+<dt>Especiación alopátrica</dt>
+<dd>
+Formación de nuevas especies debido a la separación geográfica de poblaciones de la misma especie. Esta separación impide el flujo genético entre las poblaciones, lo que lleva a la divergencia evolutiva y a la formación de especies distintas.
+</dd>
+<dt>Especiación simpátrica</dt>
+<dd>
+Formación de nuevas especies dentro de la misma área geográfica donde las poblaciones se diferencian genéticamente sin barreras físicas. Puede ocurrir por selección de nichos ecológicos, cambios de comportamiento o poliploidía en plantas.
+</dd>
+<dt>Estructura del conocimiento</dt>
+<dd>
+Forma en que se organizan o se relacionan las creencias justificadas en un sistema de conocimiento. El debate central enfrenta al fundacionismo (todas las creencias justificadas deben derivarse en última instancia de creencias básicas auto-justificadas) y al coherentismo (la justificación requiere solo un conjunto mutuamente coherente de creencias). Otras posiciones incluyen el infinitismo (cadenas infinitas de justificación) y enfoques mixtos que combinan elementos fundacionistas y coherentistas. Véanse → Fundacionismo, → Coherentismo, → Infinitismo.
+</dd>
+<dt>Estructura disipativa</dt>
+<dd>
+Estructura coherente y autoorganizada que aparece en un sistema alejado del equilibrio termodinámico, que disipa energía y materia del entorno para mantener su orden interno. El concepto fue propuesto por Ilya Prigogine (Premio Nobel de Química, 1977) y se observa en fenómenos que van desde las celdas de convección de Bénard hasta los patrones de reacción de Belousov-Zhabotinsky, y se ha aplicado a sistemas biológicos, ecológicos y sociales.
+</dd>
+<dt>Estudios de Loci de Rasgos Cuantitativos (LTC)</dt>
+<dd>
+Conocidos en inglés como <em>Quantitative Trait Loci (QTL) studies</em>, son una metodología genética que busca identificar regiones específicas del genoma asociadas con la variación en características cuantitativas en una población. Combinan datos fenotípicos detallados con información de marcadores genéticos para mapear los loci que contribuyen a la variación en rasgos complejos.
+</dd>
+<dt>Evidencia</dt>
+<dd>
+Dato, observación, argumento o conjunto de información que sirve de base para la justificación de una creencia o la aceptación de una hipótesis. En epistemología, la evidencia puede ser perceptiva (lo que observamos directamente), testimonial (lo que otros nos comunican), inferencial (lo que deducimos de otras creencias) o a priori (verdades lógicas o conceptuales). El evidencialismo, defendido por Earl Conee y Richard Feldman, sostiene que la actitud epistémica racional hacia una proposición debe ser proporcional a la evidencia disponible. Un problema recurrente es que la evidencia rara vez determina unívocamente una conclusión: la subdeterminación empírica de las teorías (Quine, Duhem) implica que los mismos datos pueden ser compatibles con múltiples hipótesis, lo que exige criterios adicionales (simplicidad, poder explicativo, coherencia) para la elección entre teorías.
+</dd>
+<dt>Evo-devo</dt>
+<dd>
+Disciplina que combina la biología evolutiva y la biología del desarrollo para estudiar cómo los procesos de desarrollo embrionario y posteriores influyen en la evolución. Investiga cómo las variaciones en la regulación del desarrollo pueden conducir a la diversidad morfológica y funcional entre especies.
+</dd>
+<dt>Exaptación</dt>
+<dd>
+Cooptación de una característica, originalmente adaptada para una función, para desempeñar una función diferente. Las estructuras exaptadas pueden proporcionar ventajas evolutivas en nuevos contextos sin haber sido seleccionadas inicialmente para esos usos. Concepto introducido por Gould y Vrba (1982).
+</dd>
+<dt>Experiencia sensorial</dt>
+<dd>
+Interacción directa de los órganos sensoriales con estímulos externos, que forma la base del conocimiento empírico. Desde el empirismo clásico, se entiende que estos datos perceptivos son procesados por la mente para construir conceptos y discernir verdades sobre la realidad.
+</dd>
+<dt>Expertise</dt>
+<dd>
+Capacidad de una persona para actuar de manera competente en un dominio profesional gracias a un conocimiento profundo, habilidades especializadas y un juicio fiable adquirido mediante práctica prolongada y experiencia acumulada. La epistemología de la expertise (Harry Collins y Robert Evans, <em>Rethinking Expertise</em>, 2007) distingue entre expertise contributiva (capacidad para contribuir activamente a un campo) y expertise interaccional (capacidad para comprender y evaluar el discurso de un campo sin contribuir directamente a él). Esta distinción es relevante para los debates sobre el papel de los expertos en las decisiones públicas y sobre los límites de la participación ciudadana en asuntos técnicamente complejos.
+</dd>
+<dt>Explicación</dt>
+<dd>
+Acto o resultado de hacer inteligible un fenómeno mediante la identificación de sus causas, mecanismos, regularidades o razones subyacentes. La filosofía de la ciencia ha propuesto múltiples modelos de explicación: el modelo nomológico-deductivo de Hempel (explicar es deducir el hecho de leyes generales y condiciones iniciales), el modelo causal-mecánico (explicar es identificar el mecanismo causal que produce el fenómeno), el modelo unificacionista de Kitcher (explicar es integrar fenómenos diversos bajo patrones argumentativos comunes) y el modelo pragmático de van Fraassen (la explicación es relativa al contexto y a los intereses del que pregunta). La calidad de una explicación es un criterio central para evaluar el conocimiento científico y diferenciarlo de otras formas de comprensión.
+</dd>
+<dt>Externalismo</dt>
+<dd>
+Posición epistemológica que sostiene que la justificación o el estatus epistémico de una creencia depende no solo de los estados mentales internos del sujeto (sus razones, reflexiones o evidencias accesibles), sino también de factores externos a los que el sujeto puede no tener acceso consciente: la fiabilidad del proceso cognitivo que generó la creencia, la conexión causal apropiada con el hecho conocido, o las condiciones del entorno epistémico. Alvin Goldman (fiabilismo), Fred Dretske (teoría de la información) y Robert Nozick (condición de rastreo) son defensores prominentes de posiciones externalistas. Contrasta con → Internalismo.
+</dd>
+<dt>Falibilismo</dt>
+<dd>
+Doctrina filosófica que sostiene que ninguna creencia, teoría o tesis puede ser justificada de manera absolutamente concluyente, y que siempre permanece una posibilidad de error. Charles S. Peirce y Karl Popper son los filósofos más asociados al falibilismo. A diferencia del escepticismo, el falibilismo no niega que tengamos conocimiento: afirma que lo tenemos, pero que es revisable. El conocimiento científico es el caso paradigmático: las mejores teorías científicas se aceptan provisionalmente como las mejores explicaciones disponibles, pero están sujetas a revisión ante nueva evidencia o mejores argumentos. El falibilismo es compatible con grados de confianza racional: podemos estar más o menos seguros de nuestras creencias sin pretender certeza absoluta.
+</dd>
+<dt>Falsabilidad</dt>
+<dd>
+Criterio propuesto por Karl Popper en <em>La lógica de la investigación científica</em> (1934) para demarcar la ciencia de la no-ciencia: una teoría es científica si y solo si es <em>falsable</em>, es decir, si es posible especificar observaciones o experimentos que, de producirse, la refutarían. La falsabilidad no exige que la teoría haya sido refutada, sino que sea lógicamente posible refutarla. Popper argumentó que la verificación inductiva (confirmar una teoría mediante observaciones favorables) no puede garantizar la verdad de una generalización universal, mientras que una sola observación contraria basta para refutarla (asimetría lógica entre verificación y falsación). Este criterio excluye como no-científicas las teorías que se reformulan ad hoc para ser compatibles con cualquier resultado. Las limitaciones del falsacionismo estricto fueron señaladas por Lakatos (falsacionismo sofisticado: los programas de investigación pueden proteger temporalmente su núcleo duro), Kuhn (la ciencia normal no abandona un paradigma ante una anomalía aislada) y Quine-Duhem (ninguna hipótesis aislada se somete a contrastación: siempre se contrasta un conjunto de hipótesis). Véase → Criterio de demarcación.
+</dd>
+<dt>Fenomenalismo</dt>
+<dd>
+Teoría de la percepción y del conocimiento que afirma que los objetos físicos no existen independientemente de la percepción, sino que son construcciones lógicas a partir de datos sensoriales (actuales y posibles). En su versión clásica (Berkeley, Mill, Ayer en su primera etapa), un objeto físico como una mesa es un “paquete” estable de experiencias sensoriales: colores, texturas, resistencias. Asociado al empirismo, el fenomenalismo implica que lo que consideramos “realidad” son fenómenos dependientes del observador. Su principal dificultad es el problema de la traducción: los intentos de formular enunciados sobre objetos físicos exclusivamente en términos de enunciados sobre datos sensoriales han resultado sistemáticamente insatisfactorios.
+</dd>
+<dt>Fenotipo</dt>
+<dd>
+Características observables de un organismo, incluyendo su morfología, fisiología y comportamiento, que resultan de la interacción de su genotipo con el ambiente.
+</dd>
+<dt>Fiabilismo (<em>Reliabilism</em>)</dt>
+<dd>
+Teoría de la justificación epistémica que sostiene que una creencia está justificada si ha sido producida por un proceso cognitivo fiable, es decir, un proceso que tiende a generar una proporción alta de creencias verdaderas. Alvin Goldman es el principal defensor de esta posición. El fiabilismo es una forma de externalismo: el sujeto no necesita saber que su proceso cognitivo es fiable para estar justificado. La objeción más conocida es el “problema de la generalidad” (Conee y Feldman): todo proceso cognitivo concreto puede describirse a diferentes niveles de generalidad, y la fiabilidad varía según la descripción elegida. Véase → Externalismo.
+</dd>
+<dt>Flujo genético</dt>
+<dd>
+Movimiento de genes entre poblaciones a través de la migración de individuos o la transferencia de gametos. Puede reducir las diferencias entre poblaciones y aumentar la diversidad genética dentro de ellas.
+</dd>
+<dt>Fuentes de conocimiento</dt>
+<dd>
+Medios o vías por las que se puede adquirir conocimiento o creencias justificadas. Las fuentes tradicionalmente reconocidas incluyen la percepción sensorial, la razón, la memoria, la introspección y el testimonio. Cada fuente plantea problemas epistemológicos específicos: la percepción puede ser ilusoria, la memoria es reconstructiva y falible, el razonamiento puede ser formalmente válido pero materialmente falso, y el testimonio depende de la fiabilidad del informante. La epistemología contemporánea ha añadido la modelización computacional y los sistemas de inteligencia artificial como fuentes epistémicas emergentes que plantean problemas inéditos sobre la opacidad algorítmica y la trazabilidad de las justificaciones.
+</dd>
+<dt>Fundacionismo</dt>
+<dd>
+Teoría de la estructura del conocimiento que sostiene que la justificación epistémica tiene una arquitectura piramidal: existen creencias básicas o fundacionales que se justifican directamente (por ejemplo, sobre la base de la percepción sensorial, la intuición racional o la evidencia inmediata), y todas las demás creencias se justifican inferencialmente a partir de ellas. El fundacionismo responde al <em>problema del regreso de la justificación</em>: si toda creencia necesita justificarse mediante otra, y esa a su vez mediante otra, el regreso sería infinito a menos que existan creencias que detengan la cadena. Descartes (fundacionismo racionalista) y los empiristas lógicos (fundacionismo empirista) representan versiones clásicas. Las versiones contemporáneas (fundacionismo modesto) relajan la exigencia de que las creencias básicas sean infalibles: basta con que tengan un grado de justificación prima facie. Contrasta con → Coherentismo.
+</dd>
+<dt>Gatekeeper</dt>
+<dd>
+Actor individual, institucional o tecnológico que controla el acceso a información, recursos o audiencias, determinando qué contenidos circulan y cuáles quedan excluidos. En la sociología de los medios, Kurt Lewin acuñó el término y fue desarrollado por David Manning White para describir la función editorial de selección de noticias. En el contexto epistémico contemporáneo, los algoritmos de las plataformas digitales funcionan como gatekeepers automatizados que filtran, priorizan y amplifican contenidos según criterios opacos, con consecuencias significativas para la formación de creencias y la deliberación pública.
+</dd>
+<dt>Genética de poblaciones</dt>
+<dd>
+Estudio de la distribución y el cambio en la frecuencia de los alelos dentro de las poblaciones, bajo la influencia de factores evolutivos como la selección natural, la deriva genética, la mutación y el flujo genético.
+</dd>
+<dt>Genotipo</dt>
+<dd>
+Composición genética completa de un organismo, que incluye todos sus genes y variantes alélicas. El genotipo determina, en gran parte, el fenotipo del organismo.
+</dd>
+<dt>Gradiente epistémico</dt>
+<dd>
+Concepto que describe la variación progresiva en los niveles de justificación, fiabilidad y certeza de las creencias o afirmaciones de conocimiento. Este gradiente puede manifestarse tanto en el proceso individual de adquisición de conocimiento como en la estructura jerárquica del conocimiento científico, donde algunas proposiciones gozan de mayor respaldo evidencial que otras. El término es especialmente relevante en las discusiones sobre fundacionalismo epistemológico y en el análisis de la relación entre evidencia y grados de creencia racional. Para un análisis detallado, puede consultarse el artículo <a href="https://plato.stanford.edu/entries/justep-foundational/" target="_blank">“Epistemic Justification” en la Stanford Encyclopedia of Philosophy</a>.
+</dd>
+</dl>
+<p><a href="#sec-ag">▲</a></p>
+</section>
+<section id="sec-hm" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sec-hm">H-M</h2>
+<dl>
+<dt>Herencia</dt>
+<dd>
+Proceso mediante el cual los organismos transmiten sus características genéticas a su descendencia. La herencia está gobernada por los genes, que se encuentran en el ADN y determinan los rasgos físicos y funcionales de los organismos.
+</dd>
+<dt>Herencia no genética</dt>
+<dd>
+Transmisión de rasgos de una generación a otra que no involucra cambios en la secuencia del ADN. Incluye la epigenética, el aprendizaje social y la transmisión cultural, que pueden influir significativamente en la evolución y el desarrollo de los organismos.
+</dd>
+<dt>Híbridos</dt>
+<dd>
+Organismos resultantes del cruce de dos especies o variedades diferentes. Los híbridos pueden presentar características de ambas especies parentales y, en algunos casos, pueden ser estériles o tener problemas de viabilidad.
+</dd>
+<dt>Holismo</dt>
+<dd>
+Tesis filosófica según la cual los sistemas poseen propiedades como totalidades que no son reducibles a, ni predecibles a partir de, las propiedades de sus partes componentes consideradas aisladamente. En epistemología, el holismo de Quine (holismo confirmacional) sostiene que las hipótesis científicas no se someten a contrastación empírica individualmente, sino como redes interconectadas de creencias: ante una predicción fallida, siempre es posible ajustar distintos nodos de la red en lugar de abandonar la hipótesis principal. En filosofía de la mente, el holismo semántico afirma que el significado de un concepto depende de sus relaciones con todos los demás conceptos de la red. Contrasta con → Reduccionismo.
+</dd>
+<dt>Idealismo trascendental</dt>
+<dd>
+Teoría de la realidad propuesta por Immanuel Kant en la <em>Crítica de la razón pura</em> (1781), según la cual los objetos de la experiencia son fenómenos —es decir, el resultado de la organización que la mente impone a las intuiciones sensibles mediante las formas puras de la sensibilidad (espacio y tiempo) y las categorías del entendimiento (causalidad, sustancia, etc.)—, mientras que la cosa en sí (<em>Ding an sich</em>) o noúmeno es incognoscible. Kant no niega la existencia de una realidad independiente de la mente, pero sostiene que solo tenemos acceso epistémico a la realidad tal como se nos aparece, nunca tal como es en sí misma. Esta posición intenta mediar entre el realismo ingenuo (percibimos la realidad tal cual es) y el idealismo subjetivo (la realidad es un producto mental), y constituye uno de los giros más influyentes en la historia de la epistemología.
+</dd>
+<dt>Inconmensurabilidad</dt>
+<dd>
+Tesis propuesta independientemente por Thomas Kuhn y Paul Feyerabend según la cual las teorías científicas pertenecientes a paradigmas diferentes no pueden compararse directamente en términos de verdad o adecuación empírica, porque los términos teóricos cambian de significado al pasar de un paradigma a otro. Si “masa” significa algo diferente en la mecánica newtoniana y en la relativista, no podemos afirmar sin más que una teoría sea “más verdadera” que otra, porque no están hablando exactamente de lo mismo. La inconmensurabilidad radical ha sido criticada por amenazar la idea de progreso científico (si las teorías no se pueden comparar, ¿en qué sentido unas son mejores que otras?). Las versiones moderadas reconocen dificultades de traducción entre paradigmas sin negar la posibilidad de evaluación comparativa.
+</dd>
+<dt>Inducción</dt>
+<dd>
+Razonamiento lógico que consiste en derivar principios generales a partir de casos particulares observados. Este método es central en el empirismo científico, pero ha sido objeto de críticas fundamentales, especialmente por el problema de la inducción planteado por David Hume (véase → Problema de la inducción). Karl Popper rechazó la inducción como base para la ciencia y propuso la falsación como alternativa. Nelson Goodman exploró el “nuevo enigma de la inducción”, mostrando las dificultades para distinguir entre generalizaciones válidas y espurias (su predicado inventado “verdul” muestra que los datos empíricos son compatibles con infinitas generalizaciones). El enfoque bayesiano permite integrar la inducción dentro de un sistema formal que utiliza probabilidades para actualizar hipótesis en función de nuevas evidencias, superando algunas limitaciones del inductivismo clásico.
+</dd>
+<dt>Infinitismo</dt>
+<dd>
+Teoría de la justificación epistémica que sostiene que la cadena de razones que justifica una creencia puede extenderse infinitamente sin circularidad ni punto de detención fundacional. Peter Klein es el principal defensor contemporáneo de esta posición, poco convencional. El infinitismo responde al trilema de Agripa: ante la exigencia de justificar cada creencia, podemos (a) detenernos en un punto (fundacionismo), (b) aceptar la circularidad (coherentismo), o (c) aceptar cadenas infinitas (infinitismo). Klein argumenta que la justificación es un proceso potencialmente infinito: siempre podemos ofrecer una razón más, aunque en la práctica nos detengamos por motivos pragmáticos.
+</dd>
+<dt>Injusticia epistémica</dt>
+<dd>
+<p>Forma de injusticia que afecta a una persona específicamente en su capacidad como sujeto de conocimiento. Miranda Fricker (<em>Epistemic Injustice: Power and the Ethics of Knowing</em>, 2007) distingue dos tipos fundamentales: (a) <em>injusticia testimonial</em>: cuando los prejuicios del oyente hacen que conceda menos credibilidad al testimonio de un hablante por razones irrelevantes (raza, género, clase, acento, etc.); y (b) <em>injusticia hermenéutica</em>: cuando una laguna en los recursos interpretativos colectivos impide que ciertos grupos puedan articular y hacer inteligibles sus propias experiencias (por ejemplo, el acoso sexual antes de que existiera el concepto como tal). La injusticia epistémica tiene dimensiones tanto individuales como estructurales, y conecta la epistemología con la ética, la filosofía política y los estudios sobre desigualdad.</p>
+<div class="ejemplo">
+<p><strong>Ejemplo de injusticia testimonial:</strong> en contextos clínicos, múltiples estudios documentan que el dolor reportado por mujeres y personas racializadas recibe sistemáticamente menos credibilidad por parte de profesionales sanitarios, lo que conduce a infradiagnóstico y tratamiento insuficiente.</p>
+</div>
+</dd>
+<dt>Inteligencia artificial generativa</dt>
+<dd>
+<p>Categoría de sistemas de inteligencia artificial capaces de producir contenido nuevo (texto, imagen, audio, vídeo, código) a partir de patrones aprendidos durante el entrenamiento con grandes volúmenes de datos. Los modelos de lenguaje de gran escala (LLM, como GPT, Claude o Gemini) y los modelos de difusión (como DALL-E o Stable Diffusion) son ejemplos representativos. Desde la perspectiva epistemológica, la IA generativa plantea problemas inéditos: ¿constituye una fuente de conocimiento fiable? ¿Cómo evaluar la justificación de una creencia derivada de una respuesta de un LLM, cuyo proceso inferencial es opaco? ¿La capacidad de producir texto coherente y plausible equivale a comprensión? La tendencia de los LLM a generar información falsa pero plausible (“alucinaciones”) erosiona la ecuación habitual entre fluidez expresiva y competencia epistémica, y exige nuevas formas de alfabetización crítica.</p>
+<div class="enlace">
+<p><strong>Enlace:</strong> <a href="https://doi.org/10.1038/d41586-023-00816-5" target="_blank">Bender et al.&nbsp;(2021) y debates posteriores sobre los riesgos epistémicos de los LLM</a></p>
+</div>
+</dd>
+<dt>Internalismo</dt>
+<dd>
+Posición epistemológica que sostiene que la justificación de una creencia depende exclusivamente de factores internos al sujeto, es decir, de estados mentales, razones o evidencias a los que el sujeto tiene acceso consciente (o podría tenerlo mediante reflexión). Lo que justifica una creencia es, según el internalista, algo que el sujeto puede reconocer e invocar: su experiencia perceptiva, su razonamiento, su memoria. Si un proceso cognitivo es fiable pero el sujeto no tiene acceso a esta fiabilidad, el internalista niega que la creencia resultante esté justificada. Contrasta con → Externalismo.
+</dd>
+<dt>Justificación</dt>
+<dd>
+Proceso o resultado de proporcionar razones, evidencias o argumentos que apoyan una creencia, de modo que se aumente su probabilidad de ser verdadera o se satisfagan los estándares epistémicos pertinentes. La justificación es uno de los tres componentes de la definición clásica de conocimiento (creencia verdadera justificada) y el que ha generado mayor debate epistemológico. Las preguntas centrales incluyen: ¿la justificación es interna o externa al sujeto? (véanse → Internalismo, → Externalismo), ¿tiene estructura fundacional o coherentista? (véanse → Fundacionismo, → Coherentismo), ¿es deductiva o puede ser probabilística?, ¿es derrotable o definitiva? La epistemología contemporánea tiende a aceptar que la justificación es gradual, derrotable y sensible al contexto.
+</dd>
+<dt>Ley de la segregación</dt>
+<dd>
+Ley fundamental de la herencia formulada por Gregor Mendel: los dos alelos de un gen se separan durante la formación de los gametos, de manera que cada gameto recibe solo uno de los alelos.
+</dd>
+<dt>Ley de la distribución independiente</dt>
+<dd>
+Ley de Mendel según la cual los alelos de diferentes genes se distribuyen en los gametos de manera independiente unos de otros, siempre que los genes no estén ligados en el mismo cromosoma.
+</dd>
+<dt>Macroevolución</dt>
+<dd>
+Grandes cambios evolutivos que ocurren a lo largo de largos períodos de tiempo, como la aparición de nuevas especies y grupos taxonómicos superiores. Incluye eventos como la radiación adaptativa y las extinciones masivas.
+</dd>
+<dt>Malevolencia epistémica</dt>
+<dd>
+Conducta deliberada orientada a dañar el entorno epistémico de otros agentes o comunidades: producir confusión, erosionar la capacidad de razonamiento, destruir la confianza en fuentes fiables o impedir el acceso al conocimiento. A diferencia de la mera negligencia o incompetencia, la malevolencia epistémica implica intencionalidad: el agente actúa <em>a sabiendas</em> de que está degradando las condiciones para la formación de creencias verdaderas. Ejemplos incluyen las campañas corporativas de siembra de duda sobre los efectos del tabaco o del cambio climático, la producción industrial de desinformación por parte de actores estatales, y el diseño de arquitecturas de atención (clickbait, algoritmos de engagement) que privilegian la viralidad sobre la veracidad. El concepto conecta la epistemología con la ética de la información y la teoría democrática. Véanse → Astroturfing, → Desinformación, → Negacionismo.
+</dd>
+<dt>Meiosis</dt>
+<dd>
+Proceso de división celular que reduce a la mitad el número de cromosomas, produciendo gametos en organismos multicelulares. Incluye recombinación genética, lo que aumenta la variabilidad genética en las poblaciones.
+</dd>
+<dt>Mesocosmos</dt>
+<dd>
+Nivel intermedio de realidad accesible a la percepción humana directa, situado entre lo muy pequeño (microcosmos) y lo muy grande (macrocosmos). Comprende fenómenos que pueden ser observados y experimentados directamente sin instrumentos especiales. El concepto, utilizado por Gerhard Vollmer en su epistemología evolutiva, sugiere que nuestras capacidades cognitivas han sido modeladas por la selección natural para operar eficazmente en este rango intermedio, lo que explicaría por qué la física cuántica y la cosmología resultan contraintuitivas: nuestro aparato cognitivo no evolucionó para esos dominios.
+</dd>
+<dt>Método experimental</dt>
+<dd>
+Proceso empírico sistemático que combina observación, formulación de hipótesis, diseño experimental controlado, recogida de datos y análisis de resultados para establecer relaciones causales y generar conocimiento contrastable. Este enfoque revolucionó las ciencias naturales y consolidó el empirismo como base de la epistemología científica moderna. En biología, se utiliza en estudios controlados como los de Mendel sobre herencia genética o los ensayos clínicos aleatorizados. En física, ha sido clave en los experimentos del CERN. En las ciencias sociales se adapta mediante diseños cuasi-experimentales para abordar interacciones complejas. En el desarrollo de la inteligencia artificial, el método experimental es esencial para evaluar algoritmos en contextos diversos.
+</dd>
+<dt>Microevolución</dt>
+<dd>
+Cambios evolutivos a pequeña escala dentro de una población o especie, a lo largo de períodos relativamente cortos. Se refiere a cambios en las frecuencias alélicas debido a la selección natural, la deriva genética, el flujo genético y la mutación.
+</dd>
+<dt>Mobiloma</dt>
+<dd>
+Conjunto completo de elementos genéticos móviles en un organismo, como plásmidos, transposones y elementos virales. Puede contribuir significativamente a la variación genética y la evolución horizontal.
+</dd>
+<dt>Modelo Hardy-Weinberg</dt>
+<dd>
+Principio en genética de poblaciones que establece que, en una población ideal (sin mutación, selección, migración o deriva genética), las frecuencias alélicas y genotípicas permanecerán constantes de generación en generación, proporcionando una base nula para detectar cambios evolutivos.
+</dd>
+<dt>Mutualismo</dt>
+<dd>
+Tipo de relación simbiótica en la que ambas especies involucradas obtienen beneficios mutuos. Fundamental para la supervivencia y el éxito reproductivo de las especies participantes.
+</dd>
+</dl>
+<p><a href="#sec-ag">▲</a></p>
+</section>
+<section id="sec-ns" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sec-ns">N-S</h2>
+<dl>
+<dt>Naturalismo epistemológico</dt>
+<dd>
+Doctrina que propone que los métodos y principios de la epistemología deben estar fundamentados en las ciencias naturales, rechazando las nociones metafísicas no empíricas sobre el conocimiento. Quine propuso integrar la epistemología dentro de las ciencias naturales. Hilary Kornblith sostiene que el conocimiento debe entenderse como una clase natural, estudiada empíricamente. Philip Kitcher ha explorado cómo aplicar el naturalismo en la práctica científica, destacando la importancia de los contextos históricos y sociales. Alvin Goldman propuso la teoría de la fiabilidad y la teoría causal del conocimiento para explicar la justificación epistémica a través de los procesos cognitivos subyacentes. Véase → Epistemología naturalizada.
+</dd>
+<dt>Necesidad</dt>
+<dd>
+Propiedad de un sistema cuyo comportamiento está determinado por leyes o reglas ineludibles. En lógica y metafísica, una proposición es necesaria si es verdadera en todos los mundos posibles (necesidad lógica) o en todas las circunstancias compatibles con las leyes de la naturaleza (necesidad nómica). En la filosofía de la ciencia, el debate sobre la necesidad de las leyes naturales enfrenta a los regulacionistas (las leyes describen regularidades contingentes) y los necesitaristas (las leyes expresan conexiones necesarias entre propiedades). El contraste entre necesidad y contingencia es fundamental para entender el papel del azar en la evolución y en los sistemas complejos.
+</dd>
+<dt>Negacionismo</dt>
+<dd>
+Rechazo sistemático de un cuerpo de evidencia científica consolidada, no como resultado de un escepticismo metodológico legítimo, sino como posición ideológicamente motivada que emplea estrategias retóricas recurrentes: selección interesada de datos, apelación a falsos expertos, invocación de conspiraciones, exigencia de estándares de prueba inalcanzables y uso de falacias lógicas. Mark Hoofnagle y Chris Hoofnagle (2007) identificaron estos patrones como comunes al negacionismo del Holocausto, del VIH/SIDA, de la evolución y del cambio climático. Naomi Oreskes y Erik Conway (<em>Merchants of Doubt</em>, 2010) documentaron cómo las industrias del tabaco y de los combustibles fósiles financiaron campañas de siembra de duda científica. El negacionismo difiere del escepticismo genuino en que no busca conocimiento más fiable, sino la neutralización de conocimiento incómodo. Véanse → Escepticismo, → Malevolencia epistémica, → Pseudociencia.
+</dd>
+<dt>Neodarwinismo</dt>
+<dd>
+Versión moderna del darwinismo que incorpora principios de la genética mendeliana. Explica la evolución a través de la acción conjunta de la selección natural sobre variaciones genéticas y las mutaciones como fuentes de nueva variabilidad.
+</dd>
+<dt>Objetivismo</dt>
+<dd>
+Término genérico que se refiere a cualquier teoría que afirma la validez de los fenómenos objetivos sobre la experiencia subjetiva. En epistemología, designa especialmente al realismo: la idea de que existe una realidad independiente de la mente y de que el conocimiento consiste en representar o describir esa realidad con mayor o menor fidelidad.
+</dd>
+<dt>Observación</dt>
+<dd>
+Método fundamental en el empirismo y las ciencias, basado en la recopilación sistemática de datos a través de los sentidos o de instrumentos. La observación, cuidadosamente estructurada, permite identificar patrones, generar hipótesis y verificar teorías. Norwood Russell Hanson introdujo el concepto de la carga teórica de la observación (véase → Carga teórica de la observación), argumentando que toda observación está influida por las teorías y conocimientos previos del observador. Karl Popper analizó el papel de la observación en la falsación de hipótesis. Bruno Latour ha explorado la observación en relación con el constructivismo científico, destacando cómo los procesos observacionales se enmarcan en contextos sociales y culturales. Observaciones y teorías deben someterse a estudio crítico y prueba, en manos de individuos competentes e imparciales, y deben resultar lo suficientemente convincentes como para ser casi universalmente aceptadas.
+</dd>
+<dt>Orden</dt>
+<dd>
+Disposición regular y predecible de elementos en sistemas o procesos naturales o artificiales. En la teoría de la complejidad, el orden puede ser impuesto (diseñado externamente) o emergente (generado espontáneamente por las interacciones internas del sistema). La relación entre orden y caos es más sutil de lo que sugiere la oposición intuitiva: los sistemas complejos pueden transitar entre estados ordenados y caóticos, y en la frontera entre ambos regímenes —el “borde del caos”— se observan las dinámicas más ricas en generación de patrones, adaptabilidad e innovación (Stuart Kauffman).
+</dd>
+<dt>Pangénesis</dt>
+<dd>
+Teoría propuesta por Charles Darwin que sugiere que todas las células del cuerpo emiten diminutas partículas denominadas “gémulas”, que se acumulan en los órganos reproductores y son heredadas por la descendencia. Fue posteriormente refutada por la genética moderna.
+</dd>
+<dt>Paradigma</dt>
+<dd>
+En el sentido técnico introducido por Thomas Kuhn en <em>La estructura de las revoluciones científicas</em> (1962), un paradigma es el conjunto de compromisos compartidos por una comunidad científica en un momento dado: teorías aceptadas, métodos legítimos, problemas considerados relevantes, ejemplos canónicos de buena ciencia (<em>exemplars</em>) y supuestos metafísicos de fondo. La ciencia normal consiste en resolver problemas dentro del paradigma vigente; las anomalías acumuladas pueden provocar una crisis y, eventualmente, una revolución científica que sustituya el paradigma por uno nuevo (véase → Inconmensurabilidad). La noción de paradigma ha sido criticada por su ambigüedad (Margaret Masterman identificó más de veinte sentidos en la obra de Kuhn) y por sus implicaciones relativistas, pero ha transformado irreversiblemente la historiografía y la filosofía de la ciencia al mostrar que el desarrollo científico no es acumulativo y lineal, sino discontinuo y estructurado socialmente.
+</dd>
+<dt>Percepción</dt>
+<dd>
+Proceso cognitivo mediante el cual el cerebro interpreta y organiza estímulos sensoriales para generar una representación coherente del entorno. La percepción es clave en epistemología, especialmente en debates sobre la fiabilidad de los sentidos en la adquisición del conocimiento, la distinción entre apariencia y realidad, y el papel de la teoría en la configuración de lo que “vemos”.
+</dd>
+<dt>Plasticidad fenotípica</dt>
+<dd>
+Capacidad de un organismo para cambiar su fenotipo en respuesta a las condiciones ambientales. Permite a los organismos adaptarse a diversas situaciones y puede ser crucial para la supervivencia en entornos variables.
+</dd>
+<dt>Policrisis</dt>
+<dd>
+<p>Situación en la que múltiples crisis heterogéneas —naturales, institucionales, económicas, geopolíticas o infraestructurales— interactúan de forma sinérgica, generando efectos acumulativos que superan la capacidad de respuesta de los sistemas sociales y amplifican exponencialmente el impacto del evento inicial. La policrisis no es la mera coexistencia de problemas, sino la convergencia de vulnerabilidades estructurales que se refuerzan mutuamente.</p>
+<div class="ejemplo">
+<p><strong>Ejemplo:</strong> los terremotos de Turquía y Siria de 2023 ilustran una policrisis: a la devastación sísmica se sumaron la ausencia de supervisión de medidas antisísmicas (con más de un tercio de edificaciones incumpliendo requisitos mínimos), la desatención a precedentes sísmicos graves en la placa de Anatolia, y la insuficiencia de pasos fronterizos para canalizar ayuda humanitaria, agravada por restricciones políticas y geopolíticas.</p>
+</div>
+</dd>
+<dt>Positivismo</dt>
+<dd>
+Corriente filosófica fundada por Auguste Comte que sostiene que el único conocimiento válido es el que se obtiene mediante el método científico, basado en la observación y la verificación empírica. El positivismo propone una “ley de los tres estadios” (teológico, metafísico y positivo) según la cual la humanidad progresa hacia un conocimiento puramente científico, libre de especulaciones metafísicas. Su influencia en la epistemología del siglo XX se canalizó a través del empirismo lógico del Círculo de Viena (véase → Empirismo lógico). Las principales críticas al positivismo apuntan a su excesiva restricción de lo que cuenta como conocimiento legítimo, su incapacidad para dar cuenta de su propio estatus (el principio positivista no es verificable empíricamente) y su desatención a las dimensiones sociales e históricas de la ciencia.
+</dd>
+<dt>Predicción</dt>
+<dd>
+Anticipación o inferencia de eventos futuros en un sistema, basada en modelos y teorías. Puede ser determinista (especificación exacta del estado futuro) o probabilística (especificación de distribuciones de probabilidad), y se verifica mediante datos o experimentos. En filosofía de la ciencia, la capacidad predictiva se ha considerado tradicionalmente un indicador de la calidad de una teoría, aunque la relación entre predicción y explicación es debatida: una teoría puede predecir con éxito sin explicar (como argumentan los instrumentalistas), y una buena explicación no siempre permite predicciones precisas (como ocurre en los sistemas caóticos).
+</dd>
+<dt>Problema de Gettier</dt>
+<dd>
+<p>Desafío a la definición clásica de conocimiento como “creencia verdadera justificada”, planteado por Edmund Gettier en un artículo de tres páginas en 1963. Gettier mostró, mediante contraejemplos, que es posible tener una creencia que sea verdadera y esté justificada sin que constituya genuinamente conocimiento, porque la relación entre la justificación y la verdad es accidental. El problema de Gettier ha generado medio siglo de debate epistemológico y múltiples propuestas de solución: añadir una cuarta condición (como la ausencia de “derrotadores”), exigir que la justificación esté conectada causalmente con el hecho (teoría causal), o que la creencia “rastree” la verdad en mundos posibles cercanos (condición de sensibilidad de Nozick).</p>
+<div class="ejemplo">
+<p><strong>Ejemplo simplificado:</strong> Smith cree justificadamente que “la persona que obtendrá el empleo tiene diez monedas en el bolsillo”, porque tiene excelentes razones para creer que Jones lo obtendrá y ha contado las monedas de Jones. Pero resulta que Smith mismo obtiene el empleo, y casualmente él también tiene diez monedas. Su creencia es verdadera y estaba justificada, pero no diríamos que lo “sabía” en sentido estricto: la verdad de su creencia es accidental respecto a su justificación.</p>
+</div>
+</dd>
+<dt>Problema de la inducción</dt>
+<dd>
+Dificultad filosófica clásica, formulada por David Hume, que cuestiona la legitimidad del razonamiento inductivo: ¿qué garantiza que las regularidades observadas en el pasado se mantendrán en el futuro? Hume argumentó que la inferencia inductiva (de “todos los cuervos observados hasta ahora son negros” a “todos los cuervos son negros”) no puede justificarse ni por la lógica (la conclusión no se sigue deductivamente de las premisas) ni por la experiencia (apelar a la experiencia pasada para justificar la inducción sería circular). El problema de la inducción es uno de los más persistentes de la epistemología y ha motivado respuestas tan diversas como el convencionalismo (Poincaré), el falsacionismo (Popper: la ciencia no necesita inducción), el pragmatismo (Reichenbach: la inducción es la mejor estrategia disponible) y el bayesianismo (la inducción como actualización de probabilidades). Véase → Inducción.
+</dd>
+<dt>Pseudociencia</dt>
+<dd>
+Conjunto de creencias, prácticas o discursos que se presentan como científicos sin satisfacer los estándares metodológicos y epistémicos del conocimiento científico: ausencia de contrastabilidad empírica, falta de revisión por pares, inmunidad a la refutación, apelación a la autoridad en lugar de a la evidencia, e incapacidad para generar predicciones comprobables. Ejemplos recurrentes incluyen la astrología, la homeopatía y las teorías del “diseño inteligente”. La demarcación entre ciencia y pseudociencia no siempre es nítida (véase → Criterio de demarcación), pero la pseudociencia se distingue del error científico honesto por su resistencia sistemática a la corrección y, frecuentemente, por intereses comerciales o ideológicos subyacentes. Massimo Pigliucci ha analizado la pseudociencia como un fenómeno que ocupa un “espacio epistémico” difuso entre la ciencia consolidada y la charlatanería evidente.
+</dd>
+<dt>Racionalidad</dt>
+<dd>
+Cualidad de los agentes que forman creencias y toman decisiones conforme a estándares de coherencia, evidencia y buenas razones. En epistemología se distingue entre racionalidad epistémica (ajustar las creencias a la evidencia disponible) y racionalidad práctica o instrumental (elegir los medios adecuados para alcanzar los fines propuestos). Herbert Simon introdujo el concepto de “racionalidad limitada” (<em>bounded rationality</em>): los agentes humanos operan con recursos cognitivos finitos, información incompleta y presiones de tiempo, por lo que recurren a heurísticos que son generalmente eficaces pero susceptibles de errores sistemáticos (véase → Sesgo cognitivo). Daniel Kahneman y Amos Tversky documentaron experimentalmente numerosos patrones de desviación de la racionalidad ideal, lo que ha reconfigurado los debates sobre la relación entre racionalidad normativa y conducta real. Véase también → Creencia.
+</dd>
+<dt>Racionalismo</dt>
+<dd>
+Tradición filosófica que afirma que el conocimiento genuino o la justificación provienen solo o principalmente de la razón, y no de la experiencia sensorial. Sus representantes clásicos son Descartes (ideas innatas, duda metódica, <em>cogito ergo sum</em>), Spinoza (conocimiento deductivo a partir de axiomas evidentes) y Leibniz (verdades de razón vs.&nbsp;verdades de hecho). El racionalismo defiende que la mente posee recursos cognitivos propios —ideas innatas, intuición racional, capacidad deductiva— que permiten alcanzar conocimiento cierto e independiente de la experiencia. La confrontación entre racionalismo y empirismo es uno de los ejes articuladores de la epistemología moderna, que Kant intentó superar con su idealismo trascendental (véase → Idealismo trascendental).
+</dd>
+<dt>Radiación adaptativa</dt>
+<dd>
+Proceso por el cual una sola especie ancestral se diversifica en varias especies nuevas, cada una adaptada a un nicho ecológico diferente. Suele ocurrir cuando se colonizan nuevos hábitats con pocos competidores y abundantes recursos.
+</dd>
+<dt>Realismo ingenuo</dt>
+<dd>
+Teoría de la percepción que afirma que percibimos el mundo tal como es, directamente y sin mediación de representaciones mentales o conceptuales. La mesa que “veo” es la mesa real, con las propiedades exactas que percibo. El realismo ingenuo coincide con la intuición de sentido común, pero enfrenta objeciones clásicas: ilusiones ópticas, alucinaciones y el argumento de la ciencia (las propiedades que la física atribuye a los objetos difieren de las que percibimos). Véase → Realismo representativo.
+</dd>
+<dt>Realismo representativo</dt>
+<dd>
+Teoría de la percepción según la cual no percibimos directamente los objetos externos, sino representaciones mentales (ideas, imágenes, datos sensoriales) causadas por ellos. John Locke es su defensor clásico, con su distinción entre cualidades primarias (propiedades reales del objeto: extensión, movimiento) y cualidades secundarias (producidas en la mente del observador: color, sabor). La dificultad principal es el “problema del velo de la percepción”: si solo tenemos acceso a nuestras representaciones, ¿cómo verificar que se corresponden con la realidad externa? Contrasta con → Realismo ingenuo.
+</dd>
+<dt>Recesividad</dt>
+<dd>
+Característica de los alelos recesivos que solo se expresan fenotípicamente cuando están presentes en dos copias (homocigosis). Los alelos recesivos no se manifiestan en presencia de un alelo dominante.
+</dd>
+<dt>Reduccionismo</dt>
+<dd>
+Estrategia explicativa que pretende comprender un fenómeno complejo a partir de sus elementos más simples o básicos. El reduccionismo puede ser ontológico (todo lo que existe se compone, en última instancia, de entidades físicas fundamentales), metodológico (la mejor forma de estudiar un fenómeno es descomponerlo en partes) o teórico (las leyes de una disciplina pueden derivarse de las de una disciplina más fundamental). Aunque el reduccionismo metodológico ha sido extraordinariamente fructífero en las ciencias naturales, sus límites son evidentes en sistemas complejos donde las propiedades emergentes no son derivables de las propiedades de los componentes (véase → Emergencia). Contrasta con → Holismo.
+</dd>
+<dt>Reloj molecular</dt>
+<dd>
+Técnica que utiliza la tasa constante de mutación de secuencias de ADN para estimar el tiempo de divergencia entre especies. Permite inferir eventos evolutivos y la cronología de la evolución.
+</dd>
+<dt>Sensismo</dt>
+<dd>
+Teoría filosófica que sostiene que todo conocimiento deriva exclusivamente de las sensaciones. Étienne Bonnot de Condillac desarrolló esta doctrina en su <em>Tratado de las sensaciones</em> (1754), donde propuso el célebre experimento mental de la “estatua”: un ser humano que adquiere gradualmente las facultades cognitivas a medida que se le activan, uno a uno, los sentidos. El sensismo radicaliza el empirismo al negar cualquier contribución activa de la mente más allá de la transformación de sensaciones.
+</dd>
+<dt>Sesgo cognitivo</dt>
+<dd>
+Patrón sistemático de desviación del juicio racional, derivado de la estructura y el funcionamiento del sistema cognitivo humano. Daniel Kahneman y Amos Tversky documentaron experimentalmente numerosos sesgos a partir de la década de 1970, mostrando que los humanos recurren a heurísticos (atajos mentales) que son generalmente eficaces pero producen errores predecibles en determinados contextos. Entre los más relevantes epistemológicamente: el sesgo de confirmación (véase entrada separada), el efecto de anclaje (las estimaciones se ven arrastradas por valores iniciales arbitrarios), la heurística de disponibilidad (juzgar la probabilidad de un evento por la facilidad con que vienen a la mente ejemplos), el sesgo de retrospección (<em>hindsight bias</em>: tendencia a creer que los eventos pasados eran predecibles) y el efecto Dunning-Kruger (las personas con menor competencia tienden a sobreestimar su conocimiento). Los sesgos cognitivos son relevantes tanto para la epistemología individual (¿cómo formamos creencias fiables a pesar de nuestras limitaciones?) como para la epistemología social (¿cómo diseñar instituciones que mitiguen los sesgos colectivos?).
+</dd>
+<dt>Sesgo de confirmación</dt>
+<dd>
+Tendencia cognitiva a buscar, interpretar, recordar y valorar la información de modo que confirme las creencias o hipótesis preexistentes del sujeto, al tiempo que se ignora, se minimiza o se descarta la información que las contradice. El sesgo de confirmación opera de forma mayoritariamente inconsciente y afecta tanto a personas legas como a expertos. Peter Wason lo demostró experimentalmente con su tarea de selección (1960). En el contexto de la investigación científica, el sesgo de confirmación puede distorsionar el diseño experimental, la interpretación de datos y la revisión por pares. En el contexto informativo contemporáneo, los algoritmos de personalización amplifican el sesgo de confirmación al ofrecer contenidos alineados con las preferencias previas del usuario (véase → Burbuja epistémica).
+</dd>
+<dt>Simbiosis</dt>
+<dd>
+Relación estrecha y persistente entre dos o más organismos de diferentes especies, en la que al menos uno de los organismos se beneficia. Puede clasificarse en mutualismo, comensalismo y parasitismo.
+</dd>
+<dt>Síntesis evolutiva moderna</dt>
+<dd>
+Integración interdisciplinar desarrollada durante las décadas de 1930 y 1940 entre la genética mendeliana y la teoría de la evolución por selección natural. Se conoce también como “nueva síntesis”, “síntesis moderna”, “teoría sintética” o “síntesis neodarwinista”.
+</dd>
+<dt>Síntesis extendida</dt>
+<dd>
+Ampliación de la teoría sintética de la evolución que incorpora descubrimientos recientes en genética, epigenética, biología del desarrollo y ecología. Considera nuevos mecanismos y factores que influyen en la evolución, como la herencia no genética, la plasticidad fenotípica, la construcción de nicho y la co-evolución gen-cultura.
+</dd>
+<dt>Sistema complejo</dt>
+<dd>
+Sistema formado por muchos elementos que interactúan entre sí de forma no lineal, y que exhibe propiedades emergentes, autoorganización y adaptación. Los sistemas complejos se estudian en ámbitos tan diversos como la biología (ecosistemas, redes neuronales), la economía (mercados financieros), la sociología (ciudades, redes sociales) y las ciencias del clima. Una característica definitoria es que su comportamiento global no puede predecirse simplemente a partir del conocimiento de sus componentes individuales. Véanse → Emergencia, → Caos, → Atractor.
+</dd>
+<dt>Soberanía tecnológica</dt>
+<dd>
+<p>Capacidad de un Estado, una región o una comunidad para desarrollar, controlar y regular de forma autónoma las infraestructuras tecnológicas críticas que sostienen su economía, su seguridad y su soberanía política. El concepto ha cobrado relevancia en el contexto de la concentración extrema de la cadena de valor tecnológica global: desde la extracción de minerales críticos (tierras raras, litio, cobalto) hasta el diseño y fabricación de semiconductores avanzados y la infraestructura de inteligencia artificial, los puntos de estrangulamiento estratégico se concentran en un número muy reducido de actores estatales y corporativos. La soberanía tecnológica tiene una dimensión epistémica: la dependencia tecnológica condiciona la capacidad de un país para producir conocimiento científico de vanguardia, acceder a infraestructuras computacionales y participar en la gobernanza de los sistemas de IA que median cada vez más el acceso a la información y el conocimiento.</p>
+<div class="enlace">
+<p><strong>Enlace:</strong> <a href="https://digital-strategy.ec.europa.eu/en/policies/digital-sovereignty" target="_blank">Comisión Europea: “European Digital Sovereignty”</a></p>
+</div>
+</dd>
+<dt>Subjetivismo</dt>
+<dd>
+Perspectiva epistemológica que afirma que el conocimiento depende de las percepciones, experiencias y estados mentales individuales. Este enfoque subraya las limitaciones del empirismo en la búsqueda de una verdad objetiva y enfatiza el papel de los sujetos en la construcción de la realidad. Pierre Bourdieu critica el subjetivismo porque ignora las estructuras sociales y culturales que condicionan las percepciones individuales, abogando por un enfoque integrador de práctica y <em>habitus</em>. Judith Butler argumenta que el subjetivismo puede perpetuar narrativas excluyentes al mantener al sujeto como fundamento central, y propone una alternativa más dinámica basada en la performatividad.
+</dd>
+</dl>
+<p><a href="#sec-ag">▲</a></p>
+</section>
+<section id="sec-tz" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sec-tz">T-Z</h2>
+<dl>
+<dt>Tabula rasa</dt>
+<dd>
+Concepto formulado por John Locke que describe la mente humana al nacer como una “pizarra en blanco”, sin contenido innato: todo conocimiento se adquiere progresivamente a través de la experiencia y la interacción con el mundo. Steven Pinker, en <em>La tabla rasa</em> (2002), critica esta idea y defiende el papel de la biología y las predisposiciones evolutivas en la naturaleza humana. Noam Chomsky argumenta contra el concepto desde la lingüística, destacando la existencia de estructuras innatas (gramática universal). Edward O. Wilson, en <em>Sociobiología: La nueva síntesis</em> (1975), defendió que ciertos aspectos de la conducta humana tienen bases evolutivas y genéticas, lo que contrasta con la idea de la mente como pizarra moldeada únicamente por el entorno. Véase → Anti-innatismo.
+</dd>
+<dt>Tasa de mutación</dt>
+<dd>
+Frecuencia con la que ocurren nuevas mutaciones en el genoma de un organismo por unidad de tiempo o generación. Las tasas de mutación son fundamentales para la variación genética y la evolución.
+</dd>
+<dt>Teoría de coalescencia</dt>
+<dd>
+Modelo en genética de poblaciones que traza el linaje de copias de genes en una población hasta su ancestro común más reciente. Útil para entender la variación genética y la historia evolutiva de las poblaciones.
+</dd>
+<dt>Teoría de las formas</dt>
+<dd>
+Teoría de la realidad propuesta por Platón según la cual las cosas sensibles son imitaciones imperfectas de las Formas o Ideas: entidades abstractas, universales e inmutables que constituyen la verdadera realidad. El mundo que percibimos por los sentidos es un mundo de apariencias; el conocimiento genuino (<em>episteme</em>) versa sobre las Formas, mientras que la percepción sensorial solo produce opinión (<em>doxa</em>). La teoría de las formas es históricamente la primera articulación sistemática de una posición racionalista en epistemología: el conocimiento verdadero se alcanza mediante la razón, no mediante los sentidos.
+</dd>
+<dt>Teoría neutra de la evolución molecular</dt>
+<dd>
+Propuesta por Motoo Kimura, sostiene que la mayoría de las variaciones a nivel molecular son el resultado de mutaciones neutras que no afectan la aptitud del organismo. La deriva genética, y no la selección natural, es el principal mecanismo de cambio evolutivo a nivel molecular.
+</dd>
+<dt>Teoría sintética</dt>
+<dd>
+Integración de la teoría de la evolución por selección natural de Darwin con la genética mendeliana. Explica la evolución como un proceso gradual guiado por la mutación, la recombinación genética, la selección natural y otros factores. Véase → Síntesis evolutiva moderna.
+</dd>
+<dt>Testimonio</dt>
+<dd>
+Fuente de conocimiento basada en la transmisión de información de un agente a otro mediante actos comunicativos (orales, escritos, audiovisuales). La mayor parte de nuestro conocimiento —sobre historia, ciencia, acontecimientos lejanos, datos personales— proviene del testimonio ajeno, no de la observación directa. La epistemología del testimonio estudia las condiciones bajo las cuales es racional aceptar el testimonio de otros. Las posiciones principales son: el reduccionismo (David Hume: el testimonio es fiable en la medida en que podemos verificar inductivamente la fiabilidad del testigo) y el anti-reduccionismo (Thomas Reid, C. A. J. Coady: tenemos una disposición básica a confiar en el testimonio, y esta disposición es epistémicamente legítima salvo que haya razones específicas para la desconfianza). En la era digital, la epistemología del testimonio enfrenta desafíos inéditos: anonimato, bots, deepfakes y la mediación algorítmica de los canales testimoniales. Véanse → Desinformación, → Injusticia epistémica.
+</dd>
+<dt>Transmisión genética horizontal (HGT)</dt>
+<dd>
+Movimiento de material genético entre organismos de diferentes especies, en contraste con la transmisión vertical de padres a descendientes. Común en bacterias; puede acelerar la evolución al introducir rápidamente nuevas características adaptativas.
+</dd>
+<dt>Uniformismo</dt>
+<dd>
+Principio de la geología, formulado por Charles Lyell, que afirma que los procesos naturales que operan en el presente son los mismos que han operado en el pasado, y que explican los cambios geológicos a lo largo de la historia de la Tierra. El uniformismo proporcionó a Darwin el marco temporal extenso necesario para la evolución por selección natural.
+</dd>
+<dt>Variación genética</dt>
+<dd>
+Diferencias en el material genético (ADN) entre los individuos de una población o entre poblaciones. Crucial para la evolución, ya que proporciona la materia prima sobre la cual actúan la selección natural y otros mecanismos evolutivos.
+</dd>
+<dt>Verdad</dt>
+<dd>
+Propiedad que atribuimos a las proposiciones, creencias o enunciados que se corresponden con los hechos, son coherentes con un sistema de creencias, o satisfacen ciertos criterios pragmáticos. Las principales teorías de la verdad son: (a) la <em>teoría de la correspondencia</em> (una proposición es verdadera si se corresponde con un estado de cosas real; Aristóteles, Russell, Austin); (b) la <em>teoría de la coherencia</em> (verdadero es lo que es coherente con el sistema total de creencias; Bradley, Blanshard); (c) la <em>teoría pragmatista</em> (verdadero es aquello que funciona, que resuelve problemas, que resiste la investigación continuada; Peirce, James, Dewey); (d) la <em>teoría deflacionista</em> (decir que “P es verdadero” no añade nada a decir “P”; el concepto de verdad es un instrumento expresivo, no una propiedad sustantiva; Ramsey, Quine, Horwich). La verdad es uno de los tres componentes de la definición clásica de conocimiento (creencia verdadera justificada) y, junto con la justificación, el concepto epistemológico más debatido.
+</dd>
+<dt>Verificación empírica</dt>
+<dd>
+Procedimiento mediante el cual se evalúa la validez de teorías o hipótesis a través de datos obtenidos por observación y experimentación. En el empirismo lógico del Círculo de Viena, la verificabilidad era criterio de significado cognitivo: un enunciado carece de sentido si no es verificable empíricamente ni es una verdad lógica. Las críticas de Popper (la verificación completa de enunciados universales es lógicamente imposible), Quine (la verificación se aplica a redes de creencias, no a enunciados aislados) y Kuhn (los datos no son teóricamente neutrales) condujeron al abandono del verificacionismo estricto. No obstante, la contrastación empírica —en versiones más sofisticadas— sigue siendo el criterio operativo fundamental de la práctica científica. Véanse → Falsabilidad, → Empirismo lógico.
+</dd>
+<dt>Virtud epistémica</dt>
+<dd>
+Rasgo de carácter intelectual que dispone al agente a formar creencias verdaderas, a evaluar la evidencia con imparcialidad y a conducirse de manera epistemológicamente responsable. La epistemología de la virtud (Ernest Sosa, Linda Zagzebski, Jason Baehr) traslada el foco desde las propiedades de las creencias individuales hacia las cualidades del agente que las forma. Las virtudes epistémicas incluyen la curiosidad, la humildad intelectual, la apertura de mente, la diligencia investigativa, la autonomía de juicio y el coraje intelectual. Simétricamente, los <em>vicios epistémicos</em> (Quassim Cassam, <em>Vices of the Mind</em>, 2019) incluyen el dogmatismo, la credulidad, la pereza intelectual, el sesgo de confirmación y la arrogancia epistémica. La epistemología de la virtud es especialmente relevante en contextos educativos: la formación epistémica no consiste solo en transmitir contenidos, sino en cultivar disposiciones intelectuales que permitan al sujeto navegar entornos informativos complejos.
+</dd>
+</dl>
+<p><a href="#sec-ag">▲</a></p>
+<hr>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./references.html" class="pagination-link" aria-label="Referencias">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Referencias</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

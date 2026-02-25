@@ -1,0 +1,2154 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>5&nbsp; El pensamiento subyacente – Teoría del Conocimiento</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./cap06-comunidades.html" rel="next">
+<link href="./cap04-cognicion.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-2641b481724464e61c86985d8c912b6f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-4c6d65c679321d81af7ec8b61b1d5a24.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cap05-subyacente.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">El pensamiento subyacente</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Teoría del Conocimiento</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">La teoría del conocimiento ante las nuevas teorías científicas</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap02-fisica.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">El conocimiento de la naturaleza física: espacio y tiempo, azar y orden</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap03-biologia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">El conocimiento de la naturaleza biológica y su complejidad</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap04-cognicion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">La revolución cognitiva</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap05-subyacente.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">El pensamiento subyacente</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap06-comunidades.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Epistemología social y convivencia democrática</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap07-irracionalidad.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Vectores de irracionalidad en la dinámica sociocultural</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cap08-dimension-social.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Universidades y dimensión social del conocimiento</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referencias</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Apéndices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glosario.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Glosario</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Índice</h2>
+   
+  <ul>
+  <li><a href="#sec-aplicaciones" id="toc-sec-aplicaciones" class="nav-link active" data-scroll-target="#sec-aplicaciones"><span class="header-section-number">5.1</span> Uso operativo y alcance</a></li>
+  <li><a href="#sec-revoluciones" id="toc-sec-revoluciones" class="nav-link" data-scroll-target="#sec-revoluciones"><span class="header-section-number">5.2</span> Revoluciones científicas como vectores del pensamiento subyacente</a>
+  <ul class="collapse">
+  <li><a href="#sec-copernicana" id="toc-sec-copernicana" class="nav-link" data-scroll-target="#sec-copernicana"><span class="header-section-number">5.2.1</span> La revolución copernicana</a></li>
+  <li><a href="#sec-evolucion" id="toc-sec-evolucion" class="nav-link" data-scroll-target="#sec-evolucion"><span class="header-section-number">5.2.2</span> La teoría de la evolución</a></li>
+  <li><a href="#sec-relatividad" id="toc-sec-relatividad" class="nav-link" data-scroll-target="#sec-relatividad"><span class="header-section-number">5.2.3</span> La teoría de la relatividad y la mecánica cuántica</a></li>
+  <li><a href="#sec-informacion" id="toc-sec-informacion" class="nav-link" data-scroll-target="#sec-informacion"><span class="header-section-number">5.2.4</span> La revolución de la información y las tecnologías digitales</a></li>
+  </ul></li>
+  <li><a href="#sec-discontinuidades" id="toc-sec-discontinuidades" class="nav-link" data-scroll-target="#sec-discontinuidades"><span class="header-section-number">5.3</span> Discontinuidades tecnológicas y reconfiguración cultural</a>
+  <ul class="collapse">
+  <li><a href="#sec-modelo" id="toc-sec-modelo" class="nav-link" data-scroll-target="#sec-modelo"><span class="header-section-number">5.3.1</span> Un modelo analítico para las discontinuidades</a></li>
+  <li><a href="#sec-fundacionales" id="toc-sec-fundacionales" class="nav-link" data-scroll-target="#sec-fundacionales"><span class="header-section-number">5.3.2</span> De la agricultura a la escritura: las discontinuidades fundacionales</a></li>
+  <li><a href="#sec-imprenta-industria" id="toc-sec-imprenta-industria" class="nav-link" data-scroll-target="#sec-imprenta-industria"><span class="header-section-number">5.3.3</span> Imprenta y Revolución Industrial: aceleración del cambio epistémico</a></li>
+  <li><a href="#sec-medios" id="toc-sec-medios" class="nav-link" data-scroll-target="#sec-medios"><span class="header-section-number">5.3.4</span> Medios de comunicación de masas y homogeneización cognitiva</a></li>
+  <li><a href="#sec-digitalizacion" id="toc-sec-digitalizacion" class="nav-link" data-scroll-target="#sec-digitalizacion"><span class="header-section-number">5.3.5</span> Digitalización, Internet y la sociedad red</a></li>
+  </ul></li>
+  <li><a href="#sec-ia" id="toc-sec-ia" class="nav-link" data-scroll-target="#sec-ia"><span class="header-section-number">5.4</span> La discontinuidad de la inteligencia artificial</a>
+  <ul class="collapse">
+  <li><a href="#sec-iot" id="toc-sec-iot" class="nav-link" data-scroll-target="#sec-iot"><span class="header-section-number">5.4.1</span> IoT y automatización como antecedentes inmediatos</a></li>
+  <li><a href="#sec-ia-generativa" id="toc-sec-ia-generativa" class="nav-link" data-scroll-target="#sec-ia-generativa"><span class="header-section-number">5.4.2</span> IA generativa: de herramienta a mediador cultural</a></li>
+  <li><a href="#sec-ia-agencial" id="toc-sec-ia-agencial" class="nav-link" data-scroll-target="#sec-ia-agencial"><span class="header-section-number">5.4.3</span> IA agencial y redefinición de la <em>expertise</em></a></li>
+  <li><a href="#sec-gobernanza" id="toc-sec-gobernanza" class="nav-link" data-scroll-target="#sec-gobernanza"><span class="header-section-number">5.4.4</span> Gobernanza y regulación de la IA: primeras respuestas institucionales</a></li>
+  </ul></li>
+  <li><a href="#sec-implicaciones" id="toc-sec-implicaciones" class="nav-link" data-scroll-target="#sec-implicaciones"><span class="header-section-number">5.5</span> Implicaciones en un contexto de fragmentación epistémica</a>
+  <ul class="collapse">
+  <li><a href="#sec-alfabetizacion" id="toc-sec-alfabetizacion" class="nav-link" data-scroll-target="#sec-alfabetizacion"><span class="header-section-number">5.5.1</span> Alfabetización epistémica en la era digital</a></li>
+  <li><a href="#sec-concentracion" id="toc-sec-concentracion" class="nav-link" data-scroll-target="#sec-concentracion"><span class="header-section-number">5.5.2</span> Concentración de poder tecnológico y asimetrías cognitivas</a></li>
+  <li><a href="#sec-conexion-cap6" id="toc-sec-conexion-cap6" class="nav-link" data-scroll-target="#sec-conexion-cap6"><span class="header-section-number">5.5.3</span> Conexiones con la fragmentación epistémica</a></li>
+  </ul></li>
+  <li><a href="#sec-sintesis" id="toc-sec-sintesis" class="nav-link" data-scroll-target="#sec-sintesis"><span class="header-section-number">5.6</span> Síntesis y mapa conceptual</a></li>
+  <li><a href="#sec-talleres" id="toc-sec-talleres" class="nav-link" data-scroll-target="#sec-talleres"><span class="header-section-number">5.7</span> Talleres</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">El pensamiento subyacente</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>El concepto de <em>pensamiento subyacente</em> designa el trasfondo de contenidos, referencias conceptuales y esquemas interpretativos —derivados de las revoluciones científicas y tecnológicas más influyentes— que definen umbrales básicos de alfabetización y desarrollo cultural en una sociedad determinada. A diferencia de nociones próximas como <em>Zeitgeist</em>, <em>episteme</em> <span class="citation" data-cites="foucault1966">(<a href="references.html#ref-foucault1966" role="doc-biblioref">Foucault, 1966</a>)</span> o <em>paradigma</em> <span class="citation" data-cites="kuhn2012">(<a href="references.html#ref-kuhn2012" role="doc-biblioref">Kuhn, 2012</a>)</span>, el pensamiento subyacente no se limita a los marcos teóricos dominantes en un campo disciplinar ni a las condiciones discursivas de una época. Se refiere, más bien, al conjunto de presupuestos, herramientas cognitivas y marcos de referencia que los miembros de una sociedad incorporan —con frecuencia de manera tácita— como resultado de la exposición acumulada a los productos de las revoluciones científicas y las discontinuidades tecnológicas que configuran su entorno cultural.</p>
+<section id="sec-aplicaciones" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="sec-aplicaciones"><span class="header-section-number">5.1</span> Uso operativo y alcance</h2>
+<p>La noción guarda cierta afinidad con los <em>background assumptions</em> de Searle <span class="citation" data-cites="searle1995">(<a href="references.html#ref-searle1995" role="doc-biblioref">Searle, 1995</a>)</span>, con el <em>horizonte de precomprensión</em> hermenéutico <span class="citation" data-cites="gadamer1975">(<a href="references.html#ref-gadamer1975" role="doc-biblioref">Gadamer, 1975</a>)</span> y con la idea de <em>sentido común</em> epistémico que autores como Sellars articularon en su crítica al mito de lo dado <span class="citation" data-cites="sellars1956">(<a href="references.html#ref-sellars1956" role="doc-biblioref">Sellars, 1956</a>)</span>. Sin embargo, el pensamiento subyacente se distingue por su énfasis en la dimensión <em>diacrónica y acumulativa</em> del proceso: cada revolución científica o discontinuidad tecnológica deposita un estrato de contenidos que modifica los criterios implícitos con los que una sociedad evalúa qué cuenta como conocimiento legítimo, qué herramientas son indispensables para la actividad profesional y qué marcos interpretativos resultan admisibles en el debate público.</p>
+<p>En términos operativos, el concepto permite analizar cómo los avances en física, biología, ciencia cognitiva y tecnología digital no solo transforman las disciplinas especializadas que los producen, sino que reconfiguran progresivamente el sustrato cognitivo compartido por comunidades cada vez más amplias. El heliocentrismo, la selección natural, la relatividad del espacio-tiempo o la computabilidad son hoy componentes del pensamiento subyacente de cualquier persona con formación secundaria en sociedades con sistemas educativos funcionales, aunque la comprensión técnica de estos conceptos varíe enormemente según el nivel de alfabetización científica <span class="citation" data-cites="bauer2019 miller2004">(<a href="references.html#ref-bauer2019" role="doc-biblioref">Bauer et&nbsp;al., 2000</a>; <a href="references.html#ref-miller2004" role="doc-biblioref">J. D. Miller, 2004</a>)</span>.</p>
+<p>Un concepto de esta naturaleza tiene ventajas e inconvenientes que conviene explicitar. Entre las ventajas: permite tender un puente entre la historia de la ciencia, la epistemología y la sociología del conocimiento, ofreciendo una categoría integradora para analizar cómo los productos de la actividad científica y tecnológica se sedimentan en la cultura. Resulta útil, además, para identificar <em>brechas</em> entre el pensamiento subyacente requerido por las exigencias de una sociedad tecnológicamente avanzada y el que efectivamente poseen segmentos significativos de la población —una brecha que, como veremos en capítulos posteriores, alimenta fenómenos de vulnerabilidad epistémica, negacionismo y manipulación informativa.</p>
+<p>Entre los inconvenientes: el concepto podría parecer excesivamente amplio o difuso si no se operativiza con criterios claros. Requiere distinguir entre estratos del pensamiento subyacente (científico, tecnológico, normativo) y especificar los mecanismos de incorporación (sistemas educativos, medios de comunicación, prácticas profesionales, entornos digitales). Tampoco debe confundirse con una visión lineal del progreso: como mostrará la sección sobre discontinuidades, las reconfiguraciones del pensamiento subyacente no siempre suponen avances netos en la calidad epistémica de las creencias colectivas. La desinformación industrializada, facilitada por las mismas tecnologías que democratizan el acceso al conocimiento, representa un vector de degradación del pensamiento subyacente que merece análisis diferenciado <span class="citation" data-cites="benkler2018 wardle2017">(<a href="references.html#ref-benkler2018" role="doc-biblioref">Benkler et&nbsp;al., 2018</a>; <a href="references.html#ref-wardle2017" role="doc-biblioref">Wardle &amp; Derakhshan, 2017</a>)</span>.</p>
+<p>Este capítulo se organiza en torno a tres ejes. En primer lugar (§5.2), se examinan las revoluciones científicas que han configurado los estratos fundamentales del pensamiento subyacente contemporáneo. En segundo lugar (§5.3–5.4), se analizan las discontinuidades tecnológicas —desde la agricultura hasta la inteligencia artificial— como vectores de reconfiguración cultural y cognitiva. Finalmente (§5.5), se exploran las implicaciones epistemológicas del pensamiento subyacente emergente en la era de la IA generativa, estableciendo conexiones explícitas con los temas que se desarrollarán en el capítulo 6 sobre la confrontación entre comunidades ancladas en la realidad y grupos de afinidad ideológica.</p>
+</section>
+<section id="sec-revoluciones" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="sec-revoluciones"><span class="header-section-number">5.2</span> Revoluciones científicas como vectores del pensamiento subyacente</h2>
+<p>Las revoluciones científicas que se analizan en esta sección no se estudian por su interés historiográfico intrínseco —aspecto ya abordado en los capítulos 2 y 3—, sino como <em>vectores de transformación del pensamiento subyacente</em>: procesos mediante los cuales un cambio radical en la comprensión científica de un dominio termina reconfigurando los presupuestos cognitivos de comunidades que trascienden con creces el campo disciplinar de origen. El mecanismo de transmisión es complejo e involucra múltiples mediaciones: sistemas educativos, divulgación científica, aplicaciones tecnológicas, productos culturales y, de manera creciente, entornos digitales <span class="citation" data-cites="secord2004 bowler2020">(<a href="references.html#ref-bowler2020" role="doc-biblioref">Bowler &amp; Morus, 2020</a>; <a href="references.html#ref-secord2004" role="doc-biblioref">Secord, 2004</a>)</span>.</p>
+<section id="sec-copernicana" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="sec-copernicana"><span class="header-section-number">5.2.1</span> La revolución copernicana</h3>
+<p>Aunque menos frecuentes de lo que popularmente se cree, las revoluciones científicas y tecnológicas posteriores al Renacimiento han tenido un impacto profundo en la configuración del pensamiento y la cultura contemporánea. Como ejemplo paradigmático suele mencionarse la revolución copernicana, por su capacidad para transformar la comprensión del mundo natural heredada del medievo —ligada al modelo geocentrista aristotélico-ptolemaico— y otros aspectos cruciales asociados con la realidad, la verdad y el lugar de la humanidad en el cosmos <span class="citation" data-cites="Koyre1957Closed Reichenbach1945Cop">(<a href="references.html#ref-Koyre1957Closed" role="doc-biblioref">Koyré, 1957</a>; <a href="references.html#ref-Reichenbach1945Cop" role="doc-biblioref">Reichenbach, 1945</a>)</span>.</p>
+<p>Como señala Kuhn en <em>La revolución copernicana</em> (1957), las aportaciones de Copérnico, Galileo y Kepler no solo desplazaron a la Tierra del centro del universo y demostraron la mayor precisión del modelo heliocéntrico. Kuhn sostiene que ese cambio radical supuso también un desafío para las creencias antropológicas tradicionales —cuestionando el presupuesto de la centralidad y significación humana— y contribuyó a desacreditar las metodologías exclusivamente deductivas o desvinculadas de la observación como enfoques epistémicos adecuados para comprender la complejidad de los procesos en el mundo natural <span class="citation" data-cites="kuhn1957">(<a href="references.html#ref-kuhn1957" role="doc-biblioref">1957</a>)</span>.</p>
+<p>Evandro Agazzi considera la síntesis realizada por Isaac Newton en el siglo XVII —unificando las leyes del movimiento y la gravitación universal— una revolución genuina, dado que estableció los fundamentos de la física clásica y proporcionó un marco conceptual y matemático para entender el movimiento de los objetos terrestres y celestes, desacreditando creencias milenarias acerca de la radical separación entre mundo sublunar y supralunar <span class="citation" data-cites="agazzi2011">(<a href="references.html#ref-agazzi2011" role="doc-biblioref">Agazzi, 2014</a>)</span>.</p>
+<p>La necesidad de cambio raramente se capta desde fuera del campo disciplinar donde afloran problemas para los que el marco tradicional no aporta soluciones satisfactorias. Según Thomas Kuhn, solo los afectados están en condiciones de entender como <em>revolucionarios</em> los cambios producidos en el tratamiento de ciertos problemas que, vistos desde fuera, no serían más que parte del proceso normal de desarrollo de la investigación en un dominio de conocimiento <span class="citation" data-cites="kuhn1996nature">(<a href="references.html#ref-kuhn1996nature" role="doc-biblioref">Kuhn, 1991</a>)</span>.</p>
+<p>La interpretación del <em>cambio de paradigma</em> como un proceso pacífico, esencialmente centrado en la persuasión intelectual y en la evidencia aportada por instrumentos de observación, parece encajar mejor en la categoría de idealización simplificadora que en el tipo de explicación detallada capaz de dar cuenta de lo ocurrido en la heterogeneidad de saberes y campos de conocimiento de la cultura y la ciencia de los siglos XVI y XVII <span class="citation" data-cites="shapin2000">(<a href="references.html#ref-shapin2000" role="doc-biblioref">Shapin, 1996</a>)</span>.</p>
+<p>En términos de pensamiento subyacente, la revolución copernicana depositó un estrato decisivo: la idea de que la posición del observador no es privilegiada, que las apariencias pueden ser sistemáticamente engañosas y que la comprensión de la naturaleza requiere herramientas formales (matemáticas) y empíricas (observación instrumentada) que trascienden el sentido común. Este estrato —que Kant conceptualizaría como el “giro copernicano” del conocimiento— constituye un componente irreductible del pensamiento subyacente de cualquier sociedad con acceso a educación científica básica.</p>
+</section>
+<section id="sec-evolucion" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="sec-evolucion"><span class="header-section-number">5.2.2</span> La teoría de la evolución</h3>
+<p>La teoría de la evolución de Darwin revolucionó la comprensión de los orígenes, las interrelaciones y la diversidad de la vida en el siglo XIX. Pero su aceptación no fue el resultado de un proceso de difusión pacífica y persuasiva. Charles Darwin fue plenamente consciente de que su teoría de la evolución por selección natural cuestionaba la visión teleológica de la naturaleza y la inmutabilidad de las especies, predominantes en la biología de su época <span class="citation" data-cites="darwin1859">(<a href="references.html#ref-darwin1859" role="doc-biblioref">Darwin, 1859</a>)</span>.</p>
+<p>La evolución por selección natural introdujo en el pensamiento subyacente un principio epistemológico de consecuencias profundas: la posibilidad de explicar el orden y la complejidad biológica sin recurrir a un diseñador intencional. Como argumentó Daniel Dennett, el darwinismo constituye una “idea peligrosa” precisamente porque su lógica —variación, selección, retención— es un algoritmo aplicable a dominios muy diversos, desde la biología molecular hasta la evolución cultural <span class="citation" data-cites="dennett1995">(<a href="references.html#ref-dennett1995" role="doc-biblioref">Dennett, 1995</a>)</span>.</p>
+<p>La consolidación de la síntesis evolutiva moderna durante el siglo XX —integrando genética mendeliana, genética de poblaciones y paleontología— amplió el impacto del pensamiento evolutivo más allá de la biología. La epistemología evolutiva de Campbell, Popper y más recientemente Buskes <span class="citation" data-cites="buskes2013">(<a href="references.html#ref-buskes2013" role="doc-biblioref">Buskes, 2013</a>)</span> extendió los principios darwinistas al análisis de la producción y selección del conocimiento científico, estableciendo conexiones directas con los temas desarrollados en el capítulo 3. A ello se suman los desarrollos recientes en genómica comparada y paleogenómica, analizados en el capítulo 3, que han reforzado la base empírica del pensamiento evolutivo con una resolución sin precedentes <span class="citation" data-cites="reich2018 Paabo2010Neander">(<a href="references.html#ref-Paabo2010Neander" role="doc-biblioref">Green et&nbsp;al., 2010</a>; <a href="references.html#ref-reich2018" role="doc-biblioref">Reich, 2018</a>)</span>.</p>
+<p>En términos de pensamiento subyacente, la revolución darwiniana depositó otro estrato fundamental: la idea de que los seres humanos son parte de un continuo biológico con el resto de las especies, que las explicaciones naturalistas son preferibles a las sobrenaturales en el ámbito de los fenómenos naturales, y que los procesos históricos y contingentes —no solo las leyes universales— desempeñan un papel constitutivo en la comprensión del mundo. Este estrato, sin embargo, sigue siendo uno de los que más oposición suscita entre amplios segmentos de la población mundial, lo que ilustra cómo el pensamiento subyacente no se impone de manera automática ni uniforme <span class="citation" data-cites="miller2006evolution">(<a href="references.html#ref-miller2006evolution" role="doc-biblioref">J. D. Miller et&nbsp;al., 2006</a>)</span>.</p>
+</section>
+<section id="sec-relatividad" class="level3" data-number="5.2.3">
+<h3 data-number="5.2.3" class="anchored" data-anchor-id="sec-relatividad"><span class="header-section-number">5.2.3</span> La teoría de la relatividad y la mecánica cuántica</h3>
+<p>La revolución en la física del siglo XX —asociada a la relatividad especial y general de Einstein y a la mecánica cuántica desarrollada por Planck, Bohr, Heisenberg, Schrödinger y Dirac— constituye probablemente la transformación más radical del pensamiento subyacente en lo que respecta a la comprensión de la estructura fundamental de la realidad física.</p>
+<p>La relatividad especial <span class="citation" data-cites="einstein1905">(<a href="references.html#ref-einstein1905" role="doc-biblioref">1905</a>)</span> demostró que el espacio y el tiempo no son entidades absolutas e independientes, sino dimensiones entrelazadas de un continuo espacio-temporal cuya geometría depende del movimiento relativo del observador. La relatividad general (1915) amplió esta reconceptualización al mostrar que la materia y la energía curvan el espacio-tiempo, proporcionando una nueva teoría de la gravitación que reemplazó a la newtoniana en contextos de campos gravitatorios intensos <span class="citation" data-cites="einstein1916 rovelli2015">(<a href="references.html#ref-einstein1916" role="doc-biblioref">Einstein, 1916</a>; <a href="references.html#ref-rovelli2015" role="doc-biblioref">Rovelli, 2015</a>)</span>.</p>
+<p>La mecánica cuántica, por su parte, introdujo una ruptura aún más profunda con la intuición cotidiana. El principio de incertidumbre de Heisenberg, la dualidad onda-partícula y el fenómeno de entrelazamiento cuántico desafiaron los presupuestos deterministas y localistas del pensamiento clásico, estableciendo límites fundamentales a la predictibilidad y forzando una reconceptualización de nociones tan básicas como medición, causalidad y realidad física <span class="citation" data-cites="heisenberg1927 bell1964">(<a href="references.html#ref-bell1964" role="doc-biblioref">Bell, 1964</a>; <a href="references.html#ref-heisenberg1927" role="doc-biblioref">Heisenberg, 1927</a>)</span>.</p>
+<p>Como se analizó en el capítulo 2, las implicaciones epistemológicas de estas teorías han alimentado debates filosóficos de primer orden durante más de un siglo. En términos de pensamiento subyacente, la física del siglo XX deposita un estrato particularmente desafiante: la idea de que la realidad fundamental puede ser radicalmente contraintuitiva, que las categorías del sentido común (espacio absoluto, determinismo estricto, separabilidad de los sistemas) tienen un rango de validez limitado, y que la comprensión profunda de la naturaleza puede requerir marcos formales (tensores, espacios de Hilbert) inaccesibles sin formación matemática avanzada.</p>
+<p>Este último aspecto plantea un problema específico para el pensamiento subyacente: la brecha entre las implicaciones de la física moderna y la comprensión que de ellas tienen incluso las personas con formación universitaria es posiblemente más amplia que en cualquier otra revolución científica previa. Los desarrollos recientes en computación cuántica —con los avances de Google, IBM y el laboratorio chino USTC en la demostración de ventaja cuántica— están comenzando a trasladar estas abstracciones al dominio de las aplicaciones tecnológicas, lo que podría cerrar parcialmente esta brecha en las próximas décadas <span class="citation" data-cites="arute2019 preskill2018">(<a href="references.html#ref-arute2019" role="doc-biblioref">Arute et&nbsp;al., 2019</a>; <a href="references.html#ref-preskill2018" role="doc-biblioref">Preskill, 2018</a>)</span>.</p>
+</section>
+<section id="sec-informacion" class="level3" data-number="5.2.4">
+<h3 data-number="5.2.4" class="anchored" data-anchor-id="sec-informacion"><span class="header-section-number">5.2.4</span> La revolución de la información y las tecnologías digitales</h3>
+<p>La cuarta revolución científico-tecnológica con impacto decisivo en el pensamiento subyacente se asocia con la teoría matemática de la información de Claude Shannon (1948) y la cibernética de Norbert Wiener, que proporcionaron los fundamentos teóricos para la codificación, transmisión y procesamiento de información en formato digital <span class="citation" data-cites="shannon1948 wiener1948">(<a href="references.html#ref-shannon1948" role="doc-biblioref">Shannon, 1948</a>; <a href="references.html#ref-wiener1948" role="doc-biblioref">Wiener, 1948</a>)</span>.</p>
+<p>La digitalización ha facilitado que grandes cantidades de información estén disponibles al instante y a escala global, reduciendo significativamente las barreras geográficas y temporales para acceder al conocimiento. En muchos aspectos, se ha democratizado el aprendizaje y se han popularizado herramientas, plataformas y servicios que posibilitan a personas de todo el mundo contribuir y participar en la creación y difusión del conocimiento <span class="citation" data-cites="castells2010">(<a href="references.html#ref-castells2010" role="doc-biblioref">Castells, 2010</a>)</span>.</p>
+<p>En términos de pensamiento subyacente, la revolución informacional deposita un estrato con características inéditas: por primera vez, una revolución científica genera herramientas que modifican directa y masivamente las prácticas cognitivas cotidianas de miles de millones de personas. Los conceptos de algoritmo, dato, red, interfaz y procesamiento —antes restringidos a comunidades especializadas— se han convertido en componentes del vocabulario y las prácticas básicas de sociedades enteras, reconfigurando las nociones de privacidad, autoría, verdad y confianza epistémica <span class="citation" data-cites="floridi2014">(<a href="references.html#ref-floridi2014" role="doc-biblioref">Floridi, 2014</a>)</span>.</p>
+<p>El impacto cultural de esta revolución va ligado a la dinámica de innovación tecnológica, actuando como vector decisivo de transformación social desde el sistema productivo y a través de los sistemas educativos. La rápida sucesión de transformaciones disruptivas en pocas décadas es un fenómeno sin precedentes, con potencial constatado para modificar a escala mundial la forma en que vivimos, trabajamos y nos relacionamos <span class="citation" data-cites="brynjolfsson2014 schwab2016">(<a href="references.html#ref-brynjolfsson2014" role="doc-biblioref">Brynjolfsson &amp; McAfee, 2014</a>; <a href="references.html#ref-schwab2016" role="doc-biblioref">Schwab, 2016</a>)</span>.</p>
+<p>El reverso de esta dinámica competitiva por liderar la innovación tecnológica en sectores clave ha sido la concentración de un poder desproporcionado en pocas megacorporaciones. Con medios y capacidades que superan a los de los actores estatales, imponen sus modelos de negocio, controlan las nuevas plataformas de interacción social y los cauces de producción cultural. Conocer la influencia de estos actores y su modelo de negocio es esencial para descifrar las tendencias o corrientes subyacentes del pensamiento y la cultura contemporánea <span class="citation" data-cites="zuboff2019 rikap2022">(<a href="references.html#ref-rikap2022" role="doc-biblioref">Rikap, 2022</a>; <a href="references.html#ref-zuboff2019" role="doc-biblioref">Zuboff, 2019</a>)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Estudio de caso — Analogía estructural entre imprenta de Gutenberg e IA generativa
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">Contexto</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Análisis comparativo</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Valoración</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Referencias</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>La invención de la imprenta con tipos móviles por Johannes Gutenberg (c.&nbsp;1440) y la irrupción de la IA generativa (2022–) constituyen dos discontinuidades tecnológicas separadas por casi seis siglos que, sin embargo, presentan paralelismos estructurales notables en su impacto sobre el pensamiento subyacente.</p>
+<p>Ambas tecnologías comparten una característica fundamental: transforman radicalmente los costes de <em>reproducción y distribución</em> de contenido simbólico. La imprenta redujo el coste de copiar textos en varios órdenes de magnitud; la IA generativa reduce el coste de <em>producir</em> texto, imagen, código y otros contenidos en una escala comparable <span class="citation" data-cites="eisenstein2013 bommasani2022">(<a href="references.html#ref-bommasani2022" role="doc-biblioref">Bommasani et&nbsp;al., 2022</a>; <a href="references.html#ref-eisenstein2013" role="doc-biblioref">Eisenstein, 2013</a>)</span>.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p><strong>Dimensión 1 — Democratización del acceso</strong>: La imprenta democratizó el <em>acceso</em> al conocimiento existente; la IA generativa democratiza el acceso a capacidades de <em>producción</em> de contenido que antes requerían formación especializada.</p>
+<p><strong>Dimensión 2 — Desintermediación</strong>: La imprenta erosionó el monopolio eclesiástico sobre el saber; la IA generativa erosiona los monopolios profesionales sobre ciertas formas de expertise (traducción, redacción, análisis, codificación).</p>
+<p><strong>Dimensión 3 — Sobrecarga informativa</strong>: La imprenta generó por primera vez un problema de <em>too much to know</em> <span class="citation" data-cites="blair2011">(<a href="references.html#ref-blair2011" role="doc-biblioref">Blair, 2011</a>)</span> que obligó a desarrollar nuevas herramientas de gestión del conocimiento (índices, bibliografías, enciclopedias); la IA generativa intensifica este problema exponencialmente, exigiendo nuevas formas de curación, verificación y evaluación crítica.</p>
+<p><strong>Dimensión 4 — Reconfiguración del poder</strong>: La imprenta facilitó la Reforma Protestante, el surgimiento de identidades nacionales y la consolidación del Estado moderno; la IA generativa está reconfigurando las relaciones de poder entre corporaciones tecnológicas, Estados y ciudadanía, con implicaciones aún difíciles de calibrar <span class="citation" data-cites="crawford2021">(<a href="references.html#ref-crawford2021" role="doc-biblioref">Crawford, 2021</a>)</span>.</p>
+<p><strong>Dimensión 5 — Transformación cognitiva</strong>: La imprenta promovió el pensamiento lineal, analítico y descontextualizado característico de la cultura letrada; la IA generativa promueve formas de cognición delegada, interactiva y probabilística cuyas consecuencias a largo plazo son objeto de debate <span class="citation" data-cites="carr2010 floridi2020gpt3">(<a href="references.html#ref-carr2010" role="doc-biblioref">Carr, 2010</a>; <a href="references.html#ref-floridi2020gpt3" role="doc-biblioref">Floridi &amp; Chiriatti, 2020</a>)</span>.</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>La analogía tiene límites importantes. La velocidad de difusión de la IA generativa es incomparablemente mayor: mientras la imprenta tardó décadas en alcanzar masas críticas de usuarios, ChatGPT alcanzó 100 millones de usuarios en dos meses. Además, la IA generativa no solo reproduce contenido sino que lo <em>genera</em>, lo que plantea problemas de autoría, veracidad y responsabilidad epistémica sin precedente directo en la historia de la imprenta.</p>
+<p>No obstante, la analogía es epistemológicamente productiva porque permite identificar patrones recurrentes en la relación entre tecnologías de mediación simbólica y transformación del pensamiento subyacente, evitando tanto el determinismo tecnológico ingenuo como la infravaloración de los efectos estructurales de las discontinuidades tecnológicas.</p>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<ul>
+<li><span class="citation" data-cites="eisenstein2013">Eisenstein (<a href="references.html#ref-eisenstein2013" role="doc-biblioref">2013</a>)</span></li>
+<li><span class="citation" data-cites="bommasani2022">Bommasani et&nbsp;al. (<a href="references.html#ref-bommasani2022" role="doc-biblioref">2022</a>)</span></li>
+<li><span class="citation" data-cites="blair2011">Blair (<a href="references.html#ref-blair2011" role="doc-biblioref">2011</a>)</span></li>
+<li><span class="citation" data-cites="crawford2021">Crawford (<a href="references.html#ref-crawford2021" role="doc-biblioref">2021</a>)</span></li>
+<li><span class="citation" data-cites="carr2010">Carr (<a href="references.html#ref-carr2010" role="doc-biblioref">2010</a>)</span></li>
+<li><span class="citation" data-cites="floridi2020gpt3">Floridi &amp; Chiriatti (<a href="references.html#ref-floridi2020gpt3" role="doc-biblioref">2020</a>)</span></li>
+<li><span class="citation" data-cites="febvre2010">Febvre &amp; Martin (<a href="references.html#ref-febvre2010" role="doc-biblioref">2010</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="sec-discontinuidades" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="sec-discontinuidades"><span class="header-section-number">5.3</span> Discontinuidades tecnológicas y reconfiguración cultural</h2>
+<section id="sec-modelo" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="sec-modelo"><span class="header-section-number">5.3.1</span> Un modelo analítico para las discontinuidades</h3>
+<p>La historia de la humanidad está marcada por discontinuidades tecnológicas y culturales que han transformado radicalmente las estructuras de la sociedad y los modos de pensar. A diferencia de las aproximaciones continuistas que subrayan la evolución gradual de los sistemas sociotécnicos, el análisis de las discontinuidades permite identificar los puntos de inflexión que han desencadenado transformaciones estructurales en la configuración del pensamiento humano y sus manifestaciones culturales <span class="citation" data-cites="mumford2010 kuhn2012">(<a href="references.html#ref-kuhn2012" role="doc-biblioref">Kuhn, 2012</a>; <a href="references.html#ref-mumford2010" role="doc-biblioref">Mumford, 2010</a>)</span>.</p>
+<p>La noción de discontinuidad puede ser entendida extrapolando su sentido físico —imperfección o defecto en los materiales, detectable como una grieta o separación en la estructura— para referirse a un fenómeno multidimensional causado por la <em>irrupción de tecnologías que originan nuevos sistemas de mediación entre el ser humano y su entorno</em>, lo que a su vez provoca una <em>reconfiguración de las estructuras sociales y de poder</em>, <em>transforma los sistemas simbólicos y representacionales</em> y modifica de manera sustancial los procesos cognitivos individuales y colectivos <span class="citation" data-cites="hutchins2013 tomasello2001 luhmann2012">(<a href="references.html#ref-hutchins2013" role="doc-biblioref">Hutchins, 2013</a>; <a href="references.html#ref-luhmann2012" role="doc-biblioref">Luhmann, 2012</a>; <a href="references.html#ref-tomasello2001" role="doc-biblioref">Tomasello, 1999</a>)</span>.</p>
+<p>Para sistematizar el análisis, resulta útil evaluar cada discontinuidad en función de cuatro dimensiones que permiten comparar su impacto relativo sobre el pensamiento subyacente:</p>
+<ol type="1">
+<li><p><strong>Dimensión cognitiva</strong>: ¿Qué nuevas capacidades de procesamiento, almacenamiento o comunicación de información introduce la tecnología? ¿Qué formas de pensamiento potencia o inhibe?</p></li>
+<li><p><strong>Dimensión social-institucional</strong>: ¿Cómo reconfigura las estructuras de poder, las instituciones del saber y los mecanismos de legitimación del conocimiento?</p></li>
+<li><p><strong>Dimensión epistémica</strong>: ¿Qué criterios de validez, evidencia y justificación modifica? ¿Genera nuevas formas de conocimiento o nuevas formas de ignorancia?</p></li>
+<li><p><strong>Dimensión político-económica</strong>: ¿Quién controla la tecnología y sus productos? ¿Cómo se distribuyen sus beneficios y riesgos?</p></li>
+</ol>
+<p>Este marco analítico se aplicará en las subsecciones siguientes a las principales discontinuidades identificadas, con especial atención a las que han configurado el pensamiento subyacente de las sociedades contemporáneas.</p>
+</section>
+<section id="sec-fundacionales" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="sec-fundacionales"><span class="header-section-number">5.3.2</span> De la agricultura a la escritura: las discontinuidades fundacionales</h3>
+<p><strong>Agricultura.</strong> Hace aproximadamente 10.000–12.000 años, la transición de sociedades cazadoras-recolectoras a agrícolas marcó una de las primeras grandes discontinuidades en la historia humana. La agricultura permitió la sedentarización de las poblaciones y el desarrollo de excedentes alimenticios, lo que llevó a una mayor complejidad social y al surgimiento de las primeras ciudades y estados <span class="citation" data-cites="diamond1997 bleaney2011">(<a href="references.html#ref-bleaney2011" role="doc-biblioref">Bleaney &amp; Dimico, 2011</a>; <a href="references.html#ref-diamond1997" role="doc-biblioref">Diamond, 1997</a>)</span>.</p>
+<p>La modificación de los sistemas ligados a la subsistencia supuso una reconfiguración completa de la relación humana con el tiempo, el espacio y la naturaleza. En términos de pensamiento subyacente, la revolución agrícola instaló un estrato de cognición planificadora orientada al ciclo estacional, favoreciendo nociones de propiedad, acumulación y previsión temporal que constituyen precondiciones para el desarrollo posterior de sistemas contables, calendarios y, en última instancia, el pensamiento abstracto <span class="citation" data-cites="scott2017">(<a href="references.html#ref-scott2017" role="doc-biblioref">Scott, 2017</a>)</span>.</p>
+<p>Evaluada según el modelo analítico propuesto: cognitivamente, introdujo la planificación a largo plazo y la abstracción temporal; socialmente, generó las primeras jerarquías estables y la especialización funcional; epistémicamente, creó las condiciones para la acumulación sistemática de conocimiento práctico; políticamente, inauguró las asimetrías de poder basadas en el control de recursos.</p>
+<p><strong>Escritura.</strong> Los primeros sistemas de escritura —cuneiformes y jeroglíficos— surgieron inicialmente como tecnologías administrativas en sociedades complejas. Pero su transformación en herramientas para la transmisión intergeneracional de la memoria cultural y la creación de repositorios de conocimiento colectivo fue rápida, proporcionando ventajas diferenciadas entre sociedades orales y escriturales <span class="citation" data-cites="ong1982 goody1968">(<a href="references.html#ref-goody1968" role="doc-biblioref">Goody &amp; Watt, 1968</a>; <a href="references.html#ref-ong1982" role="doc-biblioref">Ong, 1982</a>)</span>.</p>
+<p>Se asocia esta discontinuidad con una bifurcación cognitiva sustancial en los procesos de pensamiento. Las culturas orales se caracterizaban por modos de cognición situados, concretos y contextuales, mientras que la escritura posibilitó el desarrollo del pensamiento abstracto, descontextualizado y analítico, favoreciendo formas más complejas de razonamiento lógico-deductivo. Su difusión en los focos de intercambio comercial se considera la base epistemológica para el desarrollo posterior del pensamiento filosófico y científico <span class="citation" data-cites="havelock1986">(<a href="references.html#ref-havelock1986" role="doc-biblioref">Havelock, 1986</a>)</span>.</p>
+<p>No resulta descabellado asociar con el dominio de la escritura la irrupción de asimetrías de poder entre poblaciones alfabetizadas y no alfabetizadas. Pero, en un sentido amplio, las sociedades alfabetizadas pudieron incrementar la eficacia de sus dinámicas de cooperación mediante la acumulación sistemática del saber, de conocimientos prácticos y a la larga de tradiciones intelectuales capaces de sortear las limitaciones espacio-temporales inherentes a la oralidad <span class="citation" data-cites="goody1968">(<a href="references.html#ref-goody1968" role="doc-biblioref">Goody &amp; Watt, 1968</a>)</span>.</p>
+</section>
+<section id="sec-imprenta-industria" class="level3" data-number="5.3.3">
+<h3 data-number="5.3.3" class="anchored" data-anchor-id="sec-imprenta-industria"><span class="header-section-number">5.3.3</span> Imprenta y Revolución Industrial: aceleración del cambio epistémico</h3>
+<p><strong>Imprenta.</strong> La invención de la imprenta con tipos móviles por Johannes Gutenberg a mediados del siglo XV supuso una discontinuidad con impacto decisivo en las estructuras cognitivas, sociales y políticas de la civilización occidental. Revolucionó la transmisión del conocimiento, al facilitar la reproducción masiva de libros en una escala imposible de igualar por copistas humanos. La imprenta democratizó el acceso al saber, propiciando el Renacimiento, la Reforma y eventualmente la Ilustración <span class="citation" data-cites="eisenstein2013 febvre2010">(<a href="references.html#ref-eisenstein2013" role="doc-biblioref">Eisenstein, 2013</a>; <a href="references.html#ref-febvre2010" role="doc-biblioref">Febvre &amp; Martin, 2010</a>)</span>.</p>
+<p>La disponibilidad de textos idénticos y estandarizados facilitó la comparación crítica, el desarrollo de sistemas de referencias cruzadas y la emergencia de comunidades epistémicas sin fronteras políticas, jurídicas ni religiosas. El hábito de lectura silenciosa individual sustituyó a la lectura en voz alta de libros escasos y caros, potenciando una mayor diversidad en la interiorización del conocimiento <span class="citation" data-cites="chartier1994">(<a href="references.html#ref-chartier1994" role="doc-biblioref">Chartier, 1994</a>)</span>.</p>
+<p>En pocas décadas, la imprenta aceleró la fragmentación de la hegemonía intelectual eclesiástica y propició el surgimiento de múltiples perspectivas, así como la difusión de ideas heterodoxas. La estandarización lingüística promovida por la imprenta resultó fundamental en la construcción de identidades nacionales y en la consolidación de los estados-nación modernos. El formato del libro impreso, con sus índices, paginación, referencias cruzadas y organización temática, contribuyó a instaurar una nueva arquitectura del saber caracterizada por la sistematización, la categorización y la linealidad <span class="citation" data-cites="blair2011">(<a href="references.html#ref-blair2011" role="doc-biblioref">Blair, 2011</a>)</span>.</p>
+<p><strong>Revolución Industrial.</strong> Iniciada en Gran Bretaña a finales del siglo XVIII, la Revolución Industrial constituye una discontinuidad cuyo impacto trasciende la dimensión productiva. La mecanización transformó la estructura temporal y espacial de la vida cotidiana, instaurando regímenes de tiempo industrial que reconfiguraron los patrones cognitivos ligados a la percepción del trabajo, el ocio y la productividad. Simultáneamente, la urbanización masiva generó nuevas formas de organización social, con instituciones educativas diseñadas para formar trabajadores adaptados a las exigencias del sistema fabril <span class="citation" data-cites="thompson1967 mokyr2017">(<a href="references.html#ref-mokyr2017" role="doc-biblioref">Mokyr, 2017</a>; <a href="references.html#ref-thompson1967" role="doc-biblioref">Thompson, 1967</a>)</span>.</p>
+<p>Se considera efecto colateral de la industrialización el vínculo sistemático entre investigación científica, innovación tecnológica y aplicación industrial, el cual contribuyó al desarrollo de disciplinas científicas aplicadas, aportó prestigio a sus practicantes y reforzó la institucionalización del conocimiento técnico <span class="citation" data-cites="mumford2010 mokyr2017">(<a href="references.html#ref-mokyr2017" role="doc-biblioref">Mokyr, 2017</a>; <a href="references.html#ref-mumford2010" role="doc-biblioref">Mumford, 2010</a>)</span>.</p>
+<p>En términos de pensamiento subyacente, la Revolución Industrial depositó un estrato de racionalidad instrumental, eficiencia y cuantificación que sigue siendo constitutivo del modo en que las sociedades industrializadas entienden el progreso, el trabajo y la relación entre conocimiento y producción. Pero también generó sus propios anticuerpos conceptuales: las críticas al industrialismo de pensadores como Owen, Saint-Simon y posteriormente Marx inauguraron una tradición de análisis social del impacto de las tecnologías que resulta directamente relevante para los debates contemporáneos sobre la IA <span class="citation" data-cites="polanyi1944 owen1813">(<a href="references.html#ref-owen1813" role="doc-biblioref">Owen, 1813</a>; <a href="references.html#ref-polanyi1944" role="doc-biblioref">Polanyi, 1944</a>)</span>.</p>
+</section>
+<section id="sec-medios" class="level3" data-number="5.3.4">
+<h3 data-number="5.3.4" class="anchored" data-anchor-id="sec-medios"><span class="header-section-number">5.3.4</span> Medios de comunicación de masas y homogeneización cognitiva</h3>
+<p>La emergencia y consolidación de los medios de comunicación masiva durante los siglos XIX y XX —prensa industrial, radio, cine, televisión— instauró una discontinuidad caracterizada por la sincronización de las experiencias colectivas y la construcción de relatos e imaginarios compartidos, primero a escala nacional y después global. Por sus características técnicas, los medios masivos permitieron la diseminación simultánea de contenidos idénticos a audiencias dispersas geográficamente, generando comunidades culturales que trascendían las limitaciones de la experiencia inmediata <span class="citation" data-cites="anderson1991">(<a href="references.html#ref-anderson1991" role="doc-biblioref">Anderson, 1991</a>)</span>.</p>
+<p>La recepción simultánea de estímulos e información estandarizada originó nuevas formas de cognición social, amplió el potencial para la construcción de marcos interpretativos comunes e hizo posible la sincronización de agendas temáticas colectivas, contribuyendo a modelar activamente los esquemas perceptivos y los sistemas de categorización social de sus audiencias <span class="citation" data-cites="lippmann2017">(<a href="references.html#ref-lippmann2017" role="doc-biblioref">Lippmann, 2017</a>)</span>.</p>
+<p>Los nuevos canales contribuyeron a unificar experiencias y reforzaron nexos de interconexión cultural, posibilitando fenómenos de homogeneización cultural y lingüística a gran escala, así como nuevas formas de control social a través de la propaganda y la construcción mediática de la opinión pública. Esta dinámica favoreció la consolidación de estados-nación modernos; pero generó nuevos espacios para articular formas de resistencia y dar voz a discursos contrahegemónicos <span class="citation" data-cites="habermas1991">(<a href="references.html#ref-habermas1991" role="doc-biblioref">Habermas, 1991</a>)</span>.</p>
+<p>Según Marshall McLuhan, los nuevos medios de masas operan como <em>extensiones del ser humano</em>, puesto que cada medio reconfigura las relaciones sensoriales y cognitivas, modificando tanto el contenido de la comunicación como la estructura misma del pensamiento. La televisión potenció una epistemología centrada en el formato visual, priorizando la inmediatez y la estimulación sensorial en detrimento del análisis lógico-secuencial característico de la cultura impresa <span class="citation" data-cites="mcluhan1964">(<a href="references.html#ref-mcluhan1964" role="doc-biblioref">McLuhan, 1964</a>)</span>.</p>
+</section>
+<section id="sec-digitalizacion" class="level3" data-number="5.3.5">
+<h3 data-number="5.3.5" class="anchored" data-anchor-id="sec-digitalizacion"><span class="header-section-number">5.3.5</span> Digitalización, Internet y la sociedad red</h3>
+<p>Desde su expansión en los años 90, Internet ha sido seguramente la discontinuidad con mayor impacto en términos de comunicación y acceso a la información. Ha cambiado radicalmente las industrias, desde el comercio o el entretenimiento hasta la educación, y ha reestructurado las interacciones sociales y políticas a una escala global. A diferencia de los medios unidireccionales, Internet constituye un metasistema comunicativo que integra múltiples modalidades de interacción, difuminando las fronteras entre productores y consumidores de información <span class="citation" data-cites="castells2010">(<a href="references.html#ref-castells2010" role="doc-biblioref">Castells, 2010</a>)</span>.</p>
+<p>El paradigma cognitivo resultante se caracteriza por la hiperconectividad, la multimodalidad y la simultaneidad, lo que permite externalizar gran parte de los procesos cognitivos humanos. Los procesos de atención fluctúan entre estímulos ligados a la experiencia directa y los que proceden de sistemas tecnológicos interconectados, con potencial suficiente para modificar de manera sustancial los mecanismos de atención, memoria y procesamiento informativo <span class="citation" data-cites="carr2010 sparrow2011">(<a href="references.html#ref-carr2010" role="doc-biblioref">Carr, 2010</a>; <a href="references.html#ref-sparrow2011" role="doc-biblioref">Sparrow et&nbsp;al., 2011</a>)</span>.</p>
+<p>Las tecnologías digitales han supuesto una transformación profunda de la forma en que las sociedades avanzadas acceden, comparten y generan conocimiento. Este fenómeno, sin duda la mayor transformación desde la invención de la imprenta, sigue evolucionando. Pero abre la puerta a nuevas formas de manipulación, desinformación, propaganda y control social que amenazan el núcleo de valores y derechos de las democracias liberales. El riesgo de instrumentalización de las tecnologías y servicios digitales por grupos de interés, grandes empresas y movimientos de corte autoritario ha sido subestimado <span class="citation" data-cites="Rodriguez2021desinf howard2018 benkler2018">(<a href="references.html#ref-benkler2018" role="doc-biblioref">Benkler et&nbsp;al., 2018</a>; <a href="references.html#ref-howard2018" role="doc-biblioref">Howard, 2020</a>; <a href="references.html#ref-Rodriguez2021desinf" role="doc-biblioref">Rodríguez Pérez et&nbsp;al., 2021</a>)</span>.</p>
+<p>Digitalización y revolución informacional han servido de vectores para consolidar un ecosistema de servicios y desarrollos tecnológicos que han tenido un impacto significativo en la economía, dando lugar a nuevos modelos de negocio y oportunidades de empleo. Su difusión ha transformado la naturaleza del trabajo, reforzando la necesidad de nuevas competencias digitales sin las cuales no es posible adaptarse al ritmo vertiginoso de evolución tecnológica <span class="citation" data-cites="oecd2019 tapscott2014 brynjolfsson2014">(<a href="references.html#ref-brynjolfsson2014" role="doc-biblioref">Brynjolfsson &amp; McAfee, 2014</a>; <a href="references.html#ref-oecd2019" role="doc-biblioref">OECD, 2019</a>; <a href="references.html#ref-tapscott2014" role="doc-biblioref">Tapscott, 2014</a>)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Estudio de caso — Desinformación algorítmica y erosión epistémica
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">Contexto</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">Análisis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false" href="">Valoración</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false" href="">Referencias</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p>La combinación de plataformas digitales, algoritmos de recomendación y redes sociales ha generado un ecosistema informativo en el que la desinformación puede producirse, distribuirse y amplificarse a una escala sin precedentes. A diferencia de la propaganda tradicional, la desinformación algorítmica opera de manera descentralizada, personalizada y frecuentemente automatizada, lo que dificulta su identificación y contención.</p>
+<p>El fenómeno adquirió visibilidad global durante las elecciones presidenciales estadounidenses de 2016 y la campaña del Brexit, cuando se documentó la operación masiva de redes de desinformación coordinada <span class="citation" data-cites="howard2018">(<a href="references.html#ref-howard2018" role="doc-biblioref">Howard, 2020</a>)</span>. Desde entonces, la escala y sofisticación de estas operaciones no ha dejado de crecer, con la IA generativa como multiplicador de capacidades.</p>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p><strong>Mecanismos de erosión epistémica</strong>: Los algoritmos de recomendación optimizan el <em>engagement</em>, no la calidad epistémica del contenido. El resultado es un sesgo estructural hacia contenidos emocionalmente activadores, polarizantes y simplificadores. Como ha argumentado C. Thi Nguyen, las <em>cámaras de eco</em> no solo filtran información sino que proporcionan marcos epistémicos cerrados que inmunización a sus participantes contra la evidencia contraria <span class="citation" data-cites="nguyen2020">(<a href="references.html#ref-nguyen2020" role="doc-biblioref">Nguyen, 2020</a>)</span>.</p>
+<p><strong>Escala industrial</strong>: El coste de producir desinformación convincente ha disminuido drásticamente con la IA generativa. Un estudio de 2024 del Oxford Internet Institute documentó el uso de herramientas de IA generativa en campañas de desinformación en al menos 47 países.</p>
+<p><strong>Asimetrías de velocidad</strong>: La desinformación se propaga consistentemente más rápido que las correcciones factuales, un fenómeno documentado empíricamente por Vosoughi, Roy y Aral en su estudio de 126.000 cascadas informativas en Twitter <span class="citation" data-cites="vosoughi2018">(<a href="references.html#ref-vosoughi2018" role="doc-biblioref">Vosoughi et&nbsp;al., 2018</a>)</span>.</p>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<p>La desinformación algorítmica representa un caso paradigmático de <em>degradación del pensamiento subyacente</em>: las mismas tecnologías que han democratizado el acceso al conocimiento son instrumentalizadas para erosionar la capacidad colectiva de distinguir información fiable de propaganda, reduciendo la calidad epistémica del sustrato cognitivo compartido. Las respuestas institucionales —como la EU Digital Services Act (2022) y el Código de Prácticas contra la Desinformación— constituyen intentos de contener esta dinámica, pero su eficacia a largo plazo depende de factores que trascienden la regulación técnica: alfabetización crítica, fortalecimiento institucional y cultura epistémica.</p>
+</div>
+<div id="tabset-2-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-4-tab">
+<ul>
+<li><span class="citation" data-cites="howard2018">Howard (<a href="references.html#ref-howard2018" role="doc-biblioref">2020</a>)</span></li>
+<li><span class="citation" data-cites="nguyen2020">Nguyen (<a href="references.html#ref-nguyen2020" role="doc-biblioref">2020</a>)</span></li>
+<li><span class="citation" data-cites="vosoughi2018">Vosoughi et&nbsp;al. (<a href="references.html#ref-vosoughi2018" role="doc-biblioref">2018</a>)</span></li>
+<li><span class="citation" data-cites="benkler2018">Benkler et&nbsp;al. (<a href="references.html#ref-benkler2018" role="doc-biblioref">2018</a>)</span></li>
+<li><span class="citation" data-cites="wardle2017">Wardle &amp; Derakhshan (<a href="references.html#ref-wardle2017" role="doc-biblioref">2017</a>)</span></li>
+<li><span class="citation" data-cites="Rodriguez2021desinf">Rodríguez Pérez et&nbsp;al. (<a href="references.html#ref-Rodriguez2021desinf" role="doc-biblioref">2021</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="sec-ia" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="sec-ia"><span class="header-section-number">5.4</span> La discontinuidad de la inteligencia artificial</h2>
+<section id="sec-iot" class="level3" data-number="5.4.1">
+<h3 data-number="5.4.1" class="anchored" data-anchor-id="sec-iot"><span class="header-section-number">5.4.1</span> IoT y automatización como antecedentes inmediatos</h3>
+<p>El Internet de las cosas (IoT) constituye un antecedente tecnológico directo de la actual discontinuidad asociada a la IA. La proliferación de dispositivos interconectados capaces de recopilar, procesar y transmitir datos de forma autónoma ha creado una infraestructura de datos sin precedentes que sirve como sustrato material para el entrenamiento de sistemas de IA <span class="citation" data-cites="gubbi2013 mitew2014">(<a href="references.html#ref-gubbi2013" role="doc-biblioref">Gubbi et&nbsp;al., 2013</a>; <a href="references.html#ref-mitew2014" role="doc-biblioref">Mitew, 2014</a>)</span>.</p>
+<p>La convergencia entre IoT, computación en la nube y análisis masivo de datos (<em>big data</em>) ha generado un entorno técnico en el que la frontera entre el mundo físico y el digital se difumina progresivamente, reconfigurando tanto las prácticas productivas como las formas de interacción social y vigilancia <span class="citation" data-cites="zuboff2019 miller2020">(<a href="references.html#ref-miller2020" role="doc-biblioref">V. Miller, 2020</a>; <a href="references.html#ref-zuboff2019" role="doc-biblioref">Zuboff, 2019</a>)</span>.</p>
+</section>
+<section id="sec-ia-generativa" class="level3" data-number="5.4.2">
+<h3 data-number="5.4.2" class="anchored" data-anchor-id="sec-ia-generativa"><span class="header-section-number">5.4.2</span> IA generativa: de herramienta a mediador cultural</h3>
+<p>La evolución reciente de la IA, acelerada con la mejora de los modelos de aprendizaje profundo y algoritmos de procesamiento del lenguaje natural, representa una discontinuidad emergente con un potencial extraordinario para redefinir los límites tradicionales de las capacidades humanas. Los sistemas dotados con IA avanzada son capaces de superar bancos de pruebas exigentes, con resultados en traducción, análisis o razonamiento prospectivo que igualan o superan el desempeño promedio de humanos expertos en ámbitos multidisciplinares <span class="citation" data-cites="bostrom2014 openai2023gpt4">(<a href="references.html#ref-bostrom2014" role="doc-biblioref">Bostrom, 2014</a>; <a href="references.html#ref-openai2023gpt4" role="doc-biblioref">OpenAI, 2023</a>)</span>.</p>
+<p>Al menos desde finales del 2022, los modelos preentrenados como GPT-4, Claude y Gemini exhiben formas de autonomía en sus respuestas y en el modo de entender tareas complejas que se pueden interpretar razonablemente como réplicas —y, en ciertos dominios, versiones superiores— de capacidades consideradas exclusivamente humanas pocos años atrás <span class="citation" data-cites="russell2016 bubeck2023sparks">(<a href="references.html#ref-bubeck2023sparks" role="doc-biblioref">Bubeck et&nbsp;al., 2023</a>; <a href="references.html#ref-russell2016" role="doc-biblioref">Russell &amp; Norvig, 2021</a>)</span>.</p>
+<p>La IA generativa no se limita a automatizar tareas cognitivas rutinarias: opera como un <em>mediador cultural</em> que transforma las condiciones de producción, circulación y recepción del conocimiento. Sus impactos incluyen:</p>
+<ul>
+<li><p><strong>Transformación del trabajo intelectual</strong>: La automatización de tareas cognitivas complejas redefine las fronteras entre trabajo manual e intelectual, creando nuevas formas de colaboración humano-máquina y planteando interrogantes sobre la naturaleza del trabajo creativo y la <em>expertise</em> profesional <span class="citation" data-cites="frey2017 acemoglu2024 susskind2015">(<a href="references.html#ref-acemoglu2024" role="doc-biblioref">Acemoglu, 2024</a>; <a href="references.html#ref-frey2017" role="doc-biblioref">Frey, 2019</a>; <a href="references.html#ref-susskind2015" role="doc-biblioref">Susskind &amp; Susskind, 2015</a>)</span>.</p></li>
+<li><p><strong>Reconfiguración de la esfera pública</strong>: Los sistemas de IA generativa transforman los procesos de producción y circulación de información, generando tanto oportunidades de democratización del acceso como riesgos de concentración del poder informacional y nuevas formas de manipulación <span class="citation" data-cites="floridi2020gpt3 weidinger2022">(<a href="references.html#ref-floridi2020gpt3" role="doc-biblioref">Floridi &amp; Chiriatti, 2020</a>; <a href="references.html#ref-weidinger2022" role="doc-biblioref">Weidinger et&nbsp;al., 2022</a>)</span>.</p></li>
+<li><p><strong>Nuevas formas de expresión cultural</strong>: Los modelos de IA generativa pueden ser utilizados para crear obras de arte visuales, música, literatura y otras formas de expresión creativa, ampliando el repertorio cultural y ofreciendo nuevas perspectivas estéticas, al tiempo que plantean interrogantes sobre la autoría y la naturaleza de la creatividad humana <span class="citation" data-cites="zylinska2020">(<a href="references.html#ref-zylinska2020" role="doc-biblioref">Zylinska, 2020</a>)</span>.</p></li>
+</ul>
+<p>Las iniciativas destinadas a monitorizar y analizar cuidadosamente el impacto de la IA generativa en la cultura son la base para fomentar un desarrollo ético y responsable. La colaboración entre expertos en IA, investigadores en el ámbito de las humanidades y creadores culturales parece inevitable, considerando el papel creciente de la creación y producción científica asistida por IA en la dinámica cultural <span class="citation" data-cites="miolane2025fifthera eger2025transf zylinska2020 coeckelbergh2020">(<a href="references.html#ref-coeckelbergh2020" role="doc-biblioref">Coeckelbergh, 2020</a>; <a href="references.html#ref-eger2025transf" role="doc-biblioref">Eger et&nbsp;al., 2025</a>; <a href="references.html#ref-miolane2025fifthera" role="doc-biblioref">Miolane, 2025</a>; <a href="references.html#ref-zylinska2020" role="doc-biblioref">Zylinska, 2020</a>)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Estudio de caso — Análisis de <em>outputs</em> e identificación de contenido generado por IA
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true" href="">Contexto</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false" href="">Análisis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false" href="">Valoración</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" role="tab" aria-controls="tabset-3-4" aria-selected="false" href="">Referencias</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<p>El ejercicio propone identificar los elementos que indican el uso de algún modelo de IA generativa en un texto dado, aportando las instrucciones (<em>prompt</em>) necesarias para obtener un resultado (<em>output</em>) similar. Se trata de desarrollar capacidades de <em>literacy</em> crítica adaptadas a la era de la producción textual algorítmica.</p>
+<p>Considérese el siguiente fragmento (generado por GPT-4 en 2024):</p>
+<blockquote class="blockquote">
+<p><em>La investigación de la dinámica cultural busca explicar cómo las sociedades generan, mantienen y transforman sus sistemas de significado. Desde las primeras aproximaciones antropológicas hasta los enfoques contemporáneos, este campo ha intentado ofrecer marcos amplios que permitan comprender procesos complejos de interacción simbólica y organización social</em>.</p>
+<p><em>Diversos autores han señalado elementos fundamentales para este análisis. Geertz destacó la importancia de los símbolos y las prácticas interpretativas; Foucault subrayó las configuraciones de poder que estructuran los discursos; y Appadurai llamó la atención sobre los flujos globales que reconfiguran identidades y territorios. Estos aportes permiten delinear dimensiones analíticas que suelen incluir la producción de significados, las relaciones institucionales, los patrones de comunicación y el papel creciente de la tecnología</em>.</p>
+<p><em>En conjunto, estas perspectivas ofrecen una visión general de cómo las culturas se adaptan a contextos cambiantes. Aunque cada enfoque enfatiza aspectos distintos, todos coinciden en la necesidad de considerar múltiples niveles de análisis para comprender la evolución cultural en sociedades contemporáneas</em>.</p>
+</blockquote>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<p><strong>Marcadores estilísticos de generación por IA</strong> identificables en el fragmento:</p>
+<ol type="1">
+<li><p><em>Estructura enumerativa simétrica</em>: El texto sigue un patrón {concepto → definición → expansión} repetido con regularidad mecánica, sin variación estilística significativa.</p></li>
+<li><p><em>Hedging</em> mínimo y tono enciclopédico: Ausencia de matizaciones, dudas o posicionamiento del autor. El texto no toma partido sino que presenta panorámicas equilibradas con apariencia de exhaustividad.</p></li>
+<li><p><em>Referencias canónicas sin profundidad</em>: Se mencionan autores (Geertz, Foucault, Appadurai) como etiquetas de autoridad sin desarrollo crítico de sus posiciones, sin señalar limitaciones ni controversias.</p></li>
+<li><p><em>Cohesión superficial</em>: Los párrafos son autónomos y podrían reordenarse sin pérdida significativa de sentido, lo que sugiere generación secuencial sin planificación argumentativa global.</p></li>
+<li><p><em>Ausencia de posición epistémica</em>: El texto no formula preguntas genuinas, no identifica problemas abiertos ni reconoce la complejidad irreductible de ciertos aspectos del tema tratado.</p></li>
+</ol>
+</div>
+<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
+<p>La capacidad de identificar contenido generado por IA se está convirtiendo en una competencia epistémica fundamental. No se trata de un mero ejercicio técnico: la proliferación de textos generados algorítmicamente con apariencia de rigor académico plantea desafíos reales para la evaluación del conocimiento, la formación universitaria y la integridad de la comunicación científica.</p>
+<p>Los criterios de identificación evolucionan con los modelos: los marcadores válidos para GPT-3.5 (repeticiones, incoherencias factuales evidentes) resultan menos efectivos con GPT-4o o Claude Opus, que producen textos más sofisticados. Esto exige una actualización constante de las competencias de evaluación crítica y refuerza la necesidad de herramientas complementarias (detectores de IA, análisis estilométrico, verificación de fuentes).</p>
+</div>
+<div id="tabset-3-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-4-tab">
+<ul>
+<li><span class="citation" data-cites="bender2021">Bender et&nbsp;al. (<a href="references.html#ref-bender2021" role="doc-biblioref">2021</a>)</span></li>
+<li><span class="citation" data-cites="floridi2020gpt3">Floridi &amp; Chiriatti (<a href="references.html#ref-floridi2020gpt3" role="doc-biblioref">2020</a>)</span></li>
+<li><span class="citation" data-cites="weidinger2022">Weidinger et&nbsp;al. (<a href="references.html#ref-weidinger2022" role="doc-biblioref">2022</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Estudio de caso — La IA como vector de cambio cultural
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true" href="">Contexto</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false" href="">Análisis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false" href="">Valoración</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-4" role="tab" aria-controls="tabset-4-4" aria-selected="false" href="">Referencias</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<p>La dinámica cultural, entendida como los procesos de cambio y continuidad en las creencias, valores, normas y prácticas de una sociedad, constituye un ámbito de estudio de gran complejidad. La irrupción de la IA generativa en 2022–2024 introduce un <em>vector de cambio cultural</em> cuya velocidad y escala no tiene precedentes desde la expansión de Internet en los años 90.</p>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<p><strong>Oportunidades para la producción cultural</strong>: La IA generativa abre posibilidades significativas en la creación de nuevas formas de expresión artística, la preservación y difusión del patrimonio cultural, el análisis de patrones culturales a gran escala y la democratización del acceso a herramientas de producción cultural <span class="citation" data-cites="zylinska2020">(<a href="references.html#ref-zylinska2020" role="doc-biblioref">Zylinska, 2020</a>)</span>.</p>
+<p><strong>Riesgos documentados</strong>: Los algoritmos de IA generativa incorporan sesgos presentes en los datos de entrenamiento, lo que puede perpetuar estereotipos o visiones parciales de la cultura. Surgen además desafíos éticos sobre propiedad intelectual, privacidad y responsabilidad por el contenido generado, así como transformaciones profundas en industrias creativas que exigen nuevos modelos de negocio y marcos regulatorios <span class="citation" data-cites="weidinger2022 coeckelbergh2020">(<a href="references.html#ref-coeckelbergh2020" role="doc-biblioref">Coeckelbergh, 2020</a>; <a href="references.html#ref-weidinger2022" role="doc-biblioref">Weidinger et&nbsp;al., 2022</a>)</span>.</p>
+<p><strong>Redefinición de la autoría y la creatividad</strong>: La IA generativa plantea interrogantes fundamentales sobre la autoría y la naturaleza de la creatividad humana, lo que podría llevar a replantear conceptos y prácticas culturales que damos por sentados. La pregunta no es solo técnica sino filosófica: ¿qué significa crear cuando un sistema algorítmico puede producir textos, imágenes y música indistinguibles de los producidos por humanos? <span class="citation" data-cites="gunkel2018 floridi2019logic">(<a href="references.html#ref-floridi2019logic" role="doc-biblioref">Floridi, 2019</a>; <a href="references.html#ref-gunkel2018" role="doc-biblioref">Gunkel, 2018</a>)</span>.</p>
+</div>
+<div id="tabset-4-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-3-tab">
+<p>El componente interdisciplinar es irrenunciable en cualquier intento de entender el impacto de la IA en la cultura. La colaboración entre expertos en IA, investigadores en humanidades y creadores culturales es condición necesaria para un desarrollo ético y responsable. El pensamiento subyacente de las próximas décadas se configurará en buena medida por la forma en que las sociedades gestionen esta discontinuidad.</p>
+</div>
+<div id="tabset-4-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-4-tab">
+<ul>
+<li><span class="citation" data-cites="zylinska2020">Zylinska (<a href="references.html#ref-zylinska2020" role="doc-biblioref">2020</a>)</span></li>
+<li><span class="citation" data-cites="weidinger2022">Weidinger et&nbsp;al. (<a href="references.html#ref-weidinger2022" role="doc-biblioref">2022</a>)</span></li>
+<li><span class="citation" data-cites="coeckelbergh2020">Coeckelbergh (<a href="references.html#ref-coeckelbergh2020" role="doc-biblioref">2020</a>)</span></li>
+<li><span class="citation" data-cites="gunkel2018">Gunkel (<a href="references.html#ref-gunkel2018" role="doc-biblioref">2018</a>)</span></li>
+<li><span class="citation" data-cites="floridi2019logic">Floridi (<a href="references.html#ref-floridi2019logic" role="doc-biblioref">2019</a>)</span></li>
+<li><span class="citation" data-cites="burke2008">Burke (<a href="references.html#ref-burke2008" role="doc-biblioref">2012</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="sec-ia-agencial" class="level3" data-number="5.4.3">
+<h3 data-number="5.4.3" class="anchored" data-anchor-id="sec-ia-agencial"><span class="header-section-number">5.4.3</span> IA agencial y redefinición de la <em>expertise</em></h3>
+<p>La aplicación de modelos altamente especializados de IA en tareas como la gestión del tráfico en vehículos autónomos, en sistemas de diagnóstico médico avanzados o en entornos híbridos de producción industrial ilustra un proceso complejo de redefinición de la agencia humana en interacción con máquinas y sistemas dotados de capacidad agencial en grados diversos. Esta integración progresiva genera inquietudes fundadas sobre posibles transformaciones en el entorno laboral y riesgos para la privacidad y la seguridad, al tiempo que abre nuevas posibilidades creativas <span class="citation" data-cites="dafoe2020 bakerbrunbauer2022">(<a href="references.html#ref-bakerbrunbauer2022" role="doc-biblioref">Baker-Brunnbauer, 2021</a>; <a href="references.html#ref-dafoe2020" role="doc-biblioref">Dafoe, 2018</a>)</span>.</p>
+<p>La irrupción de agentes con IA avanzada y desempeño propio de especialistas plantea una cuestión central para el pensamiento subyacente: si disponemos de sistemas algorítmicos capaces de igualar o superar el rendimiento de expertos humanos en dominios cada vez más amplios, ¿qué implica esto para la noción de pericia profesional —preferible a <em>expertise</em>, según la RAE— como componente del capital epistémico de una sociedad? La respuesta no es simple, puesto que los <em>benchmarks</em> actuales miden niveles de rendimiento en tareas específicas, no comprensión genuina ni responsabilidad epistémica <span class="citation" data-cites="vanrooij2024 sublime2024">(<a href="references.html#ref-vanrooij2024" role="doc-biblioref">Rooij et&nbsp;al., 2024</a>; <a href="references.html#ref-sublime2024" role="doc-biblioref">Sublimé &amp; Kalinicheva, 2024</a>)</span>.</p>
+<p>Sin embargo, el uso de sistemas de IA como asistentes avanzados que colaboran eficazmente en procesos técnicamente complejos de varias fases de la investigación científica no se limita a tareas repetitivas automatizables, ni a procesos asociados con cognición de bajo nivel. Pueden desempeñar funciones críticas de indagación heurística e identificación de hipótesis y patrones en la literatura especializada que pasan desapercibidos a revisores humanos <span class="citation" data-cites="GottweisNatarajan2025">(<a href="references.html#ref-GottweisNatarajan2025" role="doc-biblioref">Gottweis &amp; Natarajan, 2025</a>)</span>. Lo novedoso en este contexto es la entrada en funcionamiento, para tareas no triviales, de agentes cuyo resultado —identificar instrumentos que han sido desacreditados empírica o teóricamente, por ejemplo— parece inexplicable sin atribuir conocimiento interdisciplinar, creatividad y comprensión contextual <span class="citation" data-cites="Sheth2026IVCoScientist">(<a href="references.html#ref-Sheth2026IVCoScientist" role="doc-biblioref">Sheth et&nbsp;al., 2026</a>)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Estudio de caso — IA agencial especializada — ¿qué significa “PhD-level AI”?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true" href="">Contexto</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false" href="">Análisis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-3" role="tab" aria-controls="tabset-5-3" aria-selected="false" href="">Valoración</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-4" role="tab" aria-controls="tabset-5-4" aria-selected="false" href="">Referencias</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<p>En marzo de 2025, OpenAI anunció planes para un servicio de agentes con IA avanzada con un coste de 20.000 USD mensuales, dirigido a empresas que requieren capacidades descritas como “PhD-level” en dominios especializados. La denominación generó un debate inmediato sobre qué significa atribuir un nivel de pericia académica avanzada a un sistema algorítmico <span class="citation" data-cites="edwards2025">(<a href="references.html#ref-edwards2025" role="doc-biblioref">Edwards, 2025</a>)</span>.</p>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<p><strong>¿Qué miden realmente los benchmarks?</strong> Los sistemas de IA actuales son evaluados mediante bancos de pruebas (MMLU, GPQA, ARC-AGI) diseñados para medir rendimiento en tareas discretas: respuesta a preguntas, resolución de problemas, generación de código. Un rendimiento “PhD-level” en estos <em>benchmarks</em> significa que el sistema acierta con una frecuencia comparable a la de un doctor en la disciplina relevante en ese tipo específico de prueba. No implica comprensión, juicio contextual ni capacidad de investigación original <span class="citation" data-cites="openai2023gpt4">(<a href="references.html#ref-openai2023gpt4" role="doc-biblioref">OpenAI, 2023</a>)</span>.</p>
+<p><strong>Implicaciones para la noción de expertise</strong>: La pericia humana involucra no solo conocimiento declarativo y habilidad procedimental, sino también juicio situacional, responsabilidad epistémica, capacidad de reconocer los límites del propio conocimiento y habilidad para operar en situaciones de incertidumbre genuina. Ningún banco de pruebas actual captura todas estas dimensiones de la <em>expertise</em> <span class="citation" data-cites="vanrooij2024">(<a href="references.html#ref-vanrooij2024" role="doc-biblioref">Rooij et&nbsp;al., 2024</a>)</span>.</p>
+<p><strong>Riesgos de la denominación</strong>: Calificar un sistema de IA como “PhD-level” puede generar una confianza injustificada en sus <em>outputs</em>, erosionar el valor percibido de la formación doctoral humana y oscurecer las diferencias cualitativas entre rendimiento algorítmico y comprensión genuina.</p>
+</div>
+<div id="tabset-5-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-3-tab">
+<p>El caso ilustra una tensión central en la discontinuidad de la IA: la tendencia a describir las capacidades de los sistemas algorítmicos usando categorías diseñadas para evaluar la cognición humana. Esta traducción categorial no es inocua: configura expectativas, moldea políticas educativas y laborales, y puede contribuir a una reconfiguración del pensamiento subyacente en la que la noción de <em>saber</em> se reduzca a la de <em>rendir adecuadamente en tests estandarizados</em> —una reducción que la epistemología ha criticado consistentemente desde al menos los trabajos de Gilbert Ryle sobre la distinción entre <em>knowing that</em> y <em>knowing how</em>.</p>
+</div>
+<div id="tabset-5-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-4-tab">
+<ul>
+<li><span class="citation" data-cites="edwards2025">Edwards (<a href="references.html#ref-edwards2025" role="doc-biblioref">2025</a>)</span></li>
+<li><span class="citation" data-cites="vanrooij2024">Rooij et&nbsp;al. (<a href="references.html#ref-vanrooij2024" role="doc-biblioref">2024</a>)</span></li>
+<li><span class="citation" data-cites="openai2023gpt4">OpenAI (<a href="references.html#ref-openai2023gpt4" role="doc-biblioref">2023</a>)</span></li>
+<li><span class="citation" data-cites="sublime2024">Sublimé &amp; Kalinicheva (<a href="references.html#ref-sublime2024" role="doc-biblioref">2024</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="sec-gobernanza" class="level3" data-number="5.4.4">
+<h3 data-number="5.4.4" class="anchored" data-anchor-id="sec-gobernanza"><span class="header-section-number">5.4.4</span> Gobernanza y regulación de la IA: primeras respuestas institucionales</h3>
+<p>La velocidad de desarrollo de los sistemas de IA ha generado una asimetría significativa entre las capacidades tecnológicas disponibles y los marcos normativos existentes para su regulación. Las respuestas institucionales más destacadas incluyen el EU AI Act (2024), primera regulación comprehensiva de la IA a nivel mundial, que establece un sistema de clasificación por niveles de riesgo; la Declaración de Bletchley sobre seguridad de la IA (2023), firmada por 28 países; y diversas iniciativas sectoriales como las directrices de la UNESCO sobre ética de la IA <span class="citation" data-cites="euaiact2024 bengio2024">(<a href="references.html#ref-bengio2024" role="doc-biblioref">Bengio et&nbsp;al., 2024</a>; <a href="references.html#ref-euaiact2024" role="doc-biblioref">European Parliament and Council, 2024</a>)</span>.</p>
+<p>Estas respuestas regulatorias constituyen un indicador relevante del impacto de la IA en el pensamiento subyacente: cuando una discontinuidad tecnológica genera la necesidad de marcos normativos enteramente nuevos, es señal de que está reconfigurando presupuestos fundamentales sobre agencia, responsabilidad y gobernanza del conocimiento. El debate regulatorio sobre la IA trasciende la mera gestión de riesgos técnicos: involucra cuestiones epistemológicas profundas sobre qué decisiones pueden delegarse en sistemas algorítmicos, qué formas de transparencia son exigibles y cómo preservar la autonomía epistémica de los ciudadanos frente a la mediación algorítmica <span class="citation" data-cites="floridi2019logic">(<a href="references.html#ref-floridi2019logic" role="doc-biblioref">Floridi, 2019</a>)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Estudio de caso — El EU AI Act como respuesta institucional a una discontinuidad
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true" href="">Contexto</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false" href="">Análisis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-3" role="tab" aria-controls="tabset-6-3" aria-selected="false" href="">Valoración</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-4" role="tab" aria-controls="tabset-6-4" aria-selected="false" href="">Referencias</a></li></ul>
+<div class="tab-content">
+<div id="tabset-6-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-6-1-tab">
+<p>El Reglamento de Inteligencia Artificial de la Unión Europea (EU AI Act), adoptado en 2024 y con entrada en vigor escalonada hasta 2027, constituye el primer marco regulatorio comprehensivo de la IA a escala mundial. Su enfoque basado en niveles de riesgo (inaceptable, alto, limitado, mínimo) establece un precedente normativo que ha influido en la agenda regulatoria de múltiples jurisdicciones <span class="citation" data-cites="euaiact2024">(<a href="references.html#ref-euaiact2024" role="doc-biblioref">European Parliament and Council, 2024</a>)</span>.</p>
+</div>
+<div id="tabset-6-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-2-tab">
+<p><strong>Enfoque basado en riesgo</strong>: El EU AI Act clasifica los sistemas de IA según el riesgo que representan para los derechos fundamentales. Los sistemas de “riesgo inaceptable” (scoring social, manipulación subliminal) quedan prohibidos; los de “alto riesgo” (selección de personal, diagnóstico médico, justicia) quedan sujetos a requisitos estrictos de transparencia, gobernanza de datos y supervisión humana.</p>
+<p><strong>Implicaciones epistemológicas</strong>: La regulación presupone que es posible y deseable mantener la <em>supervisión humana significativa</em> sobre los sistemas de IA, lo que implica una concepción de la relación humano-máquina en la que la agencia epistémica última reside en personas con capacidad de juicio contextual, no en sistemas algorítmicos.</p>
+<p><strong>Limitaciones reconocidas</strong>: La velocidad de evolución de la IA puede hacer que categorías regulatorias diseñadas en 2023–2024 resulten inadecuadas para sistemas desarrollados pocos años después. El carácter territorial de la regulación europea contrasta con la naturaleza global de las infraestructuras de IA.</p>
+</div>
+<div id="tabset-6-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-3-tab">
+<p>El EU AI Act representa un intento de preservar ciertos componentes del pensamiento subyacente democrático —transparencia, rendición de cuentas, respeto a derechos fundamentales— frente a una discontinuidad tecnológica que amenaza con reconfigurarlos. Su eficacia dependerá de la capacidad de las instituciones para mantener el ritmo de la innovación tecnológica sin renunciar a los principios normativos que justifican la regulación.</p>
+</div>
+<div id="tabset-6-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-4-tab">
+<ul>
+<li><span class="citation" data-cites="euaiact2024">European Parliament and Council (<a href="references.html#ref-euaiact2024" role="doc-biblioref">2024</a>)</span></li>
+<li><span class="citation" data-cites="bengio2024">Bengio et&nbsp;al. (<a href="references.html#ref-bengio2024" role="doc-biblioref">2024</a>)</span></li>
+<li><span class="citation" data-cites="floridi2019logic">Floridi (<a href="references.html#ref-floridi2019logic" role="doc-biblioref">2019</a>)</span></li>
+<li><span class="citation" data-cites="coeckelbergh2020">Coeckelbergh (<a href="references.html#ref-coeckelbergh2020" role="doc-biblioref">2020</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="sec-implicaciones" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="sec-implicaciones"><span class="header-section-number">5.5</span> Implicaciones en un contexto de fragmentación epistémica</h2>
+<section id="sec-alfabetizacion" class="level3" data-number="5.5.1">
+<h3 data-number="5.5.1" class="anchored" data-anchor-id="sec-alfabetizacion"><span class="header-section-number">5.5.1</span> Alfabetización epistémica en la era digital</h3>
+<p>La convergencia de las discontinuidades analizadas en las secciones precedentes —digitalización, plataformas algorítmicas, IA generativa— está configurando un nuevo estrato del pensamiento subyacente cuyas características resultan, en varios aspectos, cualitativamente diferentes de los estratos anteriores. A diferencia de las revoluciones científicas clásicas, que depositaban contenidos conceptuales asimilables a través de los sistemas educativos formales, la discontinuidad digital-algorítmica reconfigura los <em>procesos mismos</em> mediante los cuales las personas acceden, evalúan y utilizan la información.</p>
+<p>La alfabetización epistémica —entendida como la capacidad de evaluar la fiabilidad de las fuentes, distinguir entre evidencia y opinión, reconocer sesgos cognitivos y algorítmicos, y actuar de manera crítica y responsable en ecosistemas informativos complejos— se convierte en una competencia tan fundamental como lo fue la alfabetización textual para las sociedades posteriores a la imprenta <span class="citation" data-cites="bauer2019 wef2024education">(<a href="references.html#ref-bauer2019" role="doc-biblioref">Bauer et&nbsp;al., 2000</a>; <a href="references.html#ref-wef2024education" role="doc-biblioref">World Economic Forum, 2025</a>)</span>.</p>
+<p>Esta nueva forma de alfabetización requiere integrar competencias de diversa naturaleza: comprensión básica del funcionamiento de los algoritmos de recomendación y generación, habilidad para verificar información de manera autónoma, conciencia de los propios sesgos cognitivos y capacidad de mantener un juicio epistémico independiente frente a la presión conformista de las cámaras de eco digitales <span class="citation" data-cites="nguyen2020">(<a href="references.html#ref-nguyen2020" role="doc-biblioref">Nguyen, 2020</a>)</span>.</p>
+</section>
+<section id="sec-concentracion" class="level3" data-number="5.5.2">
+<h3 data-number="5.5.2" class="anchored" data-anchor-id="sec-concentracion"><span class="header-section-number">5.5.2</span> Concentración de poder tecnológico y asimetrías cognitivas</h3>
+<p>Un rasgo distintivo de la discontinuidad actual es la concentración sin precedentes del poder tecnológico en un reducido número de corporaciones. Las empresas que controlan las infraestructuras de IA —los datos de entrenamiento, la capacidad computacional, los modelos y las plataformas de distribución— ejercen una influencia desproporcionada sobre las condiciones de producción y circulación del conocimiento <span class="citation" data-cites="rikap2022">(<a href="references.html#ref-rikap2022" role="doc-biblioref">Rikap, 2022</a>)</span>.</p>
+<p>Esta concentración genera asimetrías cognitivas estructurales. Quienes controlan los sistemas de IA tienen acceso a capacidades de procesamiento, análisis y generación de contenido que sobrepasan lo que cualquier individuo o institución académica puede alcanzar por sus propios medios. En la medida en que el pensamiento subyacente se configure crecientemente a través de la mediación algorítmica, el control sobre estos sistemas equivale a un control sobre los marcos cognitivos compartidos, con implicaciones que trascienden la esfera económica y pueden condicionar directamente la calidad epistémica del debate público y la autonomía intelectual de los ciudadanos <span class="citation" data-cites="zuboff2019 crawford2021">(<a href="references.html#ref-crawford2021" role="doc-biblioref">Crawford, 2021</a>; <a href="references.html#ref-zuboff2019" role="doc-biblioref">Zuboff, 2019</a>)</span>.</p>
+<p>Plataformas que operan simultáneamente como red social, motor de recomendación y herramientas generativas pueden ser gestionadas como instrumentos de desinformación y ariete ideológico al servicio de grupos radicales. Cuando esto ocurre, los gestores corporativos dejan de ser instancias más o menos respetables en su nicho de negocio para convertirse en <strong>actores epistémicos centrales</strong>, cuya actividad no puede resultar ajena a los mecanismos de escrutinio y rendición de cuentas vigentes para otros medios de comunicación <span class="citation" data-cites="AllcottGentzkow2017 Salas2026Gob">(<a href="references.html#ref-AllcottGentzkow2017" role="doc-biblioref">Allcott &amp; Gentzkow, 2017</a>; <a href="references.html#ref-Salas2026Gob" role="doc-biblioref">Salas, 2026</a>)</span>.</p>
+<p>Al controlar tanto la infraestructura de distribución como los algoritmos de priorización y generación de contenido, este tipo de corporaciones pueden institucionalizar sesgos informativos, transformar agendas públicas y erosionar la pluralidad informativa: la provisión de “servicios básicos de noticias” pasa a depender de criterios corporativos opacos y de incentivos de plataforma y anunciantes, no de estándares periodísticos o deliberativos. Ese doble rol —productor y distribuidor— intensifica la captura de marcos cognitivos compartidos y agrava la fragmentación epistémica, porque la audiencia recibe flujos informativos filtrados y optimizados por objetivos algorítmicos que no cabe suponer, sin más, alineados con el interés público. Frente a este riesgo, las políticas públicas deben reconocer a tales plataformas como <em>infraestructura epistémicamente relevante</em>, y exigir transparencia algorítmica, auditorías independientes y salvaguardas que preserven el pluralismo, la neutralidad y la autonomía deliberativa <span class="citation" data-cites="GorwaBinns2020 SanJuan2026Musk">(<a href="references.html#ref-GorwaBinns2020" role="doc-biblioref">Gorwa et&nbsp;al., 2020</a>; <a href="references.html#ref-SanJuan2026Musk" role="doc-biblioref">San Juan, 2026</a>)</span>.</p>
+</section>
+<section id="sec-conexion-cap6" class="level3" data-number="5.5.3">
+<h3 data-number="5.5.3" class="anchored" data-anchor-id="sec-conexion-cap6"><span class="header-section-number">5.5.3</span> Conexiones con la fragmentación epistémica</h3>
+<p>El análisis desarrollado en este capítulo proporciona el sustrato conceptual necesario para abordar, en el capítulo siguiente, la confrontación entre comunidades profesionales ancladas en la realidad y grupos de afinidad ideológica. Las discontinuidades tecnológicas analizadas —especialmente la digitalización y la IA— crean las condiciones estructurales para la fragmentación epistémica: la personalización algorítmica de la información, la facilidad de producción de contenido desinformativo y la erosión de los gatekeepers tradicionales del conocimiento generan un entorno en el que es posible habitar burbujas epistémicas coherentes internamente pero desconectadas de la evidencia compartida <span class="citation" data-cites="nguyen2020 benkler2018">(<a href="references.html#ref-benkler2018" role="doc-biblioref">Benkler et&nbsp;al., 2018</a>; <a href="references.html#ref-nguyen2020" role="doc-biblioref">Nguyen, 2020</a>)</span>.</p>
+<p>El pensamiento subyacente, como concepto analítico, permite entender esta fragmentación no como un mero fallo de comunicación o un déficit educativo, sino como un efecto estructural de la reconfiguración tecnológica de las condiciones de producción y circulación del conocimiento. Las implicaciones de esta perspectiva para la defensa de los valores democráticos y la calidad del debate público serán el objeto central del capítulo 6.</p>
+</section>
+</section>
+<section id="sec-sintesis" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="sec-sintesis"><span class="header-section-number">5.6</span> Síntesis y mapa conceptual</h2>
+<p>El recorrido realizado en este capítulo permite identificar un patrón recurrente en la relación entre revoluciones científicas, discontinuidades tecnológicas y pensamiento subyacente. Cada transformación mayor deposita un estrato cognitivo que modifica los presupuestos compartidos sobre la naturaleza de la realidad, las herramientas legítimas para conocerla y los criterios de evaluación del conocimiento. Estos estratos se acumulan, interactúan y, en ocasiones, entran en tensión: el pensamiento subyacente de una sociedad no es un bloque monolítico sino un conjunto estratificado de presupuestos de diferente profundidad y resistencia al cambio.</p>
+<p>La discontinuidad asociada a la IA generativa presenta características que la distinguen de las precedentes en al menos tres aspectos: su velocidad de difusión, su capacidad para actuar como mediador cultural (y no solo como herramienta) y su potencial para reconfigurar tanto los contenidos como los procesos del pensamiento subyacente. Estas características exigen nuevas formas de alfabetización epistémica, marcos regulatorios adaptativos y una vigilancia sostenida sobre las asimetrías de poder que la concentración tecnológica genera.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Mapa conceptual del capítulo
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<div class="cell" data-fig-width="100%" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A["&lt;b&gt;PENSAMIENTO SUBYACENTE&lt;/b&gt;&lt;br/&gt;Trasfondo cognitivo compartido"] --&gt; B["Revoluciones&lt;br/&gt;científicas"]
+    A --&gt; C["Discontinuidades&lt;br/&gt;tecnológicas"]
+    A --&gt; D["Implicaciones&lt;br/&gt;epistemológicas"]
+    
+    B --&gt; B1["Copernicana:&lt;br/&gt;observador no privilegiado"]
+    B --&gt; B2["Darwiniana:&lt;br/&gt;continuidad naturalista"]
+    B --&gt; B3["Relatividad/Cuántica:&lt;br/&gt;contraintuitividad"]
+    B --&gt; B4["Información:&lt;br/&gt;digitalización"]
+    
+    C --&gt; C1["Fundacionales:&lt;br/&gt;agricultura, escritura"]
+    C --&gt; C2["Aceleración:&lt;br/&gt;imprenta, industria"]
+    C --&gt; C3["Masificación:&lt;br/&gt;medios, Internet"]
+    C --&gt; C4["IA generativa:&lt;br/&gt;mediador cultural"]
+    
+    D --&gt; D1["Alfabetización&lt;br/&gt;epistémica"]
+    D --&gt; D2["Asimetrías&lt;br/&gt;cognitivas"]
+    D --&gt; D3["Fragmentación&lt;br/&gt;epistémica → Cap.6"]
+    
+    B4 --&gt; C3
+    C3 --&gt; C4
+    C4 --&gt; D1
+    C4 --&gt; D2
+    C4 --&gt; D3
+    
+    style A fill:#e69500,stroke:#333,stroke-width:3px,color:#000
+    style D3 fill:#4a9eff,stroke:#333,stroke-width:2px,color:#000
+</pre>
+</div>
+<p></p><figcaption> Mapa conceptual: El pensamiento subyacente</figcaption> </figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="sec-talleres" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="sec-talleres"><span class="header-section-number">5.7</span> Talleres</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Contenedor de talleres prácticos
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Advertencia</span>Taller 1: Cartografía del pensamiento subyacente
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-7-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-1" role="tab" aria-controls="tabset-7-1" aria-selected="true" href="">Fase 1 — Identificación</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-2" role="tab" aria-controls="tabset-7-2" aria-selected="false" href="">Fase 2 — Análisis de brechas</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-3" role="tab" aria-controls="tabset-7-3" aria-selected="false" href="">Fase 3 — Prospectiva</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-4" role="tab" aria-controls="tabset-7-4" aria-selected="false" href="">Rúbrica</a></li></ul>
+<div class="tab-content">
+<div id="tabset-7-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-7-1-tab">
+<p>Elabore un inventario de los principales componentes del pensamiento subyacente que ha incorporado a lo largo de su formación. Distinga entre:</p>
+<ol type="a">
+<li>Componentes derivados de <strong>revoluciones científicas</strong> (ej.: heliocentrismo, selección natural, relatividad, computabilidad)</li>
+<li>Componentes derivados de <strong>discontinuidades tecnológicas</strong> (ej.: habilidades digitales, interacción con algoritmos, uso de IA)</li>
+<li>Componentes de <strong>origen mixto</strong> (ej.: concepto de ADN, noción de red, pensamiento estadístico)</li>
+</ol>
+<p>Para cada componente, identifique el <em>mecanismo de incorporación</em> principal (sistema educativo formal, medios de comunicación, entorno digital, prácticas profesionales, otro).</p>
+</div>
+<div id="tabset-7-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-2-tab">
+<p>Compare su inventario personal con el pensamiento subyacente que usted considera <em>necesario</em> para un ciudadano informado en 2026. Identifique:</p>
+<ol type="a">
+<li>Al menos 3 componentes que posee pero que considera <em>infrautilizados</em> en su entorno social</li>
+<li>Al menos 3 componentes que considera <em>deficitarios</em> en su propia formación</li>
+<li>Al menos 2 componentes que identifica como <em>emergentes</em> (incorporados en los últimos 5 años)</li>
+</ol>
+</div>
+<div id="tabset-7-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-3-tab">
+<p>Seleccione un campo profesional de su interés y elabore una proyección a 10 años:</p>
+<ol type="a">
+<li>¿Qué componentes nuevos del pensamiento subyacente serán probablemente necesarios para ejercer esa profesión en 2036?</li>
+<li>¿Qué componentes actuales podrían quedar obsoletos o ser reemplazados por mediación algorítmica?</li>
+<li>¿Qué implicaciones tiene esta proyección para el diseño curricular de la formación universitaria?</li>
+</ol>
+</div>
+<div id="tabset-7-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-4-tab">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterio</th>
+<th>Insuficiente (0–4)</th>
+<th>Adecuado (5–7)</th>
+<th>Excelente (8–10)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Inventario</strong></td>
+<td>Lista superficial sin categorización</td>
+<td>Categorización correcta con ejemplos relevantes</td>
+<td>Inventario detallado con mecanismos de incorporación bien identificados</td>
+</tr>
+<tr class="even">
+<td><strong>Análisis de brechas</strong></td>
+<td>Descripción genérica sin fundamentación</td>
+<td>Identificación de brechas con justificación razonable</td>
+<td>Análisis crítico que conecta brechas con consecuencias epistémicas</td>
+</tr>
+<tr class="odd">
+<td><strong>Prospectiva</strong></td>
+<td>Proyección vaga o puramente especulativa</td>
+<td>Proyección fundamentada en tendencias identificables</td>
+<td>Proyección que integra evidencia, incertidumbre y alternativas</td>
+</tr>
+<tr class="even">
+<td><strong>Integración conceptual</strong></td>
+<td>No utiliza el marco teórico del capítulo</td>
+<td>Utiliza algunos conceptos del capítulo</td>
+<td>Integra fluidamente el modelo analítico de discontinuidades</td>
+</tr>
+<tr class="odd">
+<td><strong>Calidad argumentativa</strong></td>
+<td>Afirmaciones sin justificar</td>
+<td>Argumentos razonables con algún soporte</td>
+<td>Argumentación rigurosa con fuentes y contraargumentos</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Advertencia</span>Taller 2: Análisis comparativo de discontinuidades
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-8-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-1" role="tab" aria-controls="tabset-8-1" aria-selected="true" href="">Fase 1 — Selección y documentación</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-2" role="tab" aria-controls="tabset-8-2" aria-selected="false" href="">Fase 2 — Aplicación del modelo analítico</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-3" role="tab" aria-controls="tabset-8-3" aria-selected="false" href="">Fase 3 — Comparación y síntesis</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-4" role="tab" aria-controls="tabset-8-4" aria-selected="false" href="">Rúbrica</a></li></ul>
+<div class="tab-content">
+<div id="tabset-8-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-8-1-tab">
+<p>Seleccione dos discontinuidades de las analizadas en §5.3 y documéntelas utilizando al menos 3 fuentes académicas adicionales a las proporcionadas en el capítulo. Para cada una:</p>
+<ol type="a">
+<li>Describa brevemente el contexto histórico de aparición</li>
+<li>Identifique los actores principales involucrados en su desarrollo y difusión</li>
+<li>Documente la cronología de su impacto (¿cuánto tardó en modificar el pensamiento subyacente?)</li>
+</ol>
+</div>
+<div id="tabset-8-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-8-2-tab">
+<p>Aplique el modelo de cuatro dimensiones (§5.3.1) a cada discontinuidad seleccionada:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Dimensión</th>
+<th>Discontinuidad A</th>
+<th>Discontinuidad B</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cognitiva</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Social-institucional</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Epistémica</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Político-económica</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tabset-8-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-8-3-tab">
+<p>Redacte un ensayo comparativo (1.500–2.000 palabras) que aborde:</p>
+<ol type="a">
+<li>¿En qué dimensiones difieren más las dos discontinuidades seleccionadas?</li>
+<li>¿Existen patrones comunes en su impacto sobre el pensamiento subyacente?</li>
+<li>¿Qué lecciones de la discontinuidad más antigua son aplicables a la comprensión de la más reciente?</li>
+</ol>
+</div>
+<div id="tabset-8-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-8-4-tab">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterio</th>
+<th>Insuficiente (0–4)</th>
+<th>Adecuado (5–7)</th>
+<th>Excelente (8–10)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Documentación</strong></td>
+<td>Fuentes insuficientes o irrelevantes</td>
+<td>3+ fuentes académicas pertinentes</td>
+<td>Fuentes de calidad con análisis crítico de su aportación</td>
+</tr>
+<tr class="even">
+<td><strong>Aplicación del modelo</strong></td>
+<td>Aplicación superficial o incompleta</td>
+<td>Las 4 dimensiones cubiertas para ambas</td>
+<td>Análisis matizado que identifica interacciones entre dimensiones</td>
+</tr>
+<tr class="odd">
+<td><strong>Comparación</strong></td>
+<td>Yuxtaposición sin análisis genuino</td>
+<td>Comparación con identificación de similitudes y diferencias</td>
+<td>Análisis comparativo que genera insights no triviales</td>
+</tr>
+<tr class="even">
+<td><strong>Calidad del ensayo</strong></td>
+<td>Estructura débil, argumentación pobre</td>
+<td>Estructura clara con argumentos razonables</td>
+<td>Ensayo bien estructurado con tesis explícita y desarrollo riguroso</td>
+</tr>
+<tr class="odd">
+<td><strong>Uso de fuentes</strong></td>
+<td>Citas decorativas o ausentes</td>
+<td>Fuentes integradas en la argumentación</td>
+<td>Diálogo crítico con las fuentes, incluidas las del capítulo</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Advertencia</span>Taller 3: Auditoría de contenido generado por IA
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-9-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-1" role="tab" aria-controls="tabset-9-1" aria-selected="true" href="">Fase 1 — Preparación del corpus</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-2" role="tab" aria-controls="tabset-9-2" aria-selected="false" href="">Fase 2 — Evaluación epistémica</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-3" role="tab" aria-controls="tabset-9-3" aria-selected="false" href="">Fase 3 — Reflexión metacognitiva</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-4" role="tab" aria-controls="tabset-9-4" aria-selected="false" href="">Rúbrica</a></li></ul>
+<div class="tab-content">
+<div id="tabset-9-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-9-1-tab">
+<p>El docente proporcionará un corpus de 6 textos académicos breves (300–500 palabras cada uno) sobre un tema epistemológico. Tres habrán sido escritos por humanos y tres generados por IA (sin indicar cuáles). Para cada texto:</p>
+<ol type="a">
+<li>Lea cuidadosamente y tome notas sobre estilo, estructura y contenido</li>
+<li>Identifique marcadores que sugieran autoría humana o algorítmica (cf.&nbsp;EC-3, §5.4.2)</li>
+<li>Clasifique cada texto como “humano”, “IA” o “incierto” con justificación</li>
+</ol>
+</div>
+<div id="tabset-9-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-9-2-tab">
+<p>Para cada texto del corpus, independientemente de su autoría:</p>
+<ol type="a">
+<li>Evalúe la <em>calidad epistémica</em> del contenido: ¿las afirmaciones están justificadas? ¿las fuentes son verificables? ¿el razonamiento es válido?</li>
+<li>Identifique al menos un punto fuerte y una debilidad epistémica</li>
+<li>Proponga una mejora concreta para cada texto</li>
+</ol>
+</div>
+<div id="tabset-9-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-9-3-tab">
+<p>Redacte una reflexión (800–1.000 palabras) sobre:</p>
+<ol type="a">
+<li>¿Qué criterios resultaron más útiles para distinguir autoría humana de algorítmica?</li>
+<li>¿La calidad epistémica del contenido correlaciona con la autoría? ¿Por qué?</li>
+<li>¿Qué implicaciones tiene este ejercicio para la evaluación del conocimiento en la era de la IA generativa?</li>
+</ol>
+</div>
+<div id="tabset-9-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-9-4-tab">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterio</th>
+<th>Insuficiente (0–4)</th>
+<th>Adecuado (5–7)</th>
+<th>Excelente (8–10)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Clasificación</strong></td>
+<td>Clasificaciones sin justificar o aleatorias</td>
+<td>Clasificaciones razonadas con criterios explícitos</td>
+<td>Clasificaciones bien argumentadas con marcadores específicos</td>
+</tr>
+<tr class="even">
+<td><strong>Evaluación epistémica</strong></td>
+<td>Evaluación superficial o genérica</td>
+<td>Evaluación que distingue fortalezas y debilidades</td>
+<td>Evaluación detallada con criterios de calidad epistémica operativos</td>
+</tr>
+<tr class="odd">
+<td><strong>Propuestas de mejora</strong></td>
+<td>Sugerencias vagas o irrelevantes</td>
+<td>Propuestas concretas y pertinentes</td>
+<td>Propuestas que demuestran comprensión profunda de la calidad epistémica</td>
+</tr>
+<tr class="even">
+<td><strong>Reflexión metacognitiva</strong></td>
+<td>Descripción superficial sin análisis</td>
+<td>Reflexión que conecta la experiencia con conceptos del capítulo</td>
+<td>Reflexión que genera insights sobre la relación entre IA, autoría y conocimiento</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Advertencia</span>Taller 4: Prospectiva tecnológica y escenarios
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-10-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-1" role="tab" aria-controls="tabset-10-1" aria-selected="true" href="">Fase 1 — Selección del campo y análisis del estado actual</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-2" role="tab" aria-controls="tabset-10-2" aria-selected="false" href="">Fase 2 — Diseño de escenarios</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-3" role="tab" aria-controls="tabset-10-3" aria-selected="false" href="">Fase 3 — Recomendaciones</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-4" role="tab" aria-controls="tabset-10-4" aria-selected="false" href="">Rúbrica</a></li></ul>
+<div class="tab-content">
+<div id="tabset-10-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-10-1-tab">
+<p>Seleccione un campo profesional específico (medicina, derecho, educación, periodismo, ingeniería, investigación científica u otro) y elabore un análisis del estado actual de integración de la IA en ese campo:</p>
+<ol type="a">
+<li>¿Qué tareas del campo ya están siendo mediadas o automatizadas por IA?</li>
+<li>¿Qué componentes del pensamiento subyacente profesional en ese campo están siendo afectados?</li>
+<li>Identifique al menos 2 fuentes recientes (2024–2026) que documenten estos cambios</li>
+</ol>
+</div>
+<div id="tabset-10-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-10-2-tab">
+<p>Elabore tres escenarios a 10 años para el campo seleccionado, siguiendo la metodología de planificación por escenarios:</p>
+<p><strong>Escenario A — Democratización tecnológica</strong>: Acceso universal a herramientas de IA, redistribución de la expertise, diversificación profesional.</p>
+<p><strong>Escenario B — Oligopolio tecnológico</strong>: Concentración del control de la IA en pocas corporaciones, profundización de desigualdades, homogeneización de las prácticas profesionales.</p>
+<p><strong>Escenario C — Regulación democrática</strong>: Marco regulatorio robusto y participativo, balance entre innovación y derechos fundamentales, gobernanza multinivel.</p>
+<p>Para cada escenario, especifique: supuestos clave, implicaciones para el pensamiento subyacente profesional, consecuencias para la formación universitaria.</p>
+</div>
+<div id="tabset-10-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-10-3-tab">
+<p>Formule recomendaciones concretas para:</p>
+<ol type="a">
+<li>El diseño curricular universitario en el campo seleccionado</li>
+<li>Las políticas de regulación profesional</li>
+<li>La alfabetización epistémica de los ciudadanos que interactúan con profesionales de ese campo</li>
+</ol>
+</div>
+<div id="tabset-10-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-10-4-tab">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterio</th>
+<th>Insuficiente (0–4)</th>
+<th>Adecuado (5–7)</th>
+<th>Excelente (8–10)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Análisis del estado actual</strong></td>
+<td>Descripción vaga sin fuentes</td>
+<td>Análisis documentado con fuentes pertinentes</td>
+<td>Análisis exhaustivo que integra evidencia reciente</td>
+</tr>
+<tr class="even">
+<td><strong>Diseño de escenarios</strong></td>
+<td>Escenarios genéricos o implausibles</td>
+<td>Escenarios diferenciados con supuestos explícitos</td>
+<td>Escenarios ricos, internamente coherentes y empíricamente fundamentados</td>
+</tr>
+<tr class="odd">
+<td><strong>Implicaciones para el pensamiento subyacente</strong></td>
+<td>No se conecta con el marco conceptual</td>
+<td>Conexiones razonables con el marco del capítulo</td>
+<td>Análisis profundo de cómo cada escenario reconfigura el pensamiento subyacente</td>
+</tr>
+<tr class="even">
+<td><strong>Recomendaciones</strong></td>
+<td>Genéricas o desconectadas del análisis</td>
+<td>Concretas y derivadas del análisis</td>
+<td>Innovadoras, viables y fundamentadas en el análisis previo</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Advertencia</span>Taller 5: Debate estructurado sobre gobernanza de la IA
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-11-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-1" role="tab" aria-controls="tabset-11-1" aria-selected="true" href="">Fase 1 — Preparación (individual)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-11-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-2" role="tab" aria-controls="tabset-11-2" aria-selected="false" href="">Fase 2 — Debate (grupal, 45 min)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-11-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-3" role="tab" aria-controls="tabset-11-3" aria-selected="false" href="">Fase 3 — Síntesis (individual)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-11-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-4" role="tab" aria-controls="tabset-11-4" aria-selected="false" href="">Rúbrica</a></li></ul>
+<div class="tab-content">
+<div id="tabset-11-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-11-1-tab">
+<p>Se asignan cuatro roles para el debate:</p>
+<ul>
+<li><strong>Regulador (UE/UNESCO)</strong>: Defiende la necesidad de marcos normativos estrictos basados en derechos fundamentales</li>
+<li><strong>Empresa tecnológica</strong>: Argumenta que la autorregulación y la innovación son más eficaces que la regulación externa</li>
+<li><strong>Academia</strong>: Reivindica el papel de la investigación independiente y la evaluación rigurosa</li>
+<li><strong>Sociedad civil</strong>: Enfatiza la participación ciudadana, la transparencia y los derechos digitales</li>
+</ul>
+<p>Cada participante deberá: a) Investigar la posición del actor asignado utilizando al menos 3 fuentes documentadas b) Preparar un argumento principal (3 minutos) y anticipar contraargumentos c) Identificar áreas potenciales de acuerdo con al menos uno de los otros actores</p>
+</div>
+<div id="tabset-11-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-11-2-tab">
+<p>Estructura: 1. Exposición inicial de cada actor (3 min × 4 = 12 min) 2. Ronda de réplicas cruzadas (2 min × 4 = 8 min) 3. Debate abierto moderado (15 min) 4. Propuesta de consenso: cada actor formula una concesión y una línea roja (10 min)</p>
+</div>
+<div id="tabset-11-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-11-3-tab">
+<p>Redacte un informe post-debate (1.000–1.200 palabras) que incluya: a) Resumen de las posiciones principales y sus fundamentos b) Identificación de los puntos de mayor tensión epistémica c) Evaluación personal argumentada: ¿qué modelo de gobernanza consideraría óptimo para preservar la calidad del pensamiento subyacente colectivo?</p>
+</div>
+<div id="tabset-11-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-11-4-tab">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterio</th>
+<th>Insuficiente (0–4)</th>
+<th>Adecuado (5–7)</th>
+<th>Excelente (8–10)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Preparación</strong></td>
+<td>Investigación superficial, sin fuentes</td>
+<td>Fuentes relevantes con argumentos estructurados</td>
+<td>Investigación exhaustiva con anticipación de contraargumentos</td>
+</tr>
+<tr class="even">
+<td><strong>Participación en el debate</strong></td>
+<td>Intervenciones escasas o desconectadas</td>
+<td>Participación activa y respetuosa</td>
+<td>Contribuciones sustantivas que hacen avanzar la discusión</td>
+</tr>
+<tr class="odd">
+<td><strong>Capacidad de escucha y réplica</strong></td>
+<td>No responde a los argumentos de otros</td>
+<td>Responde pero de forma superficial</td>
+<td>Réplicas que demuestran comprensión profunda de las posiciones</td>
+</tr>
+<tr class="even">
+<td><strong>Informe de síntesis</strong></td>
+<td>Descripción sin análisis</td>
+<td>Síntesis con evaluación personal razonada</td>
+<td>Análisis crítico que integra perspectivas múltiples y formula propuesta fundamentada</td>
+</tr>
+<tr class="odd">
+<td><strong>Uso del marco conceptual</strong></td>
+<td>No conecta con los conceptos del capítulo</td>
+<td>Algunas conexiones pertinentes</td>
+<td>Integración fluida del concepto de pensamiento subyacente y el modelo analítico</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-acemoglu2024" class="csl-entry" role="listitem">
+Acemoglu, D. (2024). The Simple Macroeconomics of <span>AI</span>. <em>NBER Working Paper</em>, (32487). <a href="https://doi.org/10.3386/w32487">https://doi.org/10.3386/w32487</a>
+</div>
+<div id="ref-agazzi2011" class="csl-entry" role="listitem">
+Agazzi, E. (2014). <em>Scientific Objectivity and its Contexts</em>. Springer. <a href="https://doi.org/10.1007/978-3-319-04660-0">https://doi.org/10.1007/978-3-319-04660-0</a>
+</div>
+<div id="ref-AllcottGentzkow2017" class="csl-entry" role="listitem">
+Allcott, H., &amp; Gentzkow, M. (2017). Social Media and Fake News in the 2016 Election. <em>Journal of Economic Perspectives</em>, <em>31</em>(2), 211-236. <a href="https://doi.org/10.1257/jep.31.2.211">https://doi.org/10.1257/jep.31.2.211</a>
+</div>
+<div id="ref-anderson1991" class="csl-entry" role="listitem">
+Anderson, B. (1991). <em>Imagined Communities: Reflections on the Origin and Spread of Nationalism</em> (Revised). Verso.
+</div>
+<div id="ref-arute2019" class="csl-entry" role="listitem">
+Arute, F., Arya, K., Babbush, R., et&nbsp;al. (2019). Quantum Supremacy Using a Programmable Superconducting Processor. <em>Nature</em>, <em>574</em>(7779), 505-510. <a href="https://doi.org/10.1038/s41586-019-1666-5">https://doi.org/10.1038/s41586-019-1666-5</a>
+</div>
+<div id="ref-bakerbrunbauer2022" class="csl-entry" role="listitem">
+Baker-Brunnbauer, J. (2021). Management Perspective of Ethics in Artificial Intelligence. <em>AI and Ethics</em>, <em>1</em>, 173-181. <a href="https://doi.org/10.1007/s43681-020-00022-3">https://doi.org/10.1007/s43681-020-00022-3</a>
+</div>
+<div id="ref-bauer2019" class="csl-entry" role="listitem">
+Bauer, M. W., Petkova, K., &amp; Boyadjieva, P. (2000). Public Knowledge of and Attitudes to Science: Alternative Measures That May End the <span>«Science War»</span>. <em>Science, Technology &amp; Human Values</em>, <em>25</em>(1), 30-51. <a href="https://doi.org/10.1177/016224390002500102">https://doi.org/10.1177/016224390002500102</a>
+</div>
+<div id="ref-bell1964" class="csl-entry" role="listitem">
+Bell, J. S. (1964). On the <span>Einstein Podolsky Rosen</span> Paradox. <em>Physics Physique Fizika</em>, <em>1</em>(3), 195-200. <a href="https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195">https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195</a>
+</div>
+<div id="ref-bender2021" class="csl-entry" role="listitem">
+Bender, E. M., Gebru, T., McMillan-Major, A., &amp; Shmitchell, S. (2021). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? <em>Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</em>, 610-623. <a href="https://doi.org/10.1145/3442188.3445922">https://doi.org/10.1145/3442188.3445922</a>
+</div>
+<div id="ref-bengio2024" class="csl-entry" role="listitem">
+Bengio, Y., Hinton, G., Yao, A., Song, D., Abbeel, P., Darrell, T., Harari, Y. N., Zhang, Y.-Q., Xue, L., Shalev-Shwartz, S., et&nbsp;al. (2024). Managing Extreme <span>AI</span> Risks amid Rapid Progress. <em>Science</em>, <em>384</em>(6698), 842-845. <a href="https://doi.org/10.1126/science.adn0117">https://doi.org/10.1126/science.adn0117</a>
+</div>
+<div id="ref-benkler2018" class="csl-entry" role="listitem">
+Benkler, Y., Faris, R., &amp; Roberts, H. (2018). <em>Network Propaganda: Manipulation, Disinformation, and Radicalization in <span>American</span> Politics</em>.
+</div>
+<div id="ref-blair2011" class="csl-entry" role="listitem">
+Blair, A. M. (2011). <em>Too Much to Know: Managing Scholarly Information before the Modern Age</em>. Yale University Press.
+</div>
+<div id="ref-bleaney2011" class="csl-entry" role="listitem">
+Bleaney, M., &amp; Dimico, A. (2011). Biogeographical Conditions, the Transition to Agriculture and Long-Run Growth. <em>European Economic Review</em>, <em>55</em>(7), 943-954. <a href="https://doi.org/10.1016/j.euroecorev.2011.04.003">https://doi.org/10.1016/j.euroecorev.2011.04.003</a>
+</div>
+<div id="ref-bommasani2022" class="csl-entry" role="listitem">
+Bommasani, R., Hudson, D. A., Adeli, E., Altman, R., Arber, S., Arx, S. von, Bernstein, M. S., Bohg, J., Bosselut, A., Brunskill, E., et&nbsp;al. (2022). On the Opportunities and Risks of Foundation Models. <em>arXiv preprint</em>. <a href="https://doi.org/10.48550/arXiv.2108.07258">https://doi.org/10.48550/arXiv.2108.07258</a>
+</div>
+<div id="ref-bostrom2014" class="csl-entry" role="listitem">
+Bostrom, N. (2014). <em>Superintelligence: Paths, Dangers, Strategies</em>. Oxford University Press.
+</div>
+<div id="ref-bowler2020" class="csl-entry" role="listitem">
+Bowler, P. J., &amp; Morus, I. R. (2020). <em>Making Modern Science: A Historical Survey</em> (2.ª ed.). University of Chicago Press.
+</div>
+<div id="ref-brynjolfsson2014" class="csl-entry" role="listitem">
+Brynjolfsson, E., &amp; McAfee, A. (2014). <em>The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies</em>. W.W. Norton.
+</div>
+<div id="ref-bubeck2023sparks" class="csl-entry" role="listitem">
+Bubeck, S., Chandrasekaran, V., Eldan, R., Gehrke, J., Horvitz, E., Kamar, E., Lee, P., Lee, Y. T., Li, Y., Lundberg, S., et&nbsp;al. (2023). Sparks of Artificial General Intelligence: Early Experiments with <span>GPT-4</span>. <em>arXiv preprint</em>. <a href="https://doi.org/10.48550/arXiv.2303.12712">https://doi.org/10.48550/arXiv.2303.12712</a>
+</div>
+<div id="ref-burke2008" class="csl-entry" role="listitem">
+Burke, P. (2012). <em>A Social History of Knowledge <span>II</span>: From the Encyclopédie to <span>Wikipedia</span></em>. Polity Press.
+</div>
+<div id="ref-buskes2013" class="csl-entry" role="listitem">
+Buskes, C. (2013). <em>The Genealogy of Knowledge: A Darwinian Approach to Epistemology and Philosophy of Science</em>. Tilburg University Press.
+</div>
+<div id="ref-carr2010" class="csl-entry" role="listitem">
+Carr, N. (2010). <em>The Shallows: What the Internet Is Doing to Our Brains</em>. W.W. Norton.
+</div>
+<div id="ref-castells2010" class="csl-entry" role="listitem">
+Castells, M. (2010). <em>The Rise of the Network Society</em> (2.ª ed.). Wiley-Blackwell. <a href="https://doi.org/10.1002/9781444319514">https://doi.org/10.1002/9781444319514</a>
+</div>
+<div id="ref-chartier1994" class="csl-entry" role="listitem">
+Chartier, R. (1994). <em>The Order of Books: Readers, Authors, and Libraries in <span>Europe</span> between the Fourteenth and Eighteenth Centuries</em>. Stanford University Press.
+</div>
+<div id="ref-coeckelbergh2020" class="csl-entry" role="listitem">
+Coeckelbergh, M. (2020). <em>AI Ethics</em>. MIT Press.
+</div>
+<div id="ref-crawford2021" class="csl-entry" role="listitem">
+Crawford, K. (2021). <em>Atlas of <span>AI</span>: Power, Politics, and the Planetary Costs of Artificial Intelligence</em>. Yale University Press.
+</div>
+<div id="ref-dafoe2020" class="csl-entry" role="listitem">
+Dafoe, A. (2018). <em><span>AI</span> Governance: A Research Agenda</em>. <a href="https://cdn.governance.ai/GovAI-Research-Agenda.pdf">https://cdn.governance.ai/GovAI-Research-Agenda.pdf</a>
+</div>
+<div id="ref-darwin1859" class="csl-entry" role="listitem">
+Darwin, C. (1859). <em>On the Origin of Species by Means of Natural Selection</em>. John Murray.
+</div>
+<div id="ref-dennett1995" class="csl-entry" role="listitem">
+Dennett, D. C. (1995). <em>Darwin’s Dangerous Idea: Evolution and the Meanings of Life</em>. Simon &amp; Schuster.
+</div>
+<div id="ref-diamond1997" class="csl-entry" role="listitem">
+Diamond, J. (1997). <em>Guns, Germs, and Steel: The Fates of Human Societies</em>. W.W. Norton.
+</div>
+<div id="ref-edwards2025" class="csl-entry" role="listitem">
+Edwards, B. (2025). What does <span>«PhD-level»</span> <span>AI</span> mean? <span>OpenAI</span>’s rumored $20<span>,</span>000 agent plan explained. <em>Ars Technica</em>. <a href="https://arstechnica.com/ai/2025/03/what-does-phd-level-ai-mean-openais-rumored-20000-agent-plan-explained/">https://arstechnica.com/ai/2025/03/what-does-phd-level-ai-mean-openais-rumored-20000-agent-plan-explained/</a>
+</div>
+<div id="ref-eger2025transf" class="csl-entry" role="listitem">
+Eger, S., Cao, Y., D’Souza, J., Geiger, A., Greisinger, C., Gross, S., &amp; Miller, T. (2025). Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation. <em>arXiv</em>. <a href="https://arxiv.org/abs/2502.05151">https://arxiv.org/abs/2502.05151</a>
+</div>
+<div id="ref-einstein1905" class="csl-entry" role="listitem">
+Einstein, A. (1905). Zur Elektrodynamik bewegter Körper. <em>Annalen der Physik</em>, <em>322</em>(10), 891-921. <a href="https://doi.org/10.1002/andp.19053221004">https://doi.org/10.1002/andp.19053221004</a>
+</div>
+<div id="ref-einstein1916" class="csl-entry" role="listitem">
+Einstein, A. (1916). Die Grundlage der allgemeinen Relativitätstheorie. <em>Annalen der Physik</em>, <em>354</em>(7), 769-822. <a href="https://doi.org/10.1002/andp.19163540702">https://doi.org/10.1002/andp.19163540702</a>
+</div>
+<div id="ref-eisenstein2013" class="csl-entry" role="listitem">
+Eisenstein, E. L. (2013). <em>The Printing Revolution in Early Modern Europe</em> (2.ª ed.). Cambridge University Press. <a href="https://doi.org/10.1017/CBO9781139197038">https://doi.org/10.1017/CBO9781139197038</a>
+</div>
+<div id="ref-euaiact2024" class="csl-entry" role="listitem">
+European Parliament and Council. (2024). <em>Regulation (<span>EU</span>) 2024/1689 Laying Down Harmonised Rules on Artificial Intelligence (<span>AI</span> Act)</em>. <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj">https://eur-lex.europa.eu/eli/reg/2024/1689/oj</a>
+</div>
+<div id="ref-febvre2010" class="csl-entry" role="listitem">
+Febvre, L., &amp; Martin, H.-J. (2010). <em>The Coming of the Book: The Impact of Printing, 1450–1800</em>. Verso.
+</div>
+<div id="ref-floridi2014" class="csl-entry" role="listitem">
+Floridi, L. (2014). <em>The Fourth Revolution: How the Infosphere is Reshaping Human Reality</em>. Oxford University Press.
+</div>
+<div id="ref-floridi2019logic" class="csl-entry" role="listitem">
+Floridi, L. (2019). <em>The Logic of Information: A Theory of Philosophy as Conceptual Design</em>. Oxford University Press.
+</div>
+<div id="ref-floridi2020gpt3" class="csl-entry" role="listitem">
+Floridi, L., &amp; Chiriatti, M. (2020). <span>GPT-3</span>: Its Nature, Scope, Limits, and Consequences. <em>Minds and Machines</em>, <em>30</em>, 681-694. <a href="https://doi.org/10.1007/s11023-020-09548-1">https://doi.org/10.1007/s11023-020-09548-1</a>
+</div>
+<div id="ref-foucault1966" class="csl-entry" role="listitem">
+Foucault, M. (1966). <em>Les mots et les choses: Une archéologie des sciences humaines</em>. Gallimard.
+</div>
+<div id="ref-frey2017" class="csl-entry" role="listitem">
+Frey, C. B. (2019). <em>The Technology Trap: Capital, Labor, and Power in the Age of Automation</em>. Princeton University Press.
+</div>
+<div id="ref-gadamer1975" class="csl-entry" role="listitem">
+Gadamer, H.-G. (1975). <em>Truth and Method</em>. Sheed; Ward.
+</div>
+<div id="ref-goody1968" class="csl-entry" role="listitem">
+Goody, J., &amp; Watt, I. (1968). <em>The Consequences of Literacy</em>. Cambridge University Press.
+</div>
+<div id="ref-GorwaBinns2020" class="csl-entry" role="listitem">
+Gorwa, R., Binns, R., &amp; Katzenbach, C. (2020). Algorithmic content moderation: Technical and political challenges in the automation of platform governance. <em>Big Data &amp; Society</em>, <em>7</em>(1). <a href="https://doi.org/10.1177/2053951719897945">https://doi.org/10.1177/2053951719897945</a>
+</div>
+<div id="ref-GottweisNatarajan2025" class="csl-entry" role="listitem">
+Gottweis, J., &amp; Natarajan, V. (2025). <em>Accelerating scientific breakthroughs with an <span>AI</span> co-scientist</em>. Google Research Blog. <a href="https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/">https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/</a>
+</div>
+<div id="ref-Paabo2010Neander" class="csl-entry" role="listitem">
+Green, R. E., Krause, J., Briggs, A. W., Maricic, T., Stenzel, U., Kircher, M., Patterson, N., Li, H., Zhai, W., Fritz, M. H.-Y., Hansen, N. F., Durand, E. Y., Malaspinas, A.-S., Jensen, J. D., Marques-Bonet, T., Alkan, C., Prufer, K., Meyer, M., Burbano, H. A., … Paabo, S. (2010). A Draft Sequence of the Neandertal Genome. <em>Science</em>, <em>328</em>(5979), 710-722. <a href="https://doi.org/10.1126/science.1188021">https://doi.org/10.1126/science.1188021</a>
+</div>
+<div id="ref-gubbi2013" class="csl-entry" role="listitem">
+Gubbi, J., Buyya, R., Marusic, S., &amp; Palaniswami, M. (2013). Internet of Things (<span>IoT</span>): A Vision, Architectural Elements, and Future Directions. <em>Future Generation Computer Systems</em>, <em>29</em>(7), 1645-1660. <a href="https://doi.org/10.1016/j.future.2013.01.010">https://doi.org/10.1016/j.future.2013.01.010</a>
+</div>
+<div id="ref-gunkel2018" class="csl-entry" role="listitem">
+Gunkel, D. J. (2018). <em>Robot Rights</em>. MIT Press.
+</div>
+<div id="ref-habermas1991" class="csl-entry" role="listitem">
+Habermas, J. (1991). <em>The Structural Transformation of the Public Sphere</em>. MIT Press.
+</div>
+<div id="ref-havelock1986" class="csl-entry" role="listitem">
+Havelock, E. A. (1986). <em>The Muse Learns to Write: Reflections on Orality and Literacy from Antiquity to the Present</em>. Yale University Press.
+</div>
+<div id="ref-heisenberg1927" class="csl-entry" role="listitem">
+Heisenberg, W. (1927). Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik. <em>Zeitschrift für Physik</em>, <em>43</em>, 172-198. <a href="https://doi.org/10.1007/BF01397280">https://doi.org/10.1007/BF01397280</a>
+</div>
+<div id="ref-howard2018" class="csl-entry" role="listitem">
+Howard, P. N. (2020). <em>Lie Machines: How to Save Democracy from Troll Armies, Deceitful Robots, Junk News Operations, and Political Operatives</em>. Yale University Press.
+</div>
+<div id="ref-hutchins2013" class="csl-entry" role="listitem">
+Hutchins, E. (2013). The Cultural Ecosystem of Human Cognition. <em>Philosophical Psychology</em>, <em>27</em>(1), 34-49. <a href="https://doi.org/10.1080/09515089.2013.830548">https://doi.org/10.1080/09515089.2013.830548</a>
+</div>
+<div id="ref-Koyre1957Closed" class="csl-entry" role="listitem">
+Koyré, A. (1957). <em>From the Closed World to the Infinite Universe</em>. Johns Hopkins University Press.
+</div>
+<div id="ref-kuhn1957" class="csl-entry" role="listitem">
+Kuhn, T. S. (1957). <em>The Copernican Revolution: Planetary Astronomy in the Development of Western Thought</em>. Harvard University Press.
+</div>
+<div id="ref-kuhn1996nature" class="csl-entry" role="listitem">
+Kuhn, T. S. (1991). The Trouble with the Historical Philosophy of Science. <em>Robert and Maurine Rothschild Distinguished Lecture</em>.
+</div>
+<div id="ref-kuhn2012" class="csl-entry" role="listitem">
+Kuhn, T. S. (2012). <em>The Structure of Scientific Revolutions</em> (50th Anniversary). University of Chicago Press. <a href="https://doi.org/10.7208/chicago/9780226458144.001.0001">https://doi.org/10.7208/chicago/9780226458144.001.0001</a>
+</div>
+<div id="ref-lippmann2017" class="csl-entry" role="listitem">
+Lippmann, W. (2017). <em>Public Opinion</em>. Routledge.
+</div>
+<div id="ref-luhmann2012" class="csl-entry" role="listitem">
+Luhmann, N. (2012). <em>Theory of Society</em> (Vol. 1). Stanford University Press.
+</div>
+<div id="ref-mcluhan1964" class="csl-entry" role="listitem">
+McLuhan, M. (1964). <em>Understanding Media: The Extensions of Man</em>. McGraw-Hill.
+</div>
+<div id="ref-miller2004" class="csl-entry" role="listitem">
+Miller, J. D. (2004). Public Understanding of, and Attitudes toward, Scientific Research: What We Know and What We Need to Know. <em>Public Understanding of Science</em>, <em>13</em>(3), 273-294. <a href="https://doi.org/10.1177/0963662504044908">https://doi.org/10.1177/0963662504044908</a>
+</div>
+<div id="ref-miller2006evolution" class="csl-entry" role="listitem">
+Miller, J. D., Scott, E. C., &amp; Okamoto, S. (2006). Public Acceptance of Evolution. <em>Science</em>, <em>313</em>(5788), 765-766. <a href="https://doi.org/10.1126/science.1126746">https://doi.org/10.1126/science.1126746</a>
+</div>
+<div id="ref-miller2020" class="csl-entry" role="listitem">
+Miller, V. (2020). <em>Understanding Digital Culture</em>. SAGE Publications Limited.
+</div>
+<div id="ref-miolane2025fifthera" class="csl-entry" role="listitem">
+Miolane, N. (2025). The Fifth Era of Science: Artificial Scientific Intelligence. <em>PLOS Biology</em>, <em>23</em>(6), e3003230. <a href="https://doi.org/10.1371/journal.pbio.3003230">https://doi.org/10.1371/journal.pbio.3003230</a>
+</div>
+<div id="ref-mitew2014" class="csl-entry" role="listitem">
+Mitew, T. (2014). Do Objects Dream of an Internet of Things? <em>The Fibreculture Journal</em>, <em>23</em>, 1-25.
+</div>
+<div id="ref-mokyr2017" class="csl-entry" role="listitem">
+Mokyr, J. (2017). <em>A Culture of Growth: The Origins of the Modern Economy</em>. Princeton University Press.
+</div>
+<div id="ref-mumford2010" class="csl-entry" role="listitem">
+Mumford, L. (2010). <em>Technics and Civilization</em>. University of Chicago Press.
+</div>
+<div id="ref-nguyen2020" class="csl-entry" role="listitem">
+Nguyen, C. T. (2020). Echo Chambers and Epistemic Bubbles. <em>Episteme</em>, <em>17</em>(2), 141-161. <a href="https://doi.org/10.1017/epi.2018.32">https://doi.org/10.1017/epi.2018.32</a>
+</div>
+<div id="ref-oecd2019" class="csl-entry" role="listitem">
+OECD. (2019). <em><span>OECD</span> Skills Outlook 2019: Thriving in a Digital World</em>. OECD Publishing. <a href="https://doi.org/10.1787/df80bc12-en">https://doi.org/10.1787/df80bc12-en</a>
+</div>
+<div id="ref-ong1982" class="csl-entry" role="listitem">
+Ong, W. J. (1982). <em>Orality and Literacy: The Technologizing of the Word</em>. Methuen.
+</div>
+<div id="ref-openai2023gpt4" class="csl-entry" role="listitem">
+OpenAI. (2023). <span>GPT-4</span> Technical Report. <em>arXiv preprint</em>. <a href="https://doi.org/10.48550/arXiv.2303.08774">https://doi.org/10.48550/arXiv.2303.08774</a>
+</div>
+<div id="ref-owen1813" class="csl-entry" role="listitem">
+Owen, R. (1813). <em>A New View of Society</em>. Cadell; Davies.
+</div>
+<div id="ref-polanyi1944" class="csl-entry" role="listitem">
+Polanyi, K. (1944). <em>The Great Transformation: The Political and Economic Origins of Our Time</em>. Farrar &amp; Rinehart.
+</div>
+<div id="ref-preskill2018" class="csl-entry" role="listitem">
+Preskill, J. (2018). Quantum Computing in the <span>NISQ</span> Era and Beyond. <em>Quantum</em>, <em>2</em>, 79. <a href="https://doi.org/10.22331/q-2018-08-06-79">https://doi.org/10.22331/q-2018-08-06-79</a>
+</div>
+<div id="ref-reich2018" class="csl-entry" role="listitem">
+Reich, D. (2018). <em>Who We Are and How We Got Here: Ancient <span>DNA</span> and the New Science of the Human Past</em>. Pantheon Books.
+</div>
+<div id="ref-Reichenbach1945Cop" class="csl-entry" role="listitem">
+Reichenbach, H. (1945). <em>De Cop<span>é</span>rnico a Einstein</em>. Editorial Poseid<span>ó</span>n.
+</div>
+<div id="ref-rikap2022" class="csl-entry" role="listitem">
+Rikap, C. (2022). <em>Capitalism, Power and Innovation: Intellectual Monopoly Capitalism Uncovered</em>. Routledge.
+</div>
+<div id="ref-Rodriguez2021desinf" class="csl-entry" role="listitem">
+Rodríguez Pérez, C., Ortiz Calderón, L. S., &amp; Esquivel Coronado, J. P. (2021). Desinformaci<span>ó</span>n en contextos de polarizaci<span>ó</span>n social: el paro nacional en Colombia del 21N. <em>Anagramas: Rumbos y Sentidos de la Comunicaci<span>ó</span>n</em>, <em>19</em>(38), 129-156. <a href="https://doi.org/10.22395/angr.v19n38a7">https://doi.org/10.22395/angr.v19n38a7</a>
+</div>
+<div id="ref-vanrooij2024" class="csl-entry" role="listitem">
+Rooij, I. van, Blokpoel, M., Kwisthout, J., &amp; Wareham, T. (2024). Reclaiming <span>AI</span> as a Theoretical Tool for Cognitive Science. <em>Computational Brain &amp; Behavior</em>, <em>7</em>, 616-636. <a href="https://doi.org/10.1007/s42113-024-00217-5">https://doi.org/10.1007/s42113-024-00217-5</a>
+</div>
+<div id="ref-rovelli2015" class="csl-entry" role="listitem">
+Rovelli, C. (2015). <em>Seven Brief Lessons on Physics</em>. Allen Lane.
+</div>
+<div id="ref-russell2016" class="csl-entry" role="listitem">
+Russell, S., &amp; Norvig, P. (2021). <em>Artificial Intelligence: A Modern Approach</em> (4.ª ed.). Pearson.
+</div>
+<div id="ref-Salas2026Gob" class="csl-entry" role="listitem">
+Salas, J. (2026). <em>El Gobierno reclama a la Fiscalía que investigue a las redes sociales por difundir pornografía infantil con sus <span>IA</span>: <span><span>«La impunidad de los gigantes debe acabar»</span></span></em>. El País. <a href="https://elpais.com/sociedad/2026-02-17/el-gobierno-pide-a-la-fiscalia-que-investigue-a-meta-tiktok-y-x-por-difundir-pornografia-infantil-con-sus-herramientas-de-ia.html">https://elpais.com/sociedad/2026-02-17/el-gobierno-pide-a-la-fiscalia-que-investigue-a-meta-tiktok-y-x-por-difundir-pornografia-infantil-con-sus-herramientas-de-ia.html</a>
+</div>
+<div id="ref-SanJuan2026Musk" class="csl-entry" role="listitem">
+San Juan, N. (2026). <em>Musk critica a S<span>á</span>nchez por el l<span>í</span>mite de edad en redes sociales: <span><span>«Es un tirano»</span></span></em>. RTVE.es. <a href="https://www.rtve.es/noticias/20260203/musk-critica-a-sanchez-por-limite-edad-redes-sociales-tirano/16922243.shtml">https://www.rtve.es/noticias/20260203/musk-critica-a-sanchez-por-limite-edad-redes-sociales-tirano/16922243.shtml</a>
+</div>
+<div id="ref-schwab2016" class="csl-entry" role="listitem">
+Schwab, K. (2016). <em>The Fourth Industrial Revolution</em>. Crown Business.
+</div>
+<div id="ref-scott2017" class="csl-entry" role="listitem">
+Scott, J. C. (2017). <em>Against the Grain: A Deep History of the Earliest States</em>. Yale University Press.
+</div>
+<div id="ref-searle1995" class="csl-entry" role="listitem">
+Searle, J. R. (1995). <em>The Construction of Social Reality</em>. Free Press.
+</div>
+<div id="ref-secord2004" class="csl-entry" role="listitem">
+Secord, J. A. (2004). Knowledge in Transit. <em>Isis</em>, <em>95</em>(4), 654-672. <a href="https://doi.org/10.1086/430657">https://doi.org/10.1086/430657</a>
+</div>
+<div id="ref-sellars1956" class="csl-entry" role="listitem">
+Sellars, W. (1956). Empiricism and the Philosophy of Mind. En <em>Minnesota Studies in the Philosophy of Science</em> (Vol. 1, pp. 253-329). University of Minnesota Press.
+</div>
+<div id="ref-shannon1948" class="csl-entry" role="listitem">
+Shannon, C. E. (1948). A Mathematical Theory of Communication. <em>The Bell System Technical Journal</em>, <em>27</em>(3), 379-423. <a href="https://doi.org/10.1002/j.1538-7305.1948.tb01338.x">https://doi.org/10.1002/j.1538-7305.1948.tb01338.x</a>
+</div>
+<div id="ref-shapin2000" class="csl-entry" role="listitem">
+Shapin, S. (1996). <em>The Scientific Revolution</em>. University of Chicago Press. <a href="https://doi.org/10.7208/chicago/9780226750224.001.0001">https://doi.org/10.7208/chicago/9780226750224.001.0001</a>
+</div>
+<div id="ref-Sheth2026IVCoScientist" class="csl-entry" role="listitem">
+Sheth, I., Jin, Z., Wilder, B., Janzing, D., &amp; Fritz, M. (2026). IV Co-Scientist: Multi-Agent <span>LLM</span> Framework for Causal Instrumental Variable Discovery. <em>arXiv preprint</em>. <a href="https://arxiv.org/html/2602.07943v1">https://arxiv.org/html/2602.07943v1</a>
+</div>
+<div id="ref-sparrow2011" class="csl-entry" role="listitem">
+Sparrow, B., Liu, J., &amp; Wegner, D. M. (2011). Google Effects on Memory: Cognitive Consequences of Having Information at Our Fingertips. <em>Science</em>, <em>333</em>(6043), 776-778. <a href="https://doi.org/10.1126/science.1207745">https://doi.org/10.1126/science.1207745</a>
+</div>
+<div id="ref-sublime2024" class="csl-entry" role="listitem">
+Sublimé, J., &amp; Kalinicheva, E. (2024). What Should We Expect from <span>ChatGPT</span> and Similar <span>AI</span> Models in the Classroom? <em>Education Sciences</em>, <em>14</em>(4), 431. <a href="https://doi.org/10.3390/educsci14040431">https://doi.org/10.3390/educsci14040431</a>
+</div>
+<div id="ref-susskind2015" class="csl-entry" role="listitem">
+Susskind, R., &amp; Susskind, D. (2015). <em>The Future of the Professions: How Technology Will Transform the Work of Human Experts</em>. Oxford University Press.
+</div>
+<div id="ref-tapscott2014" class="csl-entry" role="listitem">
+Tapscott, D. (2014). <em>The Digital Economy: Rethinking Promise and Peril in the Age of Networked Intelligence</em> (Anniversary). McGraw-Hill.
+</div>
+<div id="ref-thompson1967" class="csl-entry" role="listitem">
+Thompson, E. P. (1967). Time, Work-Discipline, and Industrial Capitalism. En <em>Past &amp; Present</em> (Vol. 38, pp. 56-97). <a href="https://doi.org/10.1093/past/38.1.56">https://doi.org/10.1093/past/38.1.56</a>
+</div>
+<div id="ref-tomasello2001" class="csl-entry" role="listitem">
+Tomasello, M. (1999). <em>The Cultural Origins of Human Cognition</em>. Harvard University Press.
+</div>
+<div id="ref-vosoughi2018" class="csl-entry" role="listitem">
+Vosoughi, S., Roy, D., &amp; Aral, S. (2018). The Spread of True and False News Online. <em>Science</em>, <em>359</em>(6380), 1146-1151. <a href="https://doi.org/10.1126/science.aap9559">https://doi.org/10.1126/science.aap9559</a>
+</div>
+<div id="ref-wardle2017" class="csl-entry" role="listitem">
+Wardle, C., &amp; Derakhshan, H. (2017). <em>Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making</em>. <a href="https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c">https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c</a>
+</div>
+<div id="ref-weidinger2022" class="csl-entry" role="listitem">
+Weidinger, L., Mellor, J., Rauh, M., Griffin, C., Uesato, J., Huang, P.-S., Cheng, M., Glaese, M., Balle, B., Kasirzadeh, A., et&nbsp;al. (2022). Taxonomy of Risks Posed by Language Models. <em>Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency</em>, 214-229. <a href="https://doi.org/10.1145/3531146.3533088">https://doi.org/10.1145/3531146.3533088</a>
+</div>
+<div id="ref-wiener1948" class="csl-entry" role="listitem">
+Wiener, N. (1948). <em>Cybernetics: Or Control and Communication in the Animal and the Machine</em>. MIT Press.
+</div>
+<div id="ref-wef2024education" class="csl-entry" role="listitem">
+World Economic Forum. (2025). <em>Future of Jobs Report 2025</em>. <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/">https://www.weforum.org/publications/the-future-of-jobs-report-2025/</a>
+</div>
+<div id="ref-zuboff2019" class="csl-entry" role="listitem">
+Zuboff, S. (2019). <em>The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power</em>. PublicAffairs.
+</div>
+<div id="ref-zylinska2020" class="csl-entry" role="listitem">
+Zylinska, J. (2020). <em><span>AI</span> Art: Machine Visions and Warped Dreams</em>. Open Humanities Press.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./cap04-cognicion.html" class="pagination-link" aria-label="La revolución cognitiva">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">La revolución cognitiva</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./cap06-comunidades.html" class="pagination-link" aria-label="Epistemología social y convivencia democrática">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Epistemología social y convivencia democrática</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
