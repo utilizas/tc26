@@ -6,7 +6,7 @@
 
 Monografía técnica sobre *Teoría del conocimiento*, orientada a estudiantes de 3.º y 4.º curso de Filosofía y Humanidades / Ciencias Sociales. Contextualiza el desarrollo de la teoría del conocimiento en interacción con la ciencia y la cultura contemporánea, proporcionando la base teórica para un curso posterior de epistemología aplicada.
 
-El enfoque es interdisciplinar, centrado en metodologías de investigación y problemas de interés transversal, con especial atención a desarrollos teórico-conceptuales del siglo XXI en biología, física, evolución, ciencia cognitiva y genética.
+Se adopta un enfoque interdisciplinar, centrado en metodologías de investigación y problemas de interés transversal, con especial atención a desarrollos teórico-conceptuales del siglo XXI en biología, física, evolución, ciencia cognitiva y genética.
 
 ## Despliegue
 
@@ -93,3 +93,4 @@ Usted es libre de compartir y adaptar el material bajo las siguientes condicione
   url          = {https://doi.org/10.5281/zenodo.10826047}
 }
 ```
+
