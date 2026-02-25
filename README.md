@@ -37,11 +37,11 @@ El enfoque es interdisciplinar, centrado en metodologías de investigación y pr
 
 Esta versión (TC26) ha sido producida con [Quarto](https://quarto.org/) como entorno de autoría, generando un libro HTML multipágina con las siguientes características:
 
-- **Sistema de citas**: BibTeX, con bibliografías renderizadas al final de cada capítulo y gestión automatizada de referencias.
+- **Sistema de citas**: BibTeX, con bibliografías renderizadas en sección única al final y gestión automatizada de referencias.
 - **Notas**: tooltips clicables integrados en el flujo de texto.
 - **Estudios de caso y textos complementarios**: callouts plegables (`::: {.callout-note collapse="true"}`), con pestañas integradas (panel-tabsets) en algunos casos.
 - **Glosario ampliado**: 137 entradas (vs. 108 en la versión de 2025), reformuladas en muchos casos.
-- **Tema**: adaptado para modos claro y oscuro con CSS personalizado.
+- **Tema**: adaptado para modos claro y oscuro.
 - **Navegación**: barra lateral con tabla de contenidos, búsqueda integrada, navegación por capítulos.
 
 La configuración del proyecto se gestiona mediante `_quarto.yml`. El renderizado genera los archivos HTML estáticos en el directorio de salida.
